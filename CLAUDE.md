@@ -22,6 +22,12 @@ image: /assets/img/nome-1600.jpg   # anteprima social; se manca usa og-default.j
 ```
 Prima di pubblicare: `jekyll build` deve passare senza errori.
 
+## Newsletter (Brevo)
+- Ogni nuovo file in `_posts/` con data di oggi (o degli ultimi 3 giorni) fa partire da solo la lettera agli iscritti della lista Brevo "Se Apri il Cuore" (`.github/workflows/newsletter.yml` + `scripts/newsletter.py`, chiave nel segreto GitHub `BREVO_API_KEY`).
+- Per non inviarla: `newsletter: false` nel front matter.
+- Prova: modificare `.github/newsletter/test-request`; l'esito si legge in `.github/newsletter/log.md`.
+- Il modulo d'iscrizione è `_includes/newsletter.html` (doppia conferma).
+
 ## SEO e ricerca con IA (da rispettare in ogni articolo)
 - `title` chiaro, con la parola chiave principale, max 60 caratteri circa. `description` max 155 caratteri: dice di cosa parla l'articolo, non è uno slogan.
 - `tema` sempre uno dei temi in `_data/temi.yml` (ogni tema ha la sua pagina in `temi/`).
