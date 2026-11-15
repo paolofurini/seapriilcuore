@@ -247,9 +247,27 @@ a.book-row:hover .book-row-title { color: var(--amber-deep); }
 .prose .scuola .link-arrow { color: var(--amber-deep); }
 .prose .scuola .link-quiet-ink { color: var(--ink-soft); text-decoration: underline; }
 
-/* Newsletter Substack incorporata */
-.newsletter-embed { max-width: 30rem; background: #fff; border: 1px solid var(--rule); }
-.newsletter-embed iframe { display: block; width: 100%; height: 150px; border: 0; }
+/* Newsletter (modulo Brevo con la grafica del sito) */
+.nl { max-width: 32rem; }
+.nl-label { display: block; font-family: var(--sans); font-size: var(--step--1); font-weight: 600; color: var(--ink-soft); margin-bottom: 0.45rem; }
+.nl-row { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.nl-input { flex: 1 1 14rem; min-width: 0; font: inherit; font-size: 1rem; padding: 0.8rem 0.9rem; border: 1px solid var(--rule); border-radius: 2px; background: #fffdf8; color: var(--ink); }
+.nl-input:focus { outline: 2px solid var(--amber-deep); outline-offset: 1px; border-color: transparent; }
+.nl-btn { border: 0; cursor: pointer; flex: 0 0 auto; }
+.nl-optin { display: flex; gap: 0.6rem; align-items: flex-start; margin-top: 0.9rem; font-size: 0.92rem; line-height: 1.45; color: var(--ink-soft); cursor: pointer; }
+.nl-optin input { margin-top: 0.25rem; accent-color: var(--amber-deep); width: 1rem; height: 1rem; flex: none; }
+.nl-note { font-family: var(--sans); font-size: 0.78rem; line-height: 1.5; color: var(--ink-soft); margin: 0.8rem 0 0; }
+.nl-note a { color: inherit; }
+.nl-err { display: block; font-family: var(--sans); font-size: 0.8rem; color: #8a2d1c; }
+.nl-err:empty { display: none; }
+.input--hidden { position: absolute !important; left: -9999px !important; }
+.sib-form-message-panel { display: none; }
+.sib-form-message-panel--active { display: block; }
+.nl-msg { padding: 0.9rem 1rem; margin-bottom: 1rem; font-family: var(--sans); font-size: 0.92rem; line-height: 1.45; border-left: 3px solid; }
+.nl-msg-ok { background: #eef3e6; border-color: #5f7d3a; color: #2f4219; }
+.nl-msg-err { background: #f8e9e4; border-color: #a2452e; color: #6b2516; }
+.sib-hide-loader-icon, .progress-indicator__icon { display: none; }
+.prose .nl a { color: inherit; }
 
 /* Immagini dentro gli articoli */
 .post-img { margin: 2.2em 0; }
