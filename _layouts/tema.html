@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<article class="page">
+  <header class="page-head wrap-text">
+    <p class="post-meta"><a href="{{ '/blog/' | relative_url }}">Blog</a> · Tema</p>
+    <h1 class="page-title">{{ page.title }}</h1>
+    {% if page.description %}<p class="post-dek">{{ page.description }}</p>{% endif %}
+  </header>
+  <div class="prose wrap-text">
+    {{ content }}
+  </div>
+  <div class="wrap-text" style="margin-top:2.5rem">
+    {% assign articoli = site.posts | where: "tema", page.tema %}
+    <ul class="post-list post-list-large">
+      {% for x in articoli %}
+      <li><a href="{{ x.url | relative_url }}"><span class="pl-title">{{ x.title }}</span>{% if x.description %}<span class="pl-dek">{{ x.description }}</span>{% endif %}<span class="pl-date">{% include data-it.html date=x.date %}</span></a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</article>

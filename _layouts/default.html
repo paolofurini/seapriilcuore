@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}?v={{ site.time | date: '%s' }}">
   <link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" type="image/svg+xml">
   {% seo %}
+  {% include schema-person.html %}{% if page.schema %}{% include {{ page.schema }} %}{% endif %}
   {% feed_meta %}
 </head>
 <body class="{{ page.body_class | default: 'paper' }}">

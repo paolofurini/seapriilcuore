@@ -5,6 +5,13 @@ lang: it
 locale: it_IT
 author:
   name: Paolo Furini
+  url: https://paolofurini.it/autore/
+social:
+  name: Paolo Furini
+  links:
+    - https://www.instagram.com/seapriilcuore/
+    - https://seapriilcuore.substack.com
+logo: /assets/img/paolo-480.jpg
 
 url: "https://paolofurini.it"
 baseurl: ""
@@ -19,6 +26,7 @@ timezone: Europe/Rome
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 feed:
   path: feed.xml
@@ -28,10 +36,15 @@ defaults:
     values:
       layout: post
       image: /assets/img/og-default.jpg
+      author: Paolo Furini
+  - scope: { path: "" }
+    values:
+      image: /assets/img/copertina-lads-960.jpg
 
 exclude:
   - CLAUDE.md
   - README.md
   - .claude
+  - llms-src
   - Gemfile
   - Gemfile.lock

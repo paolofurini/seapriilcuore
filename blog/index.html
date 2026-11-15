@@ -9,6 +9,9 @@ description: "Il blog di Paolo Furini: sovranità digitale, Digital Feng Shui e 
     <p class="post-dek">Appunti per vivere con la tecnologia senza perdere l'ascolto. E piccoli pezzi del mondo di Sante.</p>
   </header>
   <div class="wrap-text">
+    <nav class="temi-nav" aria-label="Temi">
+      {% for t in site.data.temi %}<a href="{{ '/temi/' | append: t.slug | append: '/' | relative_url }}">{{ t.nome }}</a>{% endfor %}
+    </nav>
     <ul class="post-list post-list-large">
       {% for x in site.posts %}
       <li>

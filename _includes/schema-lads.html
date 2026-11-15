@@ -1,0 +1,31 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Book",
+      "@id": "{{ site.url }}/romanzi/laccordatore-del-silenzio/#libro",
+      "name": "L'Accordatore del Silenzio",
+      "url": "{{ site.url }}/romanzi/laccordatore-del-silenzio/",
+      "author": { "@id": "{{ site.url }}/#paolo" },
+      "inLanguage": "it",
+      "image": "{{ site.url }}/assets/img/copertina-lads-960.jpg",
+      "description": "Appennino, 2042. Sante, accordatore di pianoforti, vive in un casale di pietra lontano dalla Matrix. A Ginevra uno Steinway del 1910 suona da solo, ogni notte, una nota che nessun ingegnere sa spiegare. Un romanzo sul discernimento, sull'ascolto e sull'anima nel tempo dell'intelligenza artificiale.",
+      "genre": ["Romanzo spirituale", "Narrativa visionaria e metafisica", "Mistero"],
+      "keywords": "giallo dell'anima, romanzo spirituale, narrativa visionaria e metafisica, accordatore di pianoforti, intelligenza artificiale e anima, romanzo ambientato in Appennino, romanzo futuro 2042 tecnologia",
+      "isPartOf": { "@type": "BookSeries", "name": "I Romanzi dell'Invisibile", "url": "{{ site.url }}/romanzi/" },
+      "workExample": [
+        { "@type": "Book", "bookFormat": "https://schema.org/Paperback", "inLanguage": "it" },
+        { "@type": "Book", "bookFormat": "https://schema.org/EBook", "inLanguage": "it" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {% for q in site.data.faq_lads %}{ "@type": "Question", "name": {{ q.domanda | jsonify }}, "acceptedAnswer": { "@type": "Answer", "text": {{ q.risposta | strip_html | jsonify }} } }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ]
+    }
+  ]
+}
+</script>

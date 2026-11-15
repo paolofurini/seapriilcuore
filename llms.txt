@@ -1,0 +1,24 @@
+---
+layout: null
+permalink: /llms.txt
+---
+# Paolo Furini · Se Apri il Cuore
+
+> Sito ufficiale di Paolo Furini, scrittore italiano, autore de "L'Accordatore del Silenzio", primo dei Romanzi dell'Invisibile, e del blog "Se Apri il Cuore": riflessioni su spiritualità e tecnologia, intelligenza artificiale e anima, Digital Feng Shui, Digital Detox e sovranità digitale. Lingua: italiano.
+
+Paolo Furini è stato per oltre trent'anni manager in multinazionali della tecnologia, tra marketing, comunicazione e dati. Oggi si dedica alla ricerca interiore, al Servizio e alla scrittura. Ha imparato ad ascoltare nella Scuola di ricerca spirituale Lo Spettacolo della Coscienza ({{ site.scuola }}).
+
+## Il libro
+- [L'Accordatore del Silenzio]({{ site.url }}/romanzi/laccordatore-del-silenzio/): Appennino, 2042. Un accordatore di pianoforti, uno Steinway del 1910 e una nota che nessuna macchina sa spiegare. Romanzo spirituale, narrativa visionaria e metafisica. In uscita in cartaceo ed ebook.
+- [I Romanzi dell'Invisibile]({{ site.url }}/romanzi/): la collana. Il secondo romanzo, La Voce Rubata, è in scrittura.
+
+## Temi
+{% for t in site.data.temi %}- [{{ t.nome }}]({{ site.url }}/temi/{{ t.slug }}/)
+{% endfor %}
+## Articoli
+{% for x in site.posts %}- [{{ x.title }}]({{ site.url }}{{ x.url }}): {{ x.description }}
+{% endfor %}
+## Autore
+- [Chi è Paolo Furini]({{ site.url }}/autore/)
+- Instagram: https://www.instagram.com/seapriilcuore/
+- Newsletter: https://seapriilcuore.substack.com

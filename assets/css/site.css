@@ -264,6 +264,21 @@ a.book-row:hover .book-row-title { color: var(--amber-deep); }
 .prose li + li { margin-top: 0.4em; }
 .prose h3 { font-size: var(--step-1); font-weight: 450; margin: 2em 0 0.4em; }
 
+/* Temi */
+.temi-nav { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 2rem; font-family: var(--sans); font-size: var(--step--1); }
+.temi-nav a { text-decoration: none; padding: 0.35rem 0.8rem; border: 1px solid var(--rule); border-radius: 999px; color: var(--ink-soft); transition: border-color 0.3s var(--ease), color 0.3s var(--ease); }
+.temi-nav a:hover { border-color: var(--amber-deep); color: var(--ink); }
+.post-meta a { color: inherit; }
+
+/* Domande frequenti */
+.faq { border-top: 1px solid var(--rule); }
+.faq details { border-bottom: 1px solid var(--rule); }
+.faq summary { cursor: pointer; list-style: none; padding: 1rem 2rem 1rem 0; position: relative; font-weight: 450; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: "+"; position: absolute; right: 0.2rem; top: 0.95rem; color: var(--amber-deep); font-family: var(--sans); transition: transform 0.3s var(--ease); }
+.faq details[open] summary::after { transform: rotate(45deg); }
+.faq details p { margin: 0 0 1.2rem; color: var(--ink-soft); }
+
 /* Footer */
 .site-footer { background: var(--night); color: var(--moon); padding-block: clamp(3rem, 7vw, 5rem) 2rem; }
 .footer-grid { display: grid; gap: 2.5rem 4rem; }

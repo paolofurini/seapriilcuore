@@ -22,6 +22,14 @@ image: /assets/img/nome-1600.jpg   # anteprima social; se manca usa og-default.j
 ```
 Prima di pubblicare: `jekyll build` deve passare senza errori.
 
+## SEO e ricerca con IA (da rispettare in ogni articolo)
+- `title` chiaro, con la parola chiave principale, max 60 caratteri circa. `description` max 155 caratteri: dice di cosa parla l'articolo, non è uno slogan.
+- `tema` sempre uno dei temi in `_data/temi.yml` (ogni tema ha la sua pagina in `temi/`).
+- Il primo paragrafo risponde subito alla domanda dell'articolo. Quando è naturale, i titoli H2 sono domande vere ("Cos'è…", "Come…").
+- Almeno un link interno a un altro articolo, a una pagina tema o alla pagina del libro.
+- Immagini con `alt` descrittivo in italiano.
+- `sitemap.xml`, `robots.txt` (aperto anche ai crawler IA) e `llms.txt` si aggiornano da soli a ogni build.
+
 ## Voce di Paolo (prima persona)
 - Asciutta e diretta, poco poetica, con il Cuore aperto ma senza sdolcinature. Frasi concrete, esperienze vere, niente prediche.
 - Mantenere le maiuscole della terminologia spirituale: Cuore, Coscienza, Noi, Funzione, Innocuità, Raggio, Anima, Servizio.

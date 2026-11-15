@@ -4,6 +4,7 @@ title: L'Accordatore del Silenzio
 description: "Appennino, 2042. Un accordatore di pianoforti, uno Steinway del 1910 e una nota che nessuna macchina sa spiegare. Il primo dei Romanzi dell'Invisibile, di Paolo Furini."
 permalink: /romanzi/laccordatore-del-silenzio/
 image: /assets/img/copertina-lads-960.jpg
+schema: schema-lads.html
 ---
 <article class="book">
   <figure class="book-cover wrap-text">
@@ -32,6 +33,16 @@ image: /assets/img/copertina-lads-960.jpg
     <h2>Quando esce</h2>
     <p>La copia di prova è in arrivo. Dopo il “visto si stampi” il libro sarà in libreria e negli store online, in cartaceo ed ebook. La data la annuncerò qui e nella newsletter.</p>
     {% include newsletter.html %}
+
+    <h2>Domande sul libro</h2>
+    <div class="faq">
+    {% for q in site.data.faq_lads %}
+      <details>
+        <summary>{{ q.domanda }}</summary>
+        <p>{{ q.risposta }}</p>
+      </details>
+    {% endfor %}
+    </div>
 
     <h2>Una pagina da leggere subito</h2>
     <p>Elsa, le tre del mattino, e la nota che arriva dal ventre della cassa. <a href="{{ '/blog/laccordatore-del-silenzio-aspettando-la-copia-di-prova/' | relative_url }}">Leggi l'estratto</a>.</p>
