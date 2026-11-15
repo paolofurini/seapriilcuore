@@ -6,10 +6,8 @@ locale: it_IT
 author:
   name: Paolo Furini
 
-# Indirizzo provvisorio su GitHub Pages.
-# Quando paolofurini.it punterà qui: url: "https://paolofurini.it" e baseurl: ""
-url: "https://paolofurini.github.io"
-baseurl: "/seapriilcuore"
+url: "https://paolofurini.it"
+baseurl: ""
 
 substack: "https://seapriilcuore.substack.com"
 instagram: "https://www.instagram.com/seapriilcuore/"

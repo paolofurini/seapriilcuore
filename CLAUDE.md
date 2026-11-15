@@ -1,12 +1,12 @@
 # Se Apri il Cuore · sito di Paolo Furini
 
-Sito Jekyll pubblicato da GitHub Pages (branch `main`, cartella root). Ogni push su `main` va online in un paio di minuti. Indirizzo provvisorio: https://paolofurini.github.io/seapriilcuore/ · dominio futuro: paolofurini.it (Aruba).
+Sito Jekyll pubblicato da GitHub Pages (branch `main`, cartella root). Ogni push su `main` va online in un paio di minuti. Indirizzo: https://paolofurini.it (dominio su Aruba, DNS verso GitHub Pages). paolofurini.com, seapriilcuore.it e romanzidellinvisibile.it reindirizzano qui.
 
 ## Struttura
 - `index.html` home · `romanzi/` collana e pagina di ogni libro · `blog/index.html` elenco articoli · `autore.md`
 - `_posts/AAAA-MM-GG-slug.md` articoli del blog
 - `_layouts/`, `_includes/`, `assets/css/site.css` (mondo visivo: blu notte, ambra, carta calda; font Newsreader + Instrument Sans, self-hosted)
-- Usare sempre il filtro `relative_url` per i link interni: oggi `baseurl` è `/seapriilcuore`; quando il dominio punterà qui diventerà `""`.
+- Usare sempre il filtro `relative_url` per i link interni: `baseurl` è `""`.
 
 ## Pubblicare un articolo
 Front matter:
