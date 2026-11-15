@@ -17,3 +17,8 @@
 - Mittente: furo66@gmail.com
 - Prova di 'L’Accordatore del Silenzio: aspettando la copia di prova' inviata a furo66@gmail.com: 204 ok
 - Lista iscritti: trovata, id 3
+
+## 2026-11-15 14:09 UTC · send
+- Mittente: paolo@seapriilcuore.it
+- Interruttore spento (live: false): invio solo di prova a Paolo, nessuna email agli iscritti.
+- Prova di '432 Hz o 440 Hz: cosa c'è di vero' inviata solo a Paolo: ERRORE 400 {'error': '{"code":"invalid_parameter","message":"Test email could not be sent to the following email addresses","unexistingEmails":["paolo@seapriilcuore.it"]}\n'}
