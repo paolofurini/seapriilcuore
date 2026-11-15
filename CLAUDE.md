@@ -43,6 +43,7 @@ Prima di pubblicare: `jekyll build` deve passare senza errori.
 - Niente fatti inventati su Paolo, sul libro (data d'uscita, prezzo, editore) o sulla Scuola. Se un dato non è certo, non scriverlo.
 - Niente lineette lunghe come intercalare, niente elenchi di tre aggettivi, niente formule da IA ("in un mondo in cui", "scopriamo insieme").
 - Chiusura: l'articolo termina con il testo; la firma "Paolo" la aggiunge il layout.
+- Nelle lettere e nelle email ai lettori il saluto è "Caro/a," (mai "Ciao").
 
 ## Design
 Le regole di design vengono dalla skill Impeccable (`.claude/skills/impeccable`, Apache 2.0, di Paul Bakaus). Prima di modificare l'aspetto del sito leggere `reference/craft-floor.md`. Niente eyebrow sopra i titoli, niente card tutte uguali, niente gradienti nel testo, movimento minimo.
