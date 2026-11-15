@@ -6,6 +6,7 @@ on:
     paths:
       - "_posts/**"
       - ".github/newsletter/test-request"
+      - ".github/newsletter/approva"
 
 permissions:
   contents: write
@@ -30,6 +31,8 @@ jobs:
           TEST=$(git diff --name-only HEAD~1 HEAD -- '.github/newsletter/test-request')
           echo "new=$NEW" >> "$GITHUB_OUTPUT"
           echo "test=$TEST" >> "$GITHUB_OUTPUT"
+          APP=$(git diff --name-only HEAD~1 HEAD -- '.github/newsletter/approva')
+          echo "approve=$APP" >> "$GITHUB_OUTPUT"
       - name: Prova
         if: steps.diff.outputs.test != ''
         env:
@@ -43,8 +46,13 @@ jobs:
         env:
           BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
         run: python scripts/newsletter.py send ${{ steps.diff.outputs.new }} || true
+      - name: Invio approvato da Paolo
+        if: steps.diff.outputs.approve != ''
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+        run: python scripts/newsletter.py approve $(grep -v '^#' .github/newsletter/approva | tail -1) || true
       - name: Salvo il registro
-        if: steps.diff.outputs.new != '' || steps.diff.outputs.test != ''
+        if: steps.diff.outputs.new != '' || steps.diff.outputs.test != '' || steps.diff.outputs.approve != ''
         run: |
           git config user.name "newsletter-bot"
           git config user.email "newsletter-bot@users.noreply.github.com"

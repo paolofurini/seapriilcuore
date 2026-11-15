@@ -110,13 +110,19 @@ def main():
     live = bool((yaml.safe_load(open(".github/newsletter/config.yml")) or {}).get("live"))
     lid = list_id()
     if not lid: return 1
+    if mode == "approve":
+        # invio agli iscritti autorizzato esplicitamente da Paolo per questo articolo
+        live = True
+        files = [f for f in glob.glob("_posts/*.md") if any(x.strip() and x.strip() in f for x in files)]
+        if not files:
+            log("ERRORE: nessun articolo corrisponde alla richiesta di invio"); return 1
     if not live:
         log("Interruttore spento (live: false): invio solo di prova a Paolo, nessuna email agli iscritti.")
     today = datetime.date.today()
     for f in files:
         p = read_post(f)
         d0 = datetime.date.fromisoformat(os.path.basename(f)[:10])
-        if p.get("newsletter") is False or (today - d0).days > 3:
+        if p.get("newsletter") is False or (mode != "approve" and (today - d0).days > 3):
             log(f"Salto {f}: newsletter disattivata o articolo vecchio"); continue
         if not live:
             cid = campaign(p, snd, None)
