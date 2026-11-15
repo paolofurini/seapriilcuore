@@ -1,0 +1,53 @@
+name: Newsletter
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "_posts/**"
+      - ".github/newsletter/test-request"
+
+permissions:
+  contents: write
+
+concurrency: newsletter
+
+jobs:
+  newsletter:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml markdown
+      - name: Articoli nuovi
+        id: diff
+        run: |
+          NEW=$(git diff --name-only --diff-filter=A HEAD~1 HEAD -- '_posts/*.md' | tr '\n' ' ')
+          TEST=$(git diff --name-only HEAD~1 HEAD -- '.github/newsletter/test-request')
+          echo "new=$NEW" >> "$GITHUB_OUTPUT"
+          echo "test=$TEST" >> "$GITHUB_OUTPUT"
+      - name: Prova
+        if: steps.diff.outputs.test != ''
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+        run: python scripts/newsletter.py test || true
+      - name: Attendo che il sito sia online
+        if: steps.diff.outputs.new != ''
+        run: sleep 240
+      - name: Invio agli iscritti
+        if: steps.diff.outputs.new != ''
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+        run: python scripts/newsletter.py send ${{ steps.diff.outputs.new }} || true
+      - name: Salvo il registro
+        if: steps.diff.outputs.new != '' || steps.diff.outputs.test != ''
+        run: |
+          git config user.name "newsletter-bot"
+          git config user.email "newsletter-bot@users.noreply.github.com"
+          git add .github/newsletter/log.md
+          git commit -m "Registro newsletter" || exit 0
+          git pull --rebase && git push
