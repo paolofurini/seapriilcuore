@@ -69,7 +69,7 @@ def sender():
     act = [x for x in d.get("senders", []) if x.get("active")]
     if not act:
         log(f"ERRORE: nessun mittente attivo in Brevo ({s} {d})"); return None
-    own = [x for x in act if x["email"].lower().endswith("@paolofurini.it")]
+    own = [x for x in act if x["email"].lower().endswith("@seapriilcuore.it")] or [x for x in act if x["email"].lower().endswith("@paolofurini.it")]
     return {"name": "Paolo Furini", "email": (own or act)[0]["email"]}
 
 def list_id():
