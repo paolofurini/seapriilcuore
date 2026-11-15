@@ -107,14 +107,24 @@ def main():
         log(f"Prova di '{p['title']}' inviata a {snd['email']}: {s} {d if s >= 300 else 'ok'}")
         lid = list_id(); log(f"Lista iscritti: {'trovata, id ' + str(lid) if lid else 'MANCANTE'}")
         return 0 if s < 300 else 1
+    live = bool((yaml.safe_load(open(".github/newsletter/config.yml")) or {}).get("live"))
     lid = list_id()
     if not lid: return 1
+    if not live:
+        log("Interruttore spento (live: false): invio solo di prova a Paolo, nessuna email agli iscritti.")
     today = datetime.date.today()
     for f in files:
         p = read_post(f)
         d0 = datetime.date.fromisoformat(os.path.basename(f)[:10])
         if p.get("newsletter") is False or (today - d0).days > 3:
             log(f"Salto {f}: newsletter disattivata o articolo vecchio"); continue
+        if not live:
+            cid = campaign(p, snd, None)
+            if not cid: continue
+            s, d = call("POST", f"/emailCampaigns/{cid}/sendTest", {"emailTo": [snd["email"], "furo66@gmail.com"]})
+            call("DELETE", f"/emailCampaigns/{cid}")
+            log(f"Prova di '{p['title']}' inviata solo a Paolo: {'ok' if s < 300 else 'ERRORE ' + str(s) + ' ' + str(d)}")
+            continue
         cid = campaign(p, snd, lid)
         if not cid: continue
         s, d = call("POST", f"/emailCampaigns/{cid}/sendNow")

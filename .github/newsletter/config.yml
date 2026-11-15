@@ -1,0 +1,4 @@
+# Interruttore della newsletter agli iscritti.
+# false = le lettere dei nuovi articoli arrivano SOLO a Paolo, come prova.
+# true  = partono a tutta la lista "Se Apri il Cuore". Si cambia solo su richiesta esplicita di Paolo.
+live: false

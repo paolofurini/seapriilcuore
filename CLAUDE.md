@@ -24,7 +24,8 @@ Prima di pubblicare: `jekyll build` deve passare senza errori.
 
 ## Newsletter (Brevo)
 - Ogni nuovo file in `_posts/` con data di oggi (o degli ultimi 3 giorni) fa partire da solo la lettera agli iscritti della lista Brevo "Se Apri il Cuore" (`.github/workflows/newsletter.yml` + `scripts/newsletter.py`, chiave nel segreto GitHub `BREVO_API_KEY`).
-- Per non inviarla: `newsletter: false` nel front matter.
+- **Interruttore:** `.github/newsletter/config.yml` → `live: false` (attuale) significa che le lettere arrivano SOLO a Paolo come prova. Non mettere `live: true` senza una richiesta esplicita di Paolo.
+- Per non inviarla per un singolo articolo: `newsletter: false` nel front matter.
 - Prova: modificare `.github/newsletter/test-request`; l'esito si legge in `.github/newsletter/log.md`.
 - Il modulo d'iscrizione è `_includes/newsletter.html` (doppia conferma).
 
