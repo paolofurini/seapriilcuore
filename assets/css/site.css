@@ -232,6 +232,23 @@ a.book-row:hover .book-row-title { color: var(--amber-deep); }
 .book-row-next .book-row-title { color: var(--ink-soft); font-style: italic; }
 .page .wrap-text + .wrap-text { margin-top: 2.5rem; }
 
+/* Scuola: un invito sobrio, nella voce di Paolo */
+.scuola-band { padding-block: clamp(1rem, 3vw, 2rem) clamp(1.5rem, 4vw, 3rem); }
+.scuola { background: var(--night); color: var(--moon); padding: clamp(2rem, 5vw, 3.5rem) clamp(1.5rem, 5vw, 4rem); display: grid; gap: 1rem 4rem; }
+@media (min-width: 900px) { .scuola-band .scuola { grid-template-columns: 1fr 1.4fr; } .scuola-band .scuola-links { grid-column: 2; } }
+.scuola-title { font-size: var(--step-2); font-weight: 380; font-style: italic; line-height: 1.15; letter-spacing: -0.015em; margin: 0; color: var(--moon); }
+.scuola-text { margin: 0; color: var(--moon-soft); line-height: 1.6; max-width: 46ch; }
+.scuola-links { display: flex; flex-wrap: wrap; gap: 0.8rem 1.8rem; align-items: baseline; margin: 0.4rem 0 0; }
+.scuola .link-arrow { color: var(--amber); }
+.link-quiet-ink { font-family: var(--sans); font-size: 0.95rem; color: var(--moon-soft); text-decoration: underline; text-decoration-color: var(--night-line); }
+.link-quiet-ink:hover { color: var(--moon); text-decoration-color: var(--amber); }
+.autore-scuola { margin-top: 3rem !important; }
+.prose .scuola a { text-decoration: none; }
+.prose .scuola-title { margin: 0; }
+.prose .scuola .link-arrow { color: var(--amber); }
+.prose .scuola .link-quiet-ink { color: var(--moon-soft); }
+.prose .scuola .link-quiet-ink { text-decoration: underline; }
+
 /* Footer */
 .site-footer { background: var(--night); color: var(--moon); padding-block: clamp(3rem, 7vw, 5rem) 2rem; }
 .footer-grid { display: grid; gap: 2.5rem 4rem; }

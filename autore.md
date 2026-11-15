@@ -15,4 +15,6 @@ Il silenzio, in fondo, l'ha sempre cercato nelle corse lunghe, e soprattutto in 
 
 Oggi dedica il suo tempo alla ricerca interiore, al Servizio e alla scrittura. *L'Accordatore del Silenzio* è il primo dei Romanzi dell'Invisibile: storie nate per essere lette con il Cuore prima che con la testa.
 
-Quella nota antica, Paolo ha imparato ad ascoltarla dentro [Lo Spettacolo della Coscienza]({{ site.scuola }}). Il cammino prosegue lì, e qui, su Se Apri il Cuore.
+Il cammino prosegue qui, su Se Apri il Cuore.
+
+<div class="autore-scuola">{% include scuola.html %}</div>
