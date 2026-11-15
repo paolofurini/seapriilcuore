@@ -55,6 +55,6 @@ Sante, prima di accordare un pianoforte, si siede accanto e aspetta che la stanz
 
 Il mondo di Elsa funziona benissimo, eppure ha perso l’abitudine di ascoltarsi. Vale anche per molti di noi. Sulla quarta di copertina c’è la frase che mi ha accompagnato fino all’ultima pagina: *non siamo rotti, siamo solo scordati*.
 
-Se volete sapere quando il libro sarà disponibile, [iscrivetevi a Se Apri il Cuore]({{ site.substack }}/subscribe). Nel frattempo sul blog continuano i Frammenti, piccoli pezzi del mondo di Sante.
+Se volete sapere quando il libro sarà disponibile, [iscrivetevi a Se Apri il Cuore]({{ '/#newsletter' | relative_url }}). Nel frattempo sul blog continuano i Frammenti, piccoli pezzi del mondo di Sante.
 
 Grazie per avermi letto.
