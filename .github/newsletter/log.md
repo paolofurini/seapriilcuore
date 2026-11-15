@@ -22,3 +22,8 @@
 - Mittente: paolo@seapriilcuore.it
 - Interruttore spento (live: false): invio solo di prova a Paolo, nessuna email agli iscritti.
 - Prova di '432 Hz o 440 Hz: cosa c'è di vero' inviata solo a Paolo: ERRORE 400 {'error': '{"code":"invalid_parameter","message":"Test email could not be sent to the following email addresses","unexistingEmails":["paolo@seapriilcuore.it"]}\n'}
+
+## 2026-11-15 14:16 UTC · test
+- Mittente: paolo@seapriilcuore.it
+- Prova di '432 Hz o 440 Hz: cosa c'è di vero' inviata a furo66@gmail.com: 204 ok
+- Lista iscritti: trovata, id 3
