@@ -5,6 +5,8 @@ description: "Paolo Furini, dalla corsa delle multinazionali al silenzio della m
 permalink: /autore/
 ---
 
+<figure class="autore-foto"><picture><source type="image/webp" srcset="{{ '/assets/img/paolo-960.webp' | relative_url }}"><img src="{{ '/assets/img/paolo-960.jpg' | relative_url }}" alt="Paolo Furini" width="960" height="960"></picture></figure>
+
 Per più di trent'anni Paolo Furini ha fatto il manager in grandi multinazionali della tecnologia, tra marketing, comunicazione e dati, lavorando con mercati che andavano dall'Europa all'Asia alle Americhe e vivendo tra Milano, Roma e Londra. Erano gli anni dei piani di crescita, dei numeri da raggiungere, della corsa che non si ferma mai, dell'*always on*. Una vita piena, e per molto tempo gli è bastata.
 
 Poi qualcosa si è spostato. Sotto il rumore del fare fare fare c'era una nota più antica, tenuta da sempre, che chiedeva solo di essere ascoltata. Paolo ha smesso di correre abbastanza a lungo da sentirla.

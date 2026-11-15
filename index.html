@@ -2,36 +2,37 @@
 layout: default
 body_class: night home
 title: Paolo Furini · Se Apri il Cuore
+image: /assets/img/copertina-lads-960.jpg
 ---
 <section class="hero">
   <div class="wrap hero-grid">
+    <figure class="hero-cover">
+      <a href="{{ '/romanzi/laccordatore-del-silenzio/' | relative_url }}" aria-label="L'Accordatore del Silenzio">
+        <picture>
+          <source type="image/webp" srcset="{{ '/assets/img/copertina-lads-480.webp' | relative_url }} 480w, {{ '/assets/img/copertina-lads-960.webp' | relative_url }} 960w" sizes="(min-width: 900px) 380px, 70vw">
+          <img src="{{ '/assets/img/copertina-lads-960.jpg' | relative_url }}" alt="Copertina di L'Accordatore del Silenzio di Paolo Furini: una donna seduta sotto un pianoforte a coda, accanto a una presenza di luce, su fondo blu notte." width="960" height="1441" fetchpriority="high">
+        </picture>
+      </a>
+    </figure>
     <div class="hero-text">
-      <h1 class="hero-title">Non siamo rotti,<br><em>siamo solo scordati.</em></h1>
-      <p class="hero-lede">Romanzi e riflessioni per tornare ad ascoltarsi, nel tempo della Macchina.</p>
+      <p class="stato stato-night"><span class="dot" aria-hidden="true"></span>In uscita · cartaceo ed ebook</p>
+      <h1 class="hero-title">L'Accordatore<br>del Silenzio</h1>
+      <p class="hero-quote"><em>Non siamo rotti, siamo solo scordati.</em></p>
+      <p class="hero-lede">Appennino, 2042. Un accordatore di pianoforti, uno Steinway del 1910 e una nota che nessuna macchina sa spiegare. Il primo dei Romanzi dell'Invisibile.</p>
       <p class="hero-actions">
-        <a class="button button-amber" href="{{ '/romanzi/laccordatore-del-silenzio/' | relative_url }}">Il primo romanzo</a>
-        <a class="link-quiet" href="{{ '/blog/' | relative_url }}">Leggi il blog</a>
+        <a class="button button-amber" href="{{ '/romanzi/laccordatore-del-silenzio/' | relative_url }}">Scopri il libro</a>
+        <a class="link-quiet" href="{{ '/blog/laccordatore-del-silenzio-aspettando-la-copia-di-prova/' | relative_url }}">Leggi una pagina</a>
       </p>
     </div>
-    <figure class="finestra">
-      <picture>
-        <source type="image/webp" srcset="{{ '/assets/img/attesa-900.webp' | relative_url }} 900w, {{ '/assets/img/attesa-1600.webp' | relative_url }} 1600w" sizes="(min-width: 900px) 46vw, 92vw">
-        <img src="{{ '/assets/img/attesa-1600.jpg' | relative_url }}" alt="Un pacco legato con lo spago su un tavolo di legno, accanto a un diapason e a una tazza di tè. Dalla finestra, le colline al crepuscolo." width="1600" height="1195" fetchpriority="high">
-      </picture>
-    </figure>
   </div>
 </section>
 
-<section class="libro band-paper">
-  <div class="wrap libro-grid">
-    <div class="libro-stato">
-      <p class="stato"><span class="dot" aria-hidden="true"></span>In uscita</p>
-      <p class="collana">I Romanzi dell'Invisibile</p>
-    </div>
-    <div class="libro-text">
-      <h2 class="section-title"><a href="{{ '/romanzi/laccordatore-del-silenzio/' | relative_url }}">L'Accordatore del Silenzio</a></h2>
-      <p class="libro-lede">Appennino, 2042. Sante accorda pianoforti in un casale di pietra, lontano dal rumore della Matrix. A Ginevra, ogni notte alle tre, uno Steinway del 1910 suona da solo una nota che nessun ingegnere sa spiegare. Prima o poi qualcuno dovrà salire fin lassù.</p>
-      <p><a class="link-arrow" href="{{ '/romanzi/laccordatore-del-silenzio/' | relative_url }}">Scopri il libro</a></p>
+<section class="invito band-paper">
+  <div class="wrap invito-grid">
+    <h2 class="invito-title">Se Apri il Cuore</h2>
+    <div>
+      <p class="invito-text">Una lettera ogni settimana: appunti per vivere con la tecnologia senza perdere l'ascolto, e la notizia quando il libro sarà in libreria.</p>
+      <a class="button" href="{{ site.substack }}/subscribe">Iscriviti alla newsletter</a>
     </div>
   </div>
 </section>
@@ -56,7 +57,13 @@ title: Paolo Furini · Se Apri il Cuore
 
 <section class="chi band-paper">
   <div class="wrap chi-grid">
-    <p class="chi-text">Per trent'anni ho fatto il manager nella tecnologia, tra dati, marketing e numeri da raggiungere. Poi ho smesso di correre abbastanza a lungo da sentire una nota più antica. Oggi scrivo.</p>
-    <p><a class="link-arrow" href="{{ '/autore/' | relative_url }}">Chi sono</a></p>
+    <picture class="chi-foto">
+      <source type="image/webp" srcset="{{ '/assets/img/paolo-480.webp' | relative_url }}">
+      <img src="{{ '/assets/img/paolo-480.jpg' | relative_url }}" alt="Paolo Furini, all'aperto tra gli alberi" width="480" height="480" loading="lazy">
+    </picture>
+    <div>
+      <p class="chi-text">Per trent'anni ho fatto il manager nella tecnologia, tra dati, marketing e numeri da raggiungere. Poi ho smesso di correre abbastanza a lungo da sentire una nota più antica. Oggi scrivo.</p>
+      <p><a class="link-arrow" href="{{ '/autore/' | relative_url }}">Chi sono</a></p>
+    </div>
   </div>
 </section>

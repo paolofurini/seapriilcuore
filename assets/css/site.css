@@ -25,7 +25,7 @@
 }
 
 :root {
-  --night: #0f1a2b;
+  --night: #121e33;
   --night-2: #17253b;
   --night-line: #2a3a55;
   --moon: #e9e3d6;          /* testo su blu notte */
@@ -97,10 +97,31 @@ a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 0.2em
 .night { background: var(--night); }
 .hero { background: var(--night); color: var(--moon); padding-block: clamp(2.5rem, 7vw, 6.5rem) clamp(3.5rem, 8vw, 7.5rem); overflow: hidden; }
 .hero-grid { display: grid; gap: clamp(2.5rem, 5vw, 5rem); align-items: center; }
-@media (min-width: 900px) { .hero-grid { grid-template-columns: 1.15fr 1fr; } }
-.hero-title { font-size: var(--step-4); font-weight: 380; line-height: 1.02; letter-spacing: -0.025em; margin: 0 0 1.5rem; text-wrap: balance; }
-.hero-title em { font-style: italic; font-weight: 300; color: var(--amber); }
-.hero-lede { font-size: var(--step-1); line-height: 1.45; color: var(--moon-soft); max-width: 30ch; margin: 0 0 2.2rem; }
+@media (min-width: 900px) { .hero-grid { grid-template-columns: minmax(0, 24rem) 1fr; gap: clamp(3rem, 7vw, 7rem); } }
+.hero-title { font-size: var(--step-4); font-weight: 380; line-height: 1.02; letter-spacing: -0.025em; margin: 0 0 1.1rem; text-wrap: balance; }
+.hero-quote { font-size: var(--step-1); color: var(--amber); margin: 0 0 1.2rem; font-weight: 340; }
+.hero-cover { margin: 0; max-width: 24rem; width: 72%; justify-self: center; }
+@media (min-width: 900px) { .hero-cover { width: 100%; } }
+.hero-cover img { width: 100%; box-shadow: 0 2px 0 rgba(255,255,255,0.04) inset, 0 40px 70px -25px rgba(0,0,0,0.75), 0 10px 20px -10px rgba(0,0,0,0.5); transition: transform 0.6s var(--ease); }
+.hero-cover a:hover img { transform: translateY(-4px); }
+@media (prefers-reduced-motion: no-preference) {
+  .hero-cover { animation: accende 1.4s var(--ease) both; }
+}
+.hero .stato-night { color: var(--amber); margin-bottom: 1.2rem; }
+.invito { padding-block: clamp(3rem, 7vw, 5.5rem) clamp(1rem, 3vw, 2rem); }
+.invito-grid { display: grid; gap: 1rem 4rem; border-bottom: 1px solid var(--rule); padding-bottom: clamp(2.5rem, 6vw, 4rem); }
+@media (min-width: 900px) { .invito-grid { grid-template-columns: 1fr 1.3fr; align-items: start; } }
+.invito-title { font-size: var(--step-3); font-weight: 380; font-style: italic; line-height: 1.05; letter-spacing: -0.02em; margin: 0; }
+.invito-text { font-size: var(--step-1); line-height: 1.5; max-width: 36ch; margin: 0 0 1.6rem; }
+.chi-grid { display: grid; gap: 1.8rem 3rem; }
+@media (min-width: 800px) { .chi-grid { grid-template-columns: 11rem 1fr; align-items: start; } }
+.chi-foto img { width: 9rem; height: 9rem; border-radius: 50%; object-fit: cover; filter: saturate(0.85); }
+@media (min-width: 800px) { .chi-foto img { width: 11rem; height: 11rem; } }
+.book-cover { margin-bottom: 2.5rem; }
+.book-cover img { width: min(100%, 20rem); box-shadow: 0 30px 50px -25px rgba(15,26,43,0.55); }
+.autore-foto { margin: 0 0 2rem; }
+.autore-foto img { width: 100%; max-width: 26rem; aspect-ratio: 1; object-fit: cover; }
+.hero-lede { font-size: var(--step-0); line-height: 1.55; color: var(--moon-soft); max-width: 40ch; margin: 0 0 2.2rem; }
 .hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1.2rem 1.8rem; margin: 0; }
 
 /* La finestra: il quadro incorniciato, come una copertina Sellerio */
@@ -149,7 +170,7 @@ a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 0.2em
 .dal-blog { padding-block: clamp(2rem, 4vw, 3.5rem) clamp(1rem, 2vw, 1.5rem); }
 .dal-blog .section-title { font-size: var(--step-2); }
 .chi { padding-block: clamp(2rem, 5vw, 4rem) clamp(4rem, 9vw, 8rem); }
-.chi-grid { border-top: 1px solid var(--rule); padding-top: clamp(2rem, 5vw, 3.5rem); }
+.chi > .chi-grid { border-top: 1px solid var(--rule); padding-top: clamp(2rem, 5vw, 3.5rem); }
 .chi-text { font-size: var(--step-2); font-weight: 340; line-height: 1.3; letter-spacing: -0.01em; max-width: 30ch; margin: 0 0 1.4rem; text-wrap: pretty; }
 
 /* Elenchi articoli */
