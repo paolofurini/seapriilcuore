@@ -1,0 +1,62 @@
+---
+layout: default
+body_class: night home
+title: Paolo Furini · Se Apri il Cuore
+---
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <h1 class="hero-title">Non siamo rotti,<br><em>siamo solo scordati.</em></h1>
+      <p class="hero-lede">Romanzi e riflessioni per tornare ad ascoltarsi, nel tempo della Macchina.</p>
+      <p class="hero-actions">
+        <a class="button button-amber" href="{{ '/romanzi/laccordatore-del-silenzio/' | relative_url }}">Il primo romanzo</a>
+        <a class="link-quiet" href="{{ '/blog/' | relative_url }}">Leggi il blog</a>
+      </p>
+    </div>
+    <figure class="finestra">
+      <picture>
+        <source type="image/webp" srcset="{{ '/assets/img/attesa-900.webp' | relative_url }} 900w, {{ '/assets/img/attesa-1600.webp' | relative_url }} 1600w" sizes="(min-width: 900px) 46vw, 92vw">
+        <img src="{{ '/assets/img/attesa-1600.jpg' | relative_url }}" alt="Un pacco legato con lo spago su un tavolo di legno, accanto a un diapason e a una tazza di tè. Dalla finestra, le colline al crepuscolo." width="1600" height="1195" fetchpriority="high">
+      </picture>
+    </figure>
+  </div>
+</section>
+
+<section class="libro band-paper">
+  <div class="wrap libro-grid">
+    <div class="libro-stato">
+      <p class="stato"><span class="dot" aria-hidden="true"></span>In uscita</p>
+      <p class="collana">I Romanzi dell'Invisibile</p>
+    </div>
+    <div class="libro-text">
+      <h2 class="section-title"><a href="{{ '/romanzi/laccordatore-del-silenzio/' | relative_url }}">L'Accordatore del Silenzio</a></h2>
+      <p class="libro-lede">Appennino, 2042. Sante accorda pianoforti in un casale di pietra, lontano dal rumore della Matrix. A Ginevra, ogni notte alle tre, uno Steinway del 1910 suona da solo una nota che nessun ingegnere sa spiegare. Prima o poi qualcuno dovrà salire fin lassù.</p>
+      <p><a class="link-arrow" href="{{ '/romanzi/laccordatore-del-silenzio/' | relative_url }}">Scopri il libro</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="dal-blog band-paper">
+  <div class="wrap">
+    <h2 class="section-title">Dal blog</h2>
+    <ul class="post-list post-list-large">
+      {% for x in site.posts limit: 4 %}
+      <li>
+        <a href="{{ x.url | relative_url }}">
+          <span class="pl-title">{{ x.title }}</span>
+          {% if x.description %}<span class="pl-dek">{{ x.description }}</span>{% endif %}
+          <span class="pl-date">{% include data-it.html date=x.date %}</span>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+    <p><a class="link-arrow" href="{{ '/blog/' | relative_url }}">Tutti gli articoli</a></p>
+  </div>
+</section>
+
+<section class="chi band-paper">
+  <div class="wrap chi-grid">
+    <p class="chi-text">Per trent'anni ho fatto il manager nella tecnologia, tra dati, marketing e numeri da raggiungere. Poi ho smesso di correre abbastanza a lungo da sentire una nota più antica. Oggi scrivo.</p>
+    <p><a class="link-arrow" href="{{ '/autore/' | relative_url }}">Chi sono</a></p>
+  </div>
+</section>

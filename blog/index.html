@@ -1,0 +1,24 @@
+---
+layout: default
+title: Se Apri il Cuore
+description: "Il blog di Paolo Furini: sovranità digitale, Digital Feng Shui e storie per l'Anima nel tempo della Macchina."
+---
+<article class="page">
+  <header class="page-head wrap-text">
+    <h1 class="page-title">Se Apri il Cuore</h1>
+    <p class="post-dek">Appunti per vivere con la tecnologia senza perdere l'ascolto. E piccoli pezzi del mondo di Sante.</p>
+  </header>
+  <div class="wrap-text">
+    <ul class="post-list post-list-large">
+      {% for x in site.posts %}
+      <li>
+        <a href="{{ x.url | relative_url }}">
+          <span class="pl-title">{{ x.title }}</span>
+          {% if x.description %}<span class="pl-dek">{{ x.description }}</span>{% endif %}
+          <span class="pl-date">{% include data-it.html date=x.date %}{% if x.tema %} · {{ x.tema }}{% endif %}</span>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</article>

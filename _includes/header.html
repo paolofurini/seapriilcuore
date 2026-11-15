@@ -1,0 +1,16 @@
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <span class="brand-name">Paolo Furini</span>
+      <span class="brand-sub">Se Apri il Cuore</span>
+    </a>
+    <nav aria-label="Principale">
+      <ul class="nav">
+        {% assign p = page.url %}
+        <li><a href="{{ '/romanzi/' | relative_url }}" {% if p contains '/romanzi/' %}aria-current="page"{% endif %}>Romanzi</a></li>
+        <li><a href="{{ '/blog/' | relative_url }}" {% if p contains '/blog/' %}aria-current="page"{% endif %}>Blog</a></li>
+        <li><a href="{{ '/autore/' | relative_url }}" {% if p contains '/autore/' %}aria-current="page"{% endif %}>Autore</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>

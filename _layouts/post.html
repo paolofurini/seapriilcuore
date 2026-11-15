@@ -1,0 +1,38 @@
+---
+layout: default
+---
+<article class="post">
+  <header class="post-head wrap-text">
+    <p class="post-meta">{% include data-it.html date=page.date %}{% if page.tema %} · {{ page.tema }}{% endif %}</p>
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.description %}<p class="post-dek">{{ page.description }}</p>{% endif %}
+  </header>
+
+  {% if page.cover %}
+  <figure class="post-cover wrap-wide">
+    <picture>
+      <source type="image/webp" srcset="{{ page.cover | append: '-900.webp' | relative_url }} 900w, {{ page.cover | append: '-1600.webp' | relative_url }} 1600w" sizes="(min-width: 1100px) 1040px, 100vw">
+      <img src="{{ page.cover | append: '-1600.jpg' | relative_url }}" alt="{{ page.cover_alt }}" width="1600" height="1195">
+    </picture>
+  </figure>
+  {% endif %}
+
+  <div class="prose wrap-text">
+    {{ content }}
+  </div>
+
+  <footer class="post-end wrap-text">
+    <p class="post-sign">Paolo</p>
+    {% assign altri = site.posts | where_exp: "x", "x.url != page.url" %}
+    {% if altri.size > 0 %}
+    <nav class="post-more" aria-label="Altri articoli">
+      <p class="label">Continua a leggere</p>
+      <ul class="post-list">
+        {% for x in altri limit: 3 %}
+        <li><a href="{{ x.url | relative_url }}"><span class="pl-title">{{ x.title }}</span><span class="pl-date">{% include data-it.html date=x.date %}</span></a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+    {% endif %}
+  </footer>
+</article>

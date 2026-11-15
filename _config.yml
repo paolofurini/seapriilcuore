@@ -1,0 +1,39 @@
+title: Paolo Furini
+tagline: Se Apri il Cuore
+description: "I Romanzi dell'Invisibile e il blog Se Apri il Cuore. Storie e riflessioni per ascoltarsi nel tempo della Macchina."
+lang: it
+locale: it_IT
+author:
+  name: Paolo Furini
+
+# Indirizzo provvisorio su GitHub Pages.
+# Quando paolofurini.it punterà qui: url: "https://paolofurini.it" e baseurl: ""
+url: "https://paolofurini.github.io"
+baseurl: "/seapriilcuore"
+
+substack: "https://seapriilcuore.substack.com"
+instagram: "https://www.instagram.com/seapriilcuore/"
+scuola: "https://www.lospettacolodellacoscienza.it"
+
+permalink: /blog/:title/
+timezone: Europe/Rome
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+feed:
+  path: feed.xml
+
+defaults:
+  - scope: { path: "", type: posts }
+    values:
+      layout: post
+      image: /assets/img/og-default.jpg
+
+exclude:
+  - CLAUDE.md
+  - README.md
+  - .claude
+  - Gemfile
+  - Gemfile.lock

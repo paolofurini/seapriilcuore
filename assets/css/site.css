@@ -1,0 +1,231 @@
+/* Se Apri il Cuore · paolofurini.it
+   Mondo visivo: la finestra di sera. Blu notte, luce d'ambra, carta calda.
+   Una sola voce tipografica (Newsreader) con un sans discreto per le etichette. */
+
+@font-face {
+  font-family: "Newsreader";
+  src: url("../fonts/newsreader.woff2") format("woff2");
+  font-weight: 200 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Newsreader";
+  src: url("../fonts/newsreader-italic.woff2") format("woff2");
+  font-weight: 200 800;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Instrument Sans";
+  src: url("../fonts/instrument-sans.woff2") format("woff2");
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --night: #0f1a2b;
+  --night-2: #17253b;
+  --night-line: #2a3a55;
+  --moon: #e9e3d6;          /* testo su blu notte */
+  --moon-soft: #b9b6ae;     /* secondario su blu notte, tinto dal caldo */
+  --amber: #e0a24e;         /* luce della lampada, su blu notte */
+  --amber-deep: #8f520f;    /* ambra leggibile su carta */
+  --paper: #f5f0e7;
+  --paper-2: #ece5d8;
+  --ink: #1b2433;
+  --ink-soft: #545c6a;
+  --rule: #d8cfbf;
+
+  --serif: "Newsreader", "Iowan Old Style", Georgia, serif;
+  --sans: "Instrument Sans", system-ui, sans-serif;
+
+  --step--1: clamp(0.84rem, 0.8rem + 0.15vw, 0.9rem);
+  --step-0: clamp(1.09rem, 1.03rem + 0.3vw, 1.25rem);
+  --step-1: clamp(1.3rem, 1.2rem + 0.5vw, 1.6rem);
+  --step-2: clamp(1.7rem, 1.45rem + 1.1vw, 2.4rem);
+  --step-3: clamp(2.3rem, 1.8rem + 2.4vw, 3.9rem);
+  --step-4: clamp(2.7rem, 1.9rem + 3.2vw, 4.9rem);
+
+  --wrap: 1180px;
+  --text: 40rem;
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+body {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: var(--step-0);
+  line-height: 1.6;
+  font-optical-sizing: auto;
+  background: var(--paper);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+img { display: block; max-width: 100%; height: auto; }
+a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 0.2em; }
+::selection { background: var(--amber); color: var(--night); }
+:focus-visible { outline: 2px solid var(--amber-deep); outline-offset: 3px; border-radius: 2px; }
+.night :focus-visible { outline-color: var(--amber); }
+
+.skip { position: absolute; left: -999px; top: 0.5rem; background: var(--amber); color: var(--night); padding: 0.5rem 1rem; z-index: 10; }
+.skip:focus { left: 0.5rem; }
+
+.wrap { width: min(100% - 2.5rem, var(--wrap)); margin-inline: auto; }
+.wrap-text { width: min(100% - 2.5rem, var(--text)); margin-inline: auto; }
+.wrap-wide { width: min(100% - 2.5rem, 65rem); margin-inline: auto; }
+
+/* Header */
+.site-header { padding-block: 1.4rem; border-bottom: 1px solid var(--rule); }
+.night .site-header { border-color: transparent; background: var(--night); color: var(--moon); }
+.header-row { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; }
+.brand { text-decoration: none; display: grid; line-height: 1.1; }
+.brand-name { font-size: 1.25rem; font-weight: 500; letter-spacing: -0.01em; }
+.brand-sub { font-family: var(--sans); font-size: 0.74rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-soft); margin-top: 0.2rem; }
+.night .brand-sub { color: var(--moon-soft); }
+.nav { list-style: none; margin: 0; padding: 0; display: flex; gap: clamp(1rem, 3vw, 2.2rem); font-family: var(--sans); font-size: 0.95rem; }
+.nav a { text-decoration: none; padding-block: 0.4rem; border-bottom: 1px solid transparent; transition: border-color 0.3s var(--ease), color 0.3s var(--ease); }
+.nav a:hover { border-color: currentColor; }
+.nav a[aria-current="page"] { border-color: var(--amber-deep); }
+.night .nav a[aria-current="page"] { border-color: var(--amber); }
+
+/* Home: hero di sera */
+.night { background: var(--night); }
+.hero { background: var(--night); color: var(--moon); padding-block: clamp(2.5rem, 7vw, 6.5rem) clamp(3.5rem, 8vw, 7.5rem); overflow: hidden; }
+.hero-grid { display: grid; gap: clamp(2.5rem, 5vw, 5rem); align-items: center; }
+@media (min-width: 900px) { .hero-grid { grid-template-columns: 1.15fr 1fr; } }
+.hero-title { font-size: var(--step-4); font-weight: 380; line-height: 1.02; letter-spacing: -0.025em; margin: 0 0 1.5rem; text-wrap: balance; }
+.hero-title em { font-style: italic; font-weight: 300; color: var(--amber); }
+.hero-lede { font-size: var(--step-1); line-height: 1.45; color: var(--moon-soft); max-width: 30ch; margin: 0 0 2.2rem; }
+.hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1.2rem 1.8rem; margin: 0; }
+
+/* La finestra: il quadro incorniciato, come una copertina Sellerio */
+.finestra { margin: 0; padding: clamp(0.6rem, 1.4vw, 1rem); background: #0a121f; box-shadow: 0 30px 60px -20px rgba(0, 0, 0, 0.6), 0 2px 0 0 #24344d inset; position: relative; }
+.finestra::after { content: ""; position: absolute; inset: clamp(0.6rem, 1.4vw, 1rem); box-shadow: inset 0 0 0 1px rgba(224, 162, 78, 0.35); pointer-events: none; }
+.finestra img { width: 100%; filter: saturate(0.92); }
+@media (prefers-reduced-motion: no-preference) {
+  .finestra { animation: accende 1.6s var(--ease) both; }
+  @keyframes accende {
+    from { opacity: 0.001; filter: brightness(0.4) blur(6px); transform: translateY(12px); }
+    to { opacity: 1; filter: none; transform: none; }
+  }
+}
+
+/* Bottoni e link */
+.button {
+  display: inline-block; font-family: var(--sans); font-size: 0.95rem; font-weight: 600; letter-spacing: 0.01em;
+  text-decoration: none; padding: 0.85rem 1.45rem; border-radius: 2px;
+  background: var(--ink); color: var(--paper);
+  transition: background-color 0.3s var(--ease), transform 0.3s var(--ease);
+}
+.button:hover { background: var(--amber-deep); }
+.button:active { transform: translateY(1px); }
+.button-amber { background: var(--amber); color: var(--night); }
+.button-amber:hover { background: #f0b866; }
+.site-footer .button { background: var(--amber); color: var(--night); }
+.site-footer .button:hover { background: #f0b866; }
+.link-quiet { font-family: var(--sans); font-size: 0.95rem; color: var(--moon); text-decoration: underline; text-decoration-color: var(--night-line); }
+.link-quiet:hover { text-decoration-color: var(--amber); }
+.link-arrow { font-family: var(--sans); font-size: 0.95rem; font-weight: 600; color: var(--amber-deep); text-decoration: none; }
+.link-arrow::after { content: "→"; display: inline-block; margin-left: 0.45em; transition: transform 0.3s var(--ease); }
+.link-arrow:hover::after { transform: translateX(4px); }
+
+/* Fasce su carta */
+.band-paper { background: var(--paper); }
+.libro { padding-block: clamp(3.5rem, 8vw, 7rem) clamp(2rem, 5vw, 4rem); }
+.libro-grid { display: grid; gap: 1.5rem 4rem; }
+@media (min-width: 900px) { .libro-grid { grid-template-columns: 14rem 1fr; } }
+.stato { display: inline-flex; align-items: center; gap: 0.55rem; font-family: var(--sans); font-size: var(--step--1); font-weight: 600; color: var(--amber-deep); margin: 0; }
+.dot { width: 0.5rem; height: 0.5rem; border-radius: 50%; background: var(--amber); box-shadow: 0 0 0 4px rgba(224, 162, 78, 0.22); }
+.collana { font-style: italic; color: var(--ink-soft); margin: 0.4rem 0 0; }
+.section-title { font-size: var(--step-3); font-weight: 380; line-height: 1.05; letter-spacing: -0.02em; margin: 0 0 1.2rem; text-wrap: balance; }
+.section-title a { text-decoration: none; }
+.section-title a:hover { text-decoration: underline; text-decoration-thickness: 1px; text-decoration-color: var(--amber-deep); }
+.libro-lede { font-size: var(--step-1); line-height: 1.5; max-width: 36ch; margin: 0 0 1.5rem; }
+.dal-blog { padding-block: clamp(2rem, 4vw, 3.5rem) clamp(1rem, 2vw, 1.5rem); }
+.dal-blog .section-title { font-size: var(--step-2); }
+.chi { padding-block: clamp(2rem, 5vw, 4rem) clamp(4rem, 9vw, 8rem); }
+.chi-grid { border-top: 1px solid var(--rule); padding-top: clamp(2rem, 5vw, 3.5rem); }
+.chi-text { font-size: var(--step-2); font-weight: 340; line-height: 1.3; letter-spacing: -0.01em; max-width: 30ch; margin: 0 0 1.4rem; text-wrap: pretty; }
+
+/* Elenchi articoli */
+.post-list { list-style: none; margin: 0 0 2rem; padding: 0; border-top: 1px solid var(--rule); }
+.post-list li { border-bottom: 1px solid var(--rule); }
+.post-list a { display: grid; gap: 0.25rem; padding-block: 1.15rem; text-decoration: none; transition: padding-left 0.4s var(--ease); }
+.post-list a:hover { padding-left: 0.5rem; }
+.post-list a:hover .pl-title { color: var(--amber-deep); }
+.pl-title { font-size: var(--step-1); line-height: 1.25; font-weight: 450; transition: color 0.3s var(--ease); }
+.pl-dek { color: var(--ink-soft); line-height: 1.45; }
+.pl-date { font-family: var(--sans); font-size: var(--step--1); color: var(--ink-soft); font-variant-numeric: tabular-nums; }
+.post-list-large a { padding-block: 1.6rem; gap: 0.4rem; }
+.post-list-large .pl-title { font-size: var(--step-2); font-weight: 400; letter-spacing: -0.015em; }
+
+/* Pagine e articoli */
+.post, .page, .book { padding-block: clamp(2.5rem, 7vw, 5.5rem) clamp(3rem, 8vw, 6rem); }
+.post-head, .page-head, .book-head { margin-bottom: clamp(2rem, 5vw, 3.2rem); }
+.post-meta { font-family: var(--sans); font-size: var(--step--1); color: var(--ink-soft); margin: 0 0 1.2rem; }
+.post-title, .page-title { font-size: var(--step-3); font-weight: 400; line-height: 1.06; letter-spacing: -0.022em; margin: 0 0 1rem; text-wrap: balance; }
+.post-dek { font-size: var(--step-1); font-style: italic; line-height: 1.4; color: var(--ink-soft); margin: 0; text-wrap: pretty; }
+.book-head .collana { margin: 0 0 0.8rem; }
+.book-head .stato { margin-top: 0.4rem; }
+.post-cover { margin: 0 auto clamp(2.5rem, 6vw, 4rem); }
+.post-cover img { width: 100%; }
+
+.prose { font-size: var(--step-0); }
+.prose > * { margin-block: 0; }
+.prose > * + * { margin-top: 1.15em; }
+.prose p { text-wrap: pretty; hanging-punctuation: first; }
+.prose h2 { font-size: var(--step-2); font-weight: 420; line-height: 1.15; letter-spacing: -0.015em; margin: 2.4em 0 0.6em; }
+.prose a { color: var(--amber-deep); text-decoration-color: color-mix(in srgb, var(--amber-deep) 45%, transparent); }
+.prose a:hover { text-decoration-color: var(--amber-deep); }
+.prose .lead { font-size: var(--step-1); line-height: 1.5; }
+.prose .button { color: var(--paper); text-decoration: none; }
+
+/* Estratto del romanzo: una pagina di libro dentro l'articolo */
+.estratto { margin-block: 2.6em; padding: clamp(1.6rem, 4vw, 2.6rem) clamp(1.3rem, 4vw, 2.8rem); background: var(--paper-2); font-size: 0.97em; line-height: 1.65; }
+.estratto > * { margin-block: 0; }
+.estratto > * + * { margin-top: 1em; }
+.estratto-intro { font-style: italic; color: var(--ink-soft); padding-bottom: 1.2em; border-bottom: 1px solid var(--rule); margin-bottom: 1.4em !important; }
+.stacco { text-align: center; color: var(--amber-deep); font-size: 1.6em; line-height: 1; margin-block: 1.4em !important; }
+
+.quarta { margin: 2.4em 0; padding: 0; text-align: center; }
+.quarta p { font-size: var(--step-2); font-style: italic; font-weight: 340; line-height: 1.25; color: var(--ink); text-wrap: balance; }
+.quarta::before, .quarta::after { content: ""; display: block; width: 3rem; height: 1px; background: var(--amber-deep); margin: 1.2rem auto; }
+
+.post-end { margin-top: 3rem; }
+.post-sign { font-style: italic; font-size: var(--step-1); margin: 0 0 3.5rem; }
+.label { font-family: var(--sans); font-size: var(--step--1); font-weight: 600; color: var(--ink-soft); margin: 0 0 0.8rem; }
+
+/* Romanzi */
+.book-row { display: grid; gap: 0.35rem; padding-block: 1.7rem; border-top: 1px solid var(--rule); text-decoration: none; }
+.book-row:last-child { border-bottom: 1px solid var(--rule); }
+a.book-row:hover .book-row-title { color: var(--amber-deep); }
+.book-row-stato { display: inline-flex; align-items: center; gap: 0.55rem; font-family: var(--sans); font-size: var(--step--1); font-weight: 600; color: var(--amber-deep); }
+.book-row-title { font-size: var(--step-2); font-weight: 400; letter-spacing: -0.015em; line-height: 1.15; transition: color 0.3s var(--ease); }
+.book-row-dek { color: var(--ink-soft); }
+.book-row-next .book-row-stato { color: var(--ink-soft); }
+.book-row-next .book-row-title { color: var(--ink-soft); font-style: italic; }
+.page .wrap-text + .wrap-text { margin-top: 2.5rem; }
+
+/* Footer */
+.site-footer { background: var(--night); color: var(--moon); padding-block: clamp(3rem, 7vw, 5rem) 2rem; }
+.footer-grid { display: grid; gap: 2.5rem 4rem; }
+@media (min-width: 800px) { .footer-grid { grid-template-columns: 1.4fr 1fr; align-items: end; } }
+.footer-title { font-size: var(--step-2); font-weight: 380; letter-spacing: -0.015em; margin: 0 0 0.6rem; }
+.footer-invite p:not(.footer-title) { color: var(--moon-soft); margin: 0 0 1.6rem; max-width: 34ch; }
+.footer-links { list-style: none; margin: 0; padding: 0; font-family: var(--sans); font-size: 0.95rem; display: grid; gap: 0.7rem; }
+.footer-links a { text-decoration: none; color: var(--moon-soft); transition: color 0.3s var(--ease); }
+.footer-links a:hover { color: var(--amber); }
+.footer-base { margin-top: 3rem; padding-top: 1.4rem; border-top: 1px solid var(--night-line); font-family: var(--sans); font-size: var(--step--1); color: var(--moon-soft); }
+.footer-base p { margin: 0; }
+
+@media (max-width: 560px) {
+  .header-row { flex-direction: column; align-items: flex-start; gap: 0.8rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+}
