@@ -25,9 +25,9 @@
 }
 
 :root {
-  --night: #121e33;
-  --night-2: #17253b;
-  --night-line: #2a3a55;
+  --night: #1a2a4a;
+  --night-2: #22355b;
+  --night-line: #34497a;
   --moon: #e9e3d6;          /* testo su blu notte */
   --moon-soft: #b9b6ae;     /* secondario su blu notte, tinto dal caldo */
   --amber: #e0a24e;         /* luce della lampada, su blu notte */
@@ -102,7 +102,7 @@ a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 0.2em
 .hero-quote { font-size: var(--step-1); color: var(--amber); margin: 0 0 1.2rem; font-weight: 340; }
 .hero-cover { margin: 0; max-width: 24rem; width: 72%; justify-self: center; }
 @media (min-width: 900px) { .hero-cover { width: 100%; } }
-.hero-cover img { width: 100%; box-shadow: 0 2px 0 rgba(255,255,255,0.04) inset, 0 40px 70px -25px rgba(0,0,0,0.75), 0 10px 20px -10px rgba(0,0,0,0.5); transition: transform 0.6s var(--ease); }
+.hero-cover img { width: 100%; outline: 1px solid rgba(233, 227, 214, 0.14); outline-offset: -1px; box-shadow: 0 40px 70px -25px rgba(0,0,0,0.75), 0 10px 20px -10px rgba(0,0,0,0.5); transition: transform 0.6s var(--ease); }
 .hero-cover a:hover img { transform: translateY(-4px); }
 @media (prefers-reduced-motion: no-preference) {
   .hero-cover { animation: accende 1.4s var(--ease) both; }
