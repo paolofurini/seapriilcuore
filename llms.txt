@@ -20,5 +20,6 @@ Paolo Furini è stato per oltre trent'anni manager in multinazionali della tecno
 {% endfor %}
 ## Autore
 - [Chi è Paolo Furini]({{ site.url }}/autore/)
+- LinkedIn: https://www.linkedin.com/in/paolofurini/
 - Instagram: https://www.instagram.com/seapriilcuore/
 - Newsletter: https://seapriilcuore.substack.com

@@ -9,6 +9,7 @@ author:
 social:
   name: Paolo Furini
   links:
+    - https://www.linkedin.com/in/paolofurini/
     - https://www.instagram.com/seapriilcuore/
     - https://seapriilcuore.substack.com
 logo: /assets/img/paolo-480.jpg
@@ -18,6 +19,7 @@ baseurl: ""
 
 substack: "https://seapriilcuore.substack.com"
 instagram: "https://www.instagram.com/seapriilcuore/"
+linkedin: "https://www.linkedin.com/in/paolofurini/"
 scuola: "https://www.lospettacolodellacoscienza.it"
 
 permalink: /blog/:title/
