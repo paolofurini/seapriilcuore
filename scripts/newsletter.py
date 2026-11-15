@@ -101,10 +101,9 @@ def main():
         p = read_post(files[0]); cid = campaign(p, snd, None)
         if not cid: return 1
         lid0 = list_id()
-        call("POST", "/contacts", {"email": snd["email"], "updateEnabled": True, **({"listIds": [lid0]} if lid0 else {})})
-        s, d = call("POST", f"/emailCampaigns/{cid}/sendTest", {"emailTo": [snd["email"]]})
+        s, d = call("POST", f"/emailCampaigns/{cid}/sendTest", {"emailTo": ["furo66@gmail.com"]})
         call("DELETE", f"/emailCampaigns/{cid}")
-        log(f"Prova di '{p['title']}' inviata a {snd['email']}: {s} {d if s >= 300 else 'ok'}")
+        log(f"Prova di '{p['title']}' inviata a furo66@gmail.com: {s} {d if s >= 300 else 'ok'}")
         lid = list_id(); log(f"Lista iscritti: {'trovata, id ' + str(lid) if lid else 'MANCANTE'}")
         return 0 if s < 300 else 1
     live = bool((yaml.safe_load(open(".github/newsletter/config.yml")) or {}).get("live"))
@@ -127,7 +126,7 @@ def main():
         if not live:
             cid = campaign(p, snd, None)
             if not cid: continue
-            s, d = call("POST", f"/emailCampaigns/{cid}/sendTest", {"emailTo": [snd["email"], "furo66@gmail.com"]})
+            s, d = call("POST", f"/emailCampaigns/{cid}/sendTest", {"emailTo": ["furo66@gmail.com"]})
             call("DELETE", f"/emailCampaigns/{cid}")
             log(f"Prova di '{p['title']}' inviata solo a Paolo: {'ok' if s < 300 else 'ERRORE ' + str(s) + ' ' + str(d)}")
             continue
