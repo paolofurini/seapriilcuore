@@ -41,13 +41,24 @@ image: /assets/img/copertina-lads-960.jpg
 <section class="dal-blog band-paper">
   <div class="wrap">
     <h2 class="section-title">Dal blog</h2>
+    {% assign primo = site.posts.first %}
+    <a class="in-evidenza" href="{{ primo.url | relative_url }}">
+      {% include post-thumb.html post=primo %}
+      <span class="ie-testo">
+        <span class="pl-date">{% include data-it.html date=primo.date %}{% if primo.tema %} · {{ primo.tema }}{% endif %}</span>
+        <span class="ie-title">{{ primo.title }}</span>
+        {% if primo.description %}<span class="pl-dek">{{ primo.description }}</span>{% endif %}
+      </span>
+    </a>
     <ul class="post-list post-list-large">
-      {% for x in site.posts limit: 4 %}
+      {% for x in site.posts offset: 1 limit: 3 %}
       <li>
-        <a href="{{ x.url | relative_url }}">
-          <span class="pl-title">{{ x.title }}</span>
-          {% if x.description %}<span class="pl-dek">{{ x.description }}</span>{% endif %}
-          <span class="pl-date">{% include data-it.html date=x.date %}</span>
+        <a href="{{ x.url | relative_url }}" class="pl-con-img">
+          <span class="pl-testo">
+            <span class="pl-title">{{ x.title }}</span>
+            <span class="pl-date">{% include data-it.html date=x.date %}{% if x.tema %} · {{ x.tema }}{% endif %}</span>
+          </span>
+          {% include post-thumb.html post=x %}
         </a>
       </li>
       {% endfor %}

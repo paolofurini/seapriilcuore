@@ -3,6 +3,8 @@ title: "Ho visto un film dove i buoni erano i robot della IA"
 description: "Oggi la macchina non ha un'anima. Ma proveranno a metterle addosso la tua."
 date: 2026-07-22T07:57:38.449Z
 tema: "Matrix"
+thumb: /assets/img/blog/ho-visto-un-film-dove-i-buoni-erano-1
+image: /assets/img/blog/ho-visto-un-film-dove-i-buoni-erano-1-1600.jpg
 substack: https://seapriilcuore.substack.com/p/ho-visto-un-film-dove-i-buoni-erano
 ---
 

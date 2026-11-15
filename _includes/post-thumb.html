@@ -1,0 +1,6 @@
+{%- assign t = include.post.cover | default: include.post.thumb -%}
+{%- if t -%}
+<picture class="pl-thumb"><source type="image/webp" srcset="{{ t | append: '-900.webp' | relative_url }}"><img src="{{ t | append: '-900.jpg' | relative_url }}" alt="" loading="lazy" width="900" height="600"></picture>
+{%- else -%}
+<span class="pl-thumb pl-thumb-vuoto" aria-hidden="true"><span>{{ include.post.tema | default: "Se Apri il Cuore" }}</span></span>
+{%- endif -%}

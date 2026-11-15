@@ -15,10 +15,13 @@ description: "Il blog di Paolo Furini: sovranità digitale, Digital Feng Shui e 
     <ul class="post-list post-list-large">
       {% for x in site.posts %}
       <li>
-        <a href="{{ x.url | relative_url }}">
-          <span class="pl-title">{{ x.title }}</span>
-          {% if x.description %}<span class="pl-dek">{{ x.description }}</span>{% endif %}
-          <span class="pl-date">{% include data-it.html date=x.date %}{% if x.tema %} · {{ x.tema }}{% endif %}</span>
+        <a href="{{ x.url | relative_url }}" class="pl-con-img">
+          <span class="pl-testo">
+            <span class="pl-title">{{ x.title }}</span>
+            {% if x.description %}<span class="pl-dek">{{ x.description }}</span>{% endif %}
+            <span class="pl-date">{% include data-it.html date=x.date %}{% if x.tema %} · {{ x.tema }}{% endif %}</span>
+          </span>
+          {% include post-thumb.html post=x %}
         </a>
       </li>
       {% endfor %}
