@@ -266,7 +266,10 @@ a.book-row:hover .book-row-title { color: var(--amber-deep); }
 .nl-msg { padding: 0.9rem 1rem; margin-bottom: 1rem; font-family: var(--sans); font-size: 0.92rem; line-height: 1.45; border-left: 3px solid; }
 .nl-msg-ok { background: #eef3e6; border-color: #5f7d3a; color: #2f4219; }
 .nl-msg-err { background: #f8e9e4; border-color: #a2452e; color: #6b2516; }
-.sib-hide-loader-icon, .progress-indicator__icon { display: none; }
+.nl-spin { width: 1em; height: 1em; margin-right: 0.5em; vertical-align: -0.15em; animation: nl-giro 0.9s linear infinite; }
+.nl-spin.sib-hide-loader-icon { display: none; }
+@keyframes nl-giro { to { transform: rotate(360deg); } }
+.nl-btn[disabled] { opacity: 0.7; cursor: wait; }
 .prose .nl a { color: inherit; }
 
 /* Immagini dentro gli articoli */
