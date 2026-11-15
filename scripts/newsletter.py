@@ -99,7 +99,9 @@ def main():
         files = files or sorted(glob.glob("_posts/*.md"))[-1:]
         p = read_post(files[0]); cid = campaign(p, snd, None)
         if not cid: return 1
+        call("POST", "/contacts", {"email": snd["email"], "updateEnabled": True})
         s, d = call("POST", f"/emailCampaigns/{cid}/sendTest", {"emailTo": [snd["email"]]})
+        call("DELETE", f"/emailCampaigns/{cid}")
         log(f"Prova di '{p['title']}' inviata a {snd['email']}: {s} {d if s >= 300 else 'ok'}")
         lid = list_id(); log(f"Lista iscritti: {'trovata, id ' + str(lid) if lid else 'MANCANTE'}")
         return 0 if s < 300 else 1
