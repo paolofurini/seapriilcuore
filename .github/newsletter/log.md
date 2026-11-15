@@ -12,3 +12,8 @@
 - Mittente: furo66@gmail.com
 - Prova di 'L’Accordatore del Silenzio: aspettando la copia di prova' inviata a furo66@gmail.com: 400 {'error': '{"code":"invalid_parameter","message":"Test emails cannot be sent to non-existent/blacklisted/without-contact-list users"}\n'}
 - Lista iscritti: trovata, id 3
+
+## 2026-11-15 12:26 UTC · test
+- Mittente: furo66@gmail.com
+- Prova di 'L’Accordatore del Silenzio: aspettando la copia di prova' inviata a furo66@gmail.com: 204 ok
+- Lista iscritti: trovata, id 3
