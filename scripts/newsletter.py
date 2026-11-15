@@ -69,7 +69,8 @@ def sender():
     act = [x for x in d.get("senders", []) if x.get("active")]
     if not act:
         log(f"ERRORE: nessun mittente attivo in Brevo ({s} {d})"); return None
-    return {"name": "Paolo Furini", "email": act[0]["email"]}
+    own = [x for x in act if x["email"].lower().endswith("@paolofurini.it")]
+    return {"name": "Paolo Furini", "email": (own or act)[0]["email"]}
 
 def list_id():
     s, d = call("GET", "/contacts/lists?limit=50")
@@ -81,7 +82,7 @@ def list_id():
 
 def campaign(p, snd, lid):
     body = {"name": f"Blog · {p['title']}"[:240], "subject": p["title"], "previewText": p.get("description", "")[:150],
-            "sender": snd, "htmlContent": email_html(p), "inlineImageActivation": False}
+            "sender": snd, "replyTo": "furo66@gmail.com", "htmlContent": email_html(p), "inlineImageActivation": False}
     if lid: body["recipients"] = {"listIds": [lid]}
     s, d = call("POST", "/emailCampaigns", body)
     if s >= 300:
