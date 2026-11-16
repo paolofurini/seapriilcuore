@@ -2,6 +2,9 @@
 title: "432 Hz o 440 Hz: cosa c'è di vero"
 description: "Nel mio romanzo l'accordatore usa un diapason a 432 Hz. Sono andato a vedere cosa dicono la storia e la scienza. Ecco cosa ho trovato."
 tema: "Suono e ascolto"
+cover: /assets/img/blog/432-hz-laboratorio
+cover_alt: "Un accordatore di spalle lavora a un pianoforte verticale aperto in un laboratorio di pietra; sul banco un diapason e dei feltri rossi, dalla finestra il blu della sera sui monti"
+image: /assets/img/blog/432-hz-laboratorio-1600.jpg
 ---
 
 La risposta breve è questa: il La a 440 Hz è una convenzione, non una legge di natura. E il La a 432 Hz non è una cura miracolosa. In mezzo c'è una storia più interessante di tutte e due le leggende.
