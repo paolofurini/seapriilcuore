@@ -25,9 +25,9 @@
 }
 
 :root {
-  --night: #2c416b;
-  --night-2: #36507f;
-  --night-line: #4b6497;
+  --night: #36507f;
+  --night-2: #415c8d;
+  --night-line: #5872a6;
   --moon: #e9e3d6;          /* testo su blu notte */
   --moon-soft: #b9b6ae;     /* secondario su blu notte, tinto dal caldo */
   --amber: #e0a24e;         /* luce della lampada, su blu notte */
@@ -95,7 +95,7 @@ a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 0.2em
 
 /* Home: hero di sera */
 .night { background: var(--night); }
-.hero { background: radial-gradient(ellipse 55% 70% at 22% 50%, #3f5a8c 0%, rgba(63,90,140,0) 70%), var(--night); color: var(--moon); padding-block: clamp(2.5rem, 7vw, 6.5rem) clamp(3.5rem, 8vw, 7.5rem); overflow: hidden; }
+.hero { background: radial-gradient(ellipse 55% 70% at 22% 50%, #4a669a 0%, rgba(74,102,154,0) 70%), var(--night); color: var(--moon); padding-block: clamp(2.5rem, 7vw, 6.5rem) clamp(3.5rem, 8vw, 7.5rem); overflow: hidden; }
 .hero-grid { display: grid; gap: clamp(2.5rem, 5vw, 5rem); align-items: center; }
 @media (min-width: 900px) { .hero-grid { grid-template-columns: minmax(0, 24rem) 1fr; gap: clamp(3rem, 7vw, 7rem); } }
 .hero-title { font-size: var(--step-4); font-weight: 380; line-height: 1.02; letter-spacing: -0.025em; margin: 0 0 1.1rem; text-wrap: balance; }
