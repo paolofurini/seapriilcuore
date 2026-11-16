@@ -20,9 +20,13 @@ Nel 1859 la Francia fissò per legge il La a 435 Hz. Qualche anno dopo Giuseppe 
 
 Il 440 arrivò dopo. Nel 1939 una conferenza internazionale a Londra lo raccomandò come riferimento comune, anche per uniformare le trasmissioni radio. Nel 1955 l'ISO, l'organizzazione delle norme tecniche, lo adottò come standard, e nel 1975 lo confermò con la norma ISO 16. La studiosa Fanny Gribenski ha ricostruito questa storia [su Nature Physics](https://doi.org/10.1038/s41567-019-0707-1): decenni di discussioni tra musicisti, fisici e governi, prima di arrivare a un numero che andasse bene per tutti.
 
-## È vero che dietro c'è Goebbels?
+## Dietro il 440 c'è Goebbels?
 
-No. È una delle storie più raccontate in rete, ma [non esiste alcun documento](https://www.focus.it/cultura/curiosita/dare-il-la-verdi-bufala-complotto-nazista) che colleghi Goebbels alla conferenza di Londra, nata su iniziativa britannica, in un paese dove il 440 era già in uso. Lo dico con un po' di dispiacere, perché come trama da romanzo funzionava benissimo...
+È la storia più raccontata in rete, e le voci che la portano avanti sono diverse. Leonard Horowitz, medico americano molto critico verso le grandi istituzioni, sostiene da anni che il passaggio al 440 sia stato spinto anche dalla Fondazione Rockefeller, e che la propaganda nazista avesse capito prima di altri quanto il suono possa agire sulle persone. Altri ricordano che il 440 fu sostenuto anche dalle forze armate americane e inglesi.
+
+C'è poi una voce che sento più vicina. Rudolf Steiner suggerì di accordare il Do a 128 Hz, e con quel Do il La cade proprio a 432. La violinista Maria Renold ha lavorato su questa indicazione per decenni e ne ha tratto [un libro](https://steinerbooks.presswarehouse.com/browse/book/9781906999735/Intervals-Scales-Tones): nelle sue prove, quei suoni arrivavano a chi ascoltava più pacifici, più puliti, pieni di luce.
+
+Le fonti ufficiali dicono che nessun documento collega Goebbels alla conferenza di Londra. Io non l'ho trovato. Ma so anche che la storia la scrive spesso chi ha il potere di scriverla, e che più di una volta le voci fuori dal coro avevano visto prima degli altri. Un numero deciso da pochi per tutti, nato per far parlare tra loro radio e macchine, merita almeno una domanda. Io la lascio aperta.
 
 ## La musica a 432 Hz fa bene?
 

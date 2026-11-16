@@ -9,6 +9,8 @@ Sito Jekyll pubblicato da GitHub Pages (branch `main`, cartella root). Ogni push
 - Usare sempre il filtro `relative_url` per i link interni: `baseurl` è `""`.
 
 ## Pubblicare un articolo
+Ordine fisso: 1) Claude scrive la bozza e i due prompt per l'immagine (skill images-rdi); 2) Paolo crea l'immagine e la manda; 3) Claude la ridimensiona (-900/-1600, jpg e webp) e solo allora pubblica l'articolo con la copertina. Mai pubblicare un articolo senza immagine.
+
 Front matter:
 ```yaml
 ---
