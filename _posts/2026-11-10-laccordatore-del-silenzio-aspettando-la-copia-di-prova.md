@@ -1,19 +1,19 @@
 ---
 title: "L’Accordatore del Silenzio: aspettando la copia di prova"
-description: "Il mio primo romanzo è finito. Aspettiamo insieme che arrivi."
+description: "Il mio primo romanzo, L’Accordatore del Silenzio, è finito: ho chiesto la copia di prova a YouCanPrint, e intanto vi regalo una pagina."
 tema: I Romanzi dell'Invisibile
 cover: /assets/img/attesa
 cover_alt: "Un pacco di carta legato con lo spago su un tavolo di legno, accanto a un diapason, una penna stilografica e una tazza di tè fumante. Dalla finestra, le colline al crepuscolo."
 image: /assets/img/og-default.jpg
 ---
 
-Ho premuto “Conferma” sul sito di YouCanPrint e ho chiesto la copia di prova del mio primo romanzo, *L’Accordatore del Silenzio*. Ne stamperanno una sola e me la spediranno. La terrò in mano, la sfoglierò, e solo dopo dirò “si stampi”.
+Ho premuto “Conferma” sul sito di YouCanPrint e ho chiesto la copia di prova del mio primo romanzo, *[L’Accordatore del Silenzio]({{ '/romanzi/laccordatore-del-silenzio/' | relative_url }})*: ne stamperanno una sola e me la spediranno, io la terrò in mano, la sfoglierò, e solo dopo dirò “si stampi”.
 
-Per anni ho lavorato con i dati, e di tasti “Conferma” ne ho premuti migliaia. Questo era diverso: me ne sono accorto perché sono rimasto parecchio a guardare lo schermo prima di cliccare.
+Per anni ho lavorato con i dati, e di tasti “Conferma” ne ho premuti migliaia, ma questo era diverso, e me ne sono accorto perché sono rimasto parecchio a guardare lo schermo prima di cliccare.
 
-Scriverlo non è stato semplice. Ho riscritto capitoli interi, cancellato pagine, rifatto l’inizio perché era lento. I personaggi spesso hanno fatto di testa loro e io li ho seguiti. Quando ho finito non ho festeggiato. Ho respirato e ho detto grazie, senza sapere bene a chi.
+Scriverlo non è stato semplice: ho riscritto capitoli interi, cancellato pagine e rifatto l’inizio perché era lento, e spesso i personaggi hanno fatto di testa loro e io li ho seguiti. Quando ho finito non ho festeggiato, ho respirato e ho detto grazie, senza sapere bene a chi.
 
-Mentre aspettiamo la copia, vi regalo una pagina.
+Mentre aspettiamo la copia, vi regalo una pagina del libro.
 
 <div class="estratto" markdown="1">
 
@@ -47,14 +47,14 @@ Toglie la mano. Il suono cessa. Il salone torna perfetto, calibrato, silenzioso.
 
 </div>
 
-Lontano da Ginevra, sull’Appennino, vive un uomo che sa ascoltare quella nota. Si chiama Sante e fa l’accordatore. In paese dicono che accorda strumenti, e certe volte anche chi li possiede. Ma questa è un’altra pagina.
+Lontano da Ginevra, sull’Appennino, vive un uomo che sa ascoltare quella nota, si chiama Sante e fa l’accordatore; in paese dicono che accorda gli strumenti, e certe volte anche chi li possiede, ma questa è un’altra pagina.
 
-Quando arriverà la copia controllerò carta, margini e copertina. Poi darò il “visto si stampi” e il libro sarà in libreria e negli store online, cartaceo ed ebook.
+Quando arriverà la copia controllerò carta, margini e copertina, poi darò il “visto si stampi” e il libro sarà in libreria e negli store online, cartaceo ed ebook.
 
-Sante, prima di accordare un pianoforte, si siede accanto e aspetta che la stanza si calmi. Poi tocca un tasto e ascolta. In questi giorni faccio un po’ lo stesso.
+Sante, prima di accordare un pianoforte, si siede accanto e aspetta che la stanza si calmi, poi tocca un tasto e ascolta, e in questi giorni io faccio un po’ lo stesso.
 
-Il mondo di Elsa funziona benissimo, eppure ha perso l’abitudine di ascoltarsi. Vale anche per molti di noi. Sulla quarta di copertina c’è la frase che mi ha accompagnato fino all’ultima pagina: *non siamo rotti, siamo solo scordati*.
+Il mondo di Elsa funziona benissimo, eppure ha perso l’abitudine di ascoltarsi, e credo che valga anche per molti di noi; sulla quarta di copertina c’è la frase che mi ha accompagnato fino all’ultima pagina: *non siamo rotti, siamo solo scordati*.
 
-Se volete sapere quando il libro sarà disponibile, [iscrivetevi a Se Apri il Cuore]({{ '/#newsletter' | relative_url }}). Nel frattempo sul blog continuano i Frammenti, piccoli pezzi del mondo di Sante.
+Se volete sapere quando il libro sarà disponibile, [iscrivetevi a Se Apri il Cuore]({{ '/#newsletter' | relative_url }}); nel frattempo, sul blog, continuano i Frammenti, piccoli pezzi del mondo di Sante.
 
 Grazie per avermi letto.
