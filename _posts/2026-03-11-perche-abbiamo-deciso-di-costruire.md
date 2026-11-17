@@ -1,33 +1,21 @@
 ---
 title: "Perché ho deciso di costruire un’Oasi"
-description: "Riflessioni di sovranità digitale e storie per l’Anima nel tempo della Macchina "
+description: "Dopo quarant’anni passati a costruire algoritmi ho aperto questo spazio: riflessioni sul digitale e I Romanzi dell’Invisibile."
 date: 2026-03-11T14:36:57.406Z
 tema: "Diario"
 substack: https://seapriilcuore.substack.com/p/perche-abbiamo-deciso-di-costruire
 ---
 
-Ho passato quarant’anni dentro la Macchina.
+Ho passato quarant’anni dentro la Macchina: ho costruito algoritmi, ottimizzato sistemi e misurato l’attenzione delle persone come si misura il grano in un silo, sapevo esattamente quali leve tirare per tenerti incollato a uno schermo, ed ero bravo, finché un giorno mi sono accorto che quello incollato ero io.
 
-Ho costruito algoritmi, ottimizzato sistemi, misurato l’attenzione delle persone come si misura il grano in un silo. Sapevo esattamente quali leve tirare per tenerti incollato a uno schermo. Ed ero bravo.
+L’Intelligenza Artificiale cresce a una velocità che la mente fatica a seguire, e tra dieci anni, credo, il mondo sarà irriconoscibile; davanti a questa accelerazione è naturale sentire una vertigine, la paura di essere sopraffatti, di diventare inutili, di perdere il contatto con qualcosa che non sappiamo più nemmeno nominare. La Matrix, però, non ci attacca: ci culla, e ci addormenta dolcemente, una scelta dopo l’altra, finché non ci accorgiamo più di cosa abbiamo smesso di sentire.
 
-Poi, un giorno, mi sono accorto che ero io quello incollato.
+Io la vedo così: non siamo algoritmi ma strumenti musicali, e per non spezzarci abbiamo bisogno, ogni tanto, di riaccordarci. Per questo ho aperto questo spazio, dove troverete due cose.
 
-L’Intelligenza Artificiale sta crescendo a una velocità che la mente fatica a seguire. Tra dieci anni il mondo sarà irriconoscibile. Di fronte a questa accelerazione è naturale sentire una vertigine — la sensazione di essere sopraffatti, di diventare obsoleti, di perdere il contatto con qualcosa di essenziale che non sappiamo più nominare.
+La prima è concreta: riflessioni su come vivere nel mondo digitale senza farsi digitalizzare l’anima, il [Digital Detox]({{ '/temi/digital-detox/' | relative_url }}), il [Digital Feng Shui]({{ '/temi/digital-feng-shui/' | relative_url }}) e tutto quello che serve per riprendere in mano la propria attenzione.
 
-Ma la Matrix non ci attacca. Ci culla. Ci addormenta dolcemente, scelta dopo scelta, finché non ci accorgiamo più di cosa abbiamo smesso di sentire.
+La seconda è una storia. Da mesi sto costruendo una collana di romanzi ambientata nel 2042, *[I Romanzi dell’Invisibile]({{ '/romanzi/' | relative_url }})*, con un accordatore di pianoforti che ripara le dissonanze del mondo con il silenzio e un diapason a 432 Hz, una restauratrice che cura il dolore rimasto intrappolato nel legno e una presenza misteriosa che solo lui riesce a percepire; qui vi porterò dentro quel mondo, un frammento alla volta.
 
-Noi, però, non siamo algoritmi. Siamo strumenti musicali. E per non spezzarci, abbiamo bisogno di riaccordarci.
+Non riceverete spam, perché questo vuole essere un luogo silenzioso: chi si iscrive riceve le riflessioni quando escono e, quando sarà il momento, sarà tra i primi a sapere dell’uscita del romanzo. La Matrix là fuori corre per non pensare; noi, qui, proviamo a fermarci.
 
-È per questo che ho aperto questo spazio.
-
-Qui troverete due cose.
-
-La prima è concreta: riflessioni su come sopravvivere al mondo digitale senza farsi digitalizzare l’anima. Digital Detox, Digital Feng Shui, e tutto ciò che serve per riprendere il controllo della propria attenzione nell’era della Macchina.
-
-La seconda è una storia. Da mesi sto costruendo una collana di romanzi ambientata nel 2042 — *I Romanzi dell’Invisibile*. Un accordatore di pianoforti che ripara le dissonanze del mondo usando il silenzio e un diapason a 432 Hz. Una maestra restauratrice che cura il dolore intrappolato nel legno. E una presenza misteriosa che solo lui riesce a percepire. Qui, nella sezione *I Romanzi dell’Invisibile*, vi porterò dentro quel mondo — un frammento alla volta.
-
-Non riceverete spam. Questo è un luogo silenzioso. Iscrivendovi, vi assicurate riflessioni per la mente e, quando sarà il momento, sarete i primi a ricevere il romanzo il giorno del lancio.
-
-La Matrix là fuori corre per non pensare. Noi, qui, ci fermiamo.
-
-*“Non siamo rotti. Siamo solo scordati.”*
+*“Non siamo rotti, siamo solo scordati.”*
