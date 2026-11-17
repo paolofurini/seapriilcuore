@@ -12,7 +12,7 @@ L’Intelligenza Artificiale cresce a una velocità che la mente fatica a seguir
 
 Io la vedo così: non siamo algoritmi ma strumenti musicali, e per non spezzarci abbiamo bisogno, ogni tanto, di riaccordarci. Per questo ho aperto questo spazio, dove troverete due cose.
 
-La prima è concreta: riflessioni su come vivere nel mondo digitale senza farsi digitalizzare l’anima, il [Digital Detox]({{ '/temi/digital-detox/' | relative_url }}), il [Digital Feng Shui]({{ '/temi/digital-feng-shui/' | relative_url }}) e tutto quello che serve per riprendere in mano la propria attenzione.
+La prima è concreta: riflessioni su come vivere nel mondo digitale senza farsi digitalizzare l’anima, il [Digital Detox]({{ '/temi/digital-detox/' | relative_url }}), il [Digital Feng Shui]({{ '/digital-feng-shui/' | relative_url }}) e tutto quello che serve per riprendere in mano la propria attenzione.
 
 La seconda è una storia. Da mesi sto costruendo una collana di romanzi ambientata nel 2042, *[I Romanzi dell’Invisibile]({{ '/romanzi/' | relative_url }})*, con un accordatore di pianoforti che ripara le dissonanze del mondo con il silenzio e un diapason a 432 Hz, una restauratrice che cura il dolore rimasto intrappolato nel legno e una presenza misteriosa che solo lui riesce a percepire; qui vi porterò dentro quel mondo, un frammento alla volta.
 

@@ -42,7 +42,7 @@ Io ho fatto così: ho spostato tutto e sulla prima pagina ho lasciato solo gli s
 
 ## Come cambia il lunedì mattina?
 
-La soluzione definitiva non ce l’ho, e non provo a vendertela; quello che ho visto su di me è che il lunedì mattina può essere diverso, che si può riaccendere lo schermo senza farsi travolgere, e che esiste un modo di stare dentro la Matrix, dove comunque dobbiamo stare perché lì lavoriamo e viviamo, senza farsi digitalizzare l’anima. Il Digital Detox è l’Oasi nel deserto, e il Digital Feng Shui è l’armatura che indossi quando dall’Oasi devi uscire.
+La soluzione definitiva non ce l’ho, e non provo a vendertela; quello che ho visto su di me è che il lunedì mattina può essere diverso, che si può riaccendere lo schermo senza farsi travolgere, e che esiste un modo di stare dentro la Matrix, dove comunque dobbiamo stare perché lì lavoriamo e viviamo, senza farsi digitalizzare l’anima. Il Digital Detox è l’Oasi nel deserto, e il Digital Feng Shui è l’armatura che indossi quando dall’Oasi devi uscire. Le regole e gli articoli che scrivo su questo tema li raccolgo, man mano, nella guida al [Digital Feng Shui]({{ '/digital-feng-shui/' | relative_url }}).
 
 ---
 
