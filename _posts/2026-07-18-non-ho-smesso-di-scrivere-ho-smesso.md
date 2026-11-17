@@ -1,58 +1,40 @@
 ---
-title: "Non ho smesso di scrivere. Ho smesso di pubblicare."
-description: "Sono mesi che qui non esce un articolo. Me l'ha ricordato la dashboard di Substack l'altra sera: \"L'ultimo post è di qualche mese fa.\""
+title: "Non ho smesso di scrivere, ho smesso di pubblicare"
+description: "Perché per mesi su questo blog non è uscito niente: l’ansia della cadenza, il campo lasciato a riposo e il primo dei Romanzi dell’Invisibile."
 date: 2026-07-18T07:27:47.493Z
 tema: "Diario"
 substack: https://seapriilcuore.substack.com/p/non-ho-smesso-di-scrivere-ho-smesso
 cover: /assets/img/blog/non-ho-smesso-di-scrivere-ho-smesso-cover
-cover_alt: "Non ho smesso di scrivere. Ho smesso di pubblicare."
+cover_alt: "Non ho smesso di scrivere, ho smesso di pubblicare"
 image: /assets/img/blog/non-ho-smesso-di-scrivere-ho-smesso-cover-1600.jpg
 ---
 
-Forse devo una spiegazione, ed è semplice: non ho smesso di scrivere, ma smesso di **pubblicare**. Sono due cose diverse.
+Sono mesi che qui non esce un articolo, e me l’ha ricordato l’altra sera la dashboard di Substack (“L’ultimo post è di qualche mese fa”); forse vi devo una spiegazione, ed è semplice: non ho smesso di scrivere, ho smesso di **pubblicare**, che sono due cose diverse.
 
-## L’ansia della cadenza
+## Cos’è l’ansia della cadenza?
 
-Chi scrive online conosce questa trappola. All’inizio è facile: hai qualcosa da dire e lo dici. Poi arrivano i numeri — like, iscritti, percentuale di apertura. E la domanda cambia. Non più *“ho qualcosa di vero da dire?”* ma *“quando esce il prossimo pezzo?”*.
+Chi scrive online conosce bene questa trappola. All’inizio è facile, hai qualcosa da dire e lo dici, poi arrivano i numeri, i like, gli iscritti, la percentuale di apertura, e la domanda cambia, da *“ho qualcosa di vero da dire?”* a *“quando esce il prossimo pezzo?”*. L’algoritmo premia chi pubblica spesso e te lo ricorda ogni giorno, così finisci per scrivere per non sparire dai radar, con lo stesso meccanismo che ci fa guardare il telefono centoventi volte al giorno, non perché sia successo qualcosa ma perché *potrebbe* succedere (ne parlo spesso, quando scrivo di [Digital Feng Shui]({{ '/digital-feng-shui/' | relative_url }})). Click e conversioni li conosco bene, so come gira la ruota, eppure a un certo punto ho scoperto che era la ruota a far girare me.
 
-L’algoritmo premia chi pubblica spesso, e te lo ricorda ogni giorno. Così scrivi per non sparire dai radar. È lo stesso meccanismo del telefono guardato centoventi volte al giorno: non perché sia successo qualcosa, ma perché *potrebbe*.
+Qualche tempo fa mi sono accorto che stavo scrivendo un pezzo solo per rispettare il calendario, e allora mi sono fermato e ho lasciato il campo a riposo.
 
-Click, conversioni. Sappiamo come gira la ruota, ma scopriamo che a un certo punto la ruota gira te.
+## Cosa cresceva nel buio?
 
-Qualche tempo fa mi sono accorto che stavo scrivendo un pezzo solo per rispettare il calendario. Mi sono fermato. E ho lasciato il campo a riposo.
+I contadini lo sanno: un campo che produce ogni anno senza sosta si esaurisce, e va lasciato riposare; sembra fermo, ma sottoterra sta ricostruendo tutto quello che servirà dopo. Nei mesi in cui non ho pubblicato ho continuato a scrivere, ma un’altra cosa, piano e senza farla vedere a nessuno: il primo de *[I Romanzi dell’Invisibile]({{ '/romanzi/' | relative_url }})*.
 
-## Quello che cresceva nel buio
+È la storia di Sante, un artigiano che nel 2042 vive in un mondo che ha risolto quasi tutto, dove nessuno ha più fame, né freddo, né malattie, e la materia obbedisce al pensiero; ed è proprio lì, nel paradiso tecnologico, che le persone si perdono, perché quando non devi più lottare per sopravvivere resta solo la domanda che la fatica teneva nascosta, *perché sono qui?* Sante non ha risposte da vendere, ha le mani, il legno e un tablet schermato che chiama **Lo Specchio Cieco**, che gli mostra solo quello che lui ha deciso di guardare; nel suo mondo lo considerano un arretrato, e invece è l’unico rimasto intero.
 
-I contadini lo sanno: il campo che produce ogni anno senza sosta si esaurisce. Va lasciato riposare. Sembra fermo. Sta ricostruendo sottoterra tutto quello che servirà dopo.
+Ho passato mesi dentro quella casa a Castel di Luce, ho ascoltato Clara dire cose che non avevo previsto e ho scoperto che Sante mi stava insegnando proprio quello che stavo vivendo, che il silenzio è il posto dove le cose maturano, anche quando sembra un buco nella produzione. Quella storia non avrei potuto scriverla rincorrendo una scadenza: mi servivano la noia e il fatto che nessuno mi guardasse, perché i semi germogliano sottoterra, dove nessuno li vede.
 
-Nei mesi in cui non ho pubblicato scrivevo. Ma scrivevo un’altra cosa, piano, senza far vedere niente a nessuno. Scrivevo il primo de **I Romanzi dell’Invisibile**.
+## E tu, cosa hai lasciato a riposo?
 
-È la storia di Sante, un artigiano che nel 2042 vive in un mondo che ha risolto quasi tutto. Nessuno ha più fame, né freddo, né malattie. La materia obbedisce al pensiero. E proprio lì, nel paradiso tecnologico, le persone si perdono: quando non devi più lottare per sopravvivere, resta solo la domanda che la fatica teneva nascosta — *perché sono qui?*
+Stasera, se vuoi, pensa a una cosa che hai smesso di fare e per cui ti sei sentito in colpa, un progetto a metà, una telefonata rimandata, un’abitudine persa, e poi fatti una domanda diversa: *quel silenzio era una fuga, o stava lavorando per me sottoterra?* Non tutte le pause sono fughe, alcune sono radici, e imparare a distinguerle ti toglie di dosso metà del peso che l’algoritmo ti mette addosso ogni giorno. Io ci ho messo qualche mese a capirlo, e spero di averti risparmiato un po’ di strada: il campo lasciato a riposo non ha smesso di dare, si sta preparando a dare di più.
 
-Sante non ha risposte da vendere. Ha le mani, il legno, e un tablet schermato che chiama **Lo Specchio Cieco**: un dispositivo che gli mostra solo ciò che lui ha deciso di guardare. Nel suo mondo lo considerano un arretrato. In realtà è l’unico rimasto intero.
+---
 
-Ho passato mesi dentro quella casa a Castel di Luce. Ho ascoltato Clara dire cose che non avevo previsto. Ho scoperto che Sante mi stava insegnando esattamente quello che stavo vivendo: che il silenzio non è un buco nella produzione, è il posto dove le cose maturano.
+**Dal mondo dei Romanzi dell’Invisibile**
 
-Non avrei potuto scrivere quella storia rincorrendo una scadenza. Serviva noia. Serviva che nessuno mi guardasse. I semi germogliano sottoterra, dove non li vede nessuno.
+*Quando gli chiedono perché il laboratorio resti chiuso per giorni, Sante non si giustifica, appoggia le mani sul legno grezzo e dice: «Questo tavolo è nato in un inverno in cui sembrava che non stessi facendo niente.» Clara, dalla porta, sorride. «Gli artigiani, quando stanno zitti, stanno lavorando lo stesso» dice, e torna al suo abete.*
 
-## Stasera
+*Se volete scoprire il mondo di Sante, di Clara e dell’invisibile Albi, la sezione [I Romanzi dell’Invisibile]({{ "/romanzi/" | relative_url }}) vi aspetta.*
 
-Pensa a una cosa che hai smesso di fare e per cui ti sei sentito in colpa. Un progetto a metà. Una telefonata rimandata. Un’abitudine persa.
-
-Poi fatti una domanda diversa: *quel silenzio stava riposando, o stava lavorando per me sottoterra?*
-
-Non tutte le pause sono fughe. Alcune sono radici. Impara a distinguerle e ti togli di dosso metà del peso che l’algoritmo ti mette addosso ogni giorno.
-
-Io ci ho messo qualche mese a capirlo. Spero di averti risparmiato un po’ di strada.
-
-Il campo lasciato a riposo non ha smesso di dare. Si sta preparando a dare di più.
-
-------------------------------------------------------------------------
-
-**📖 Dal mondo dei Romanzi dell’Invisibile**
-
-*Quando chiedono a Sante perché il laboratorio resti chiuso per giorni, non si giustifica. Appoggia le mani sul legno grezzo: «Il tavolo che vedete è nato in un inverno in cui sembrava che non stessi facendo niente.» Clara sorride. «Il silenzio degli artigiani non è tempo perso. È il posto dove le cose imparano a esistere.»*
-
-*Se volete scoprire il mondo di Sante, Clara e l’invisibile Albi, la sezione [I Romanzi dell’Invisibile]({{ "/romanzi/" | relative_url }}) vi aspetta.*
-
-*L’Accordatore del Silenzio* arriva presto. Se vuoi sapere quando, rimani qui.
+*L’Accordatore del Silenzio* arriva presto: se vuoi sapere quando, rimani qui.
