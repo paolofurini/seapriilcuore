@@ -3,7 +3,7 @@ layout: default
 ---
 <article class="page">
   <header class="page-head wrap-text">
-    <p class="post-meta"><a href="{{ '/blog/' | relative_url }}">Blog</a> · Tema</p>
+    <p class="post-meta"><a href="{{ '/blog/' | relative_url }}">Blog</a> · {{ page.etichetta | default: "Tema" }}</p>
     <h1 class="page-title">{{ page.title }}</h1>
     {% if page.description %}<p class="post-dek">{{ page.description }}</p>{% endif %}
   </header>

@@ -335,3 +335,14 @@ a.book-row:hover .book-row-title { color: var(--amber-deep); }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition: none !important; animation: none !important; }
 }
+
+/* Home: Digital Feng Shui */
+.dfs-band { padding-block: clamp(2.5rem, 6vw, 4.5rem) clamp(1rem, 3vw, 2rem); }
+.dfs-grid { display: grid; gap: 1.5rem 4rem; border-bottom: 1px solid var(--rule); padding-bottom: clamp(2.5rem, 6vw, 4rem); }
+@media (min-width: 900px) { .dfs-grid { grid-template-columns: 1fr 1.1fr; align-items: start; } }
+.dfs-lede { font-size: var(--step-1); line-height: 1.5; max-width: 36ch; margin: 0; }
+.dfs-regole { list-style: none; counter-reset: r; margin: 0 0 1.4rem; padding: 0; }
+.dfs-regole li { counter-increment: r; position: relative; padding: 0.9rem 0 0.9rem 2.6rem; border-top: 1px solid var(--rule); line-height: 1.45; }
+.dfs-regole li:first-child { border-top: 0; padding-top: 0.2rem; }
+.dfs-regole li::before { content: counter(r); position: absolute; left: 0; top: 0.75rem; font-size: var(--step-1); font-style: italic; color: var(--amber-deep); }
+.dfs-regole li:first-child::before { top: 0.05rem; }

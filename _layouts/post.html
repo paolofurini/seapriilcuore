@@ -3,7 +3,7 @@ layout: default
 ---
 <article class="post">
   <header class="post-head wrap-text">
-    <p class="post-meta">{% include data-it.html date=page.date %}{% if page.tema %}{% assign t = site.data.temi | where: 'nome', page.tema | first %} · <a href="{{ '/temi/' | append: t.slug | append: '/' | relative_url }}">{{ page.tema }}</a>{% endif %}</p>
+    <p class="post-meta">{% include data-it.html date=page.date %}{% if page.tema %}{% assign t = site.data.temi | where: 'nome', page.tema | first %} · {% assign turl = '/temi/' | append: t.slug | append: '/' %}{% if t.url %}{% assign turl = t.url %}{% endif %}<a href="{{ turl | relative_url }}">{{ page.tema }}</a>{% endif %}</p>
     <h1 class="post-title">{{ page.title }}</h1>
     {% if page.description %}<p class="post-dek">{{ page.description }}</p>{% endif %}
   </header>

@@ -7,6 +7,7 @@
     <nav aria-label="Principale">
       <ul class="nav">
         {% assign p = page.url %}
+        <li><a href="{{ '/digital-feng-shui/' | relative_url }}" {% if p contains '/digital-feng-shui/' %}aria-current="page"{% endif %}>Digital Feng Shui</a></li>
         <li><a href="{{ '/romanzi/' | relative_url }}" {% if p contains '/romanzi/' %}aria-current="page"{% endif %}>Romanzi</a></li>
         <li><a href="{{ '/blog/' | relative_url }}" {% if p contains '/blog/' %}aria-current="page"{% endif %}>Blog</a></li>
         <li><a href="{{ '/autore/' | relative_url }}" {% if p contains '/autore/' %}aria-current="page"{% endif %}>Autore</a></li>

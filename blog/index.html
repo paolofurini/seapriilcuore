@@ -10,7 +10,7 @@ description: "Il blog di Paolo Furini: sovranità digitale, Digital Feng Shui e 
   </header>
   <div class="wrap-text">
     <nav class="temi-nav" aria-label="Temi">
-      {% for t in site.data.temi %}<a href="{{ '/temi/' | append: t.slug | append: '/' | relative_url }}">{{ t.nome }}</a>{% endfor %}
+      {% for t in site.data.temi %}{% assign turl = '/temi/' | append: t.slug | append: '/' %}{% if t.url %}{% assign turl = t.url %}{% endif %}<a href="{{ turl | relative_url }}">{{ t.nome }}</a>{% endfor %}
     </nav>
     <ul class="post-list post-list-large">
       {% for x in site.posts %}
