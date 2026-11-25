@@ -24,6 +24,8 @@ image: /assets/img/nome-1600.jpg   # anteprima social; se manca usa og-default.j
 ```
 Prima di pubblicare: `jekyll build` deve passare senza errori.
 
+**Copia sul Drive (sempre, subito dopo la pubblicazione):** ogni articolo pubblicato va salvato anche sul Google Drive di Paolo, come file .md con il testo definitivo del sito, nella cartella `03 I Romanzi dell'Invisibile / 02 Blog & Comunicazione / 02 Blog / 11 Articoli / 01 Pubblicati` (id `1YDSC73yo2d5MIErpoyQNXZM9tAEyQ9t9`). Nome del file: `AAAA-MM-GG Titolo.md`. Se l'articolo viene corretto dopo la pubblicazione, si aggiorna lo stesso file, senza crearne un altro. La bozza che stava in `02 In lavorazione` non si duplica: va tolta o archiviata.
+
 ## Newsletter (Brevo)
 - Ogni nuovo file in `_posts/` con data di oggi (o degli ultimi 3 giorni) fa partire da solo la lettera agli iscritti della lista Brevo "Se Apri il Cuore" (`.github/workflows/newsletter.yml` + `scripts/newsletter.py`, chiave nel segreto GitHub `BREVO_API_KEY`).
 - **Interruttore:** `.github/newsletter/config.yml` → `live: false` (attuale) significa che le lettere arrivano SOLO a Paolo come prova. Non mettere `live: true` senza una richiesta esplicita di Paolo.
