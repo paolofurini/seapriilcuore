@@ -29,6 +29,8 @@ Prima di pubblicare: `jekyll build` deve passare senza errori.
 - tutti gli altri temi (Digital Feng Shui, Matrix, Digital Detox, Diario) → `02 Articoli - Digital Feng Shui, Matrix, Digital Detox / 01 Pubblicati` (id `1YDSC73yo2d5MIErpoyQNXZM9tAEyQ9t9`).
 Nome del file: `AAAA-MM-GG Titolo.md`. Se l'articolo viene corretto dopo la pubblicazione, si aggiorna lo stesso file, senza crearne un altro. La bozza che stava in `02 In lavorazione` non si duplica: va tolta o archiviata.
 
+**Tutto sul Drive (regola fissa di Paolo, 25 nov 2026):** ogni documento di lavoro (piani, copioni, bozze, ricerche, testi dei post) deve stare sul Google Drive di Paolo, nella sua cartella sotto `03 I Romanzi dell'Invisibile`. Nessun file resta soltanto nel Progetto Claude o in questo repository. Niente copie: si aggiorna sempre lo stesso file.
+
 ## Newsletter (Brevo)
 - Ogni nuovo file in `_posts/` con data di oggi (o degli ultimi 3 giorni) fa partire da solo la lettera agli iscritti della lista Brevo "Se Apri il Cuore" (`.github/workflows/newsletter.yml` + `scripts/newsletter.py`, chiave nel segreto GitHub `BREVO_API_KEY`).
 - **Interruttore:** `.github/newsletter/config.yml` → `live: false` (attuale) significa che le lettere arrivano SOLO a Paolo come prova. Non mettere `live: true` senza una richiesta esplicita di Paolo.
