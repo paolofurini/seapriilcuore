@@ -22,11 +22,11 @@ Il Digital Feng Shui è l'arte di armonizzare i propri dispositivi digitali perc
 
 ## Quali sono le 3 Regole d'Oro del Digital Feng Shui?
 
-<ol class="g-regole">
-  <li><span class="g-num" aria-hidden="true">1</span><div><h3>Chiudere le porte</h3><p>Nessuna macchina ha il diritto di interromperti. Disattiva tutte le notifiche non umane, social, news, shopping, e lascia attive solo le chiamate e i messaggi di persone vere. Se un'informazione ti serve, vai tu a cercarla, quando decidi tu.</p></div></li>
-  <li><span class="g-num" aria-hidden="true">2</span><div><h3>Lasciare spazio vuoto</h3><p>Sulla prima schermata del telefono tieni solo gli strumenti essenziali, calendario, note, mappe, e un'immagine che ti dia pace. Per aprire i social o la posta devi scorrere o cercare l'app: quel secondo di attrito è lo spazio in cui la volontà si riprende il comando.</p></div></li>
-  <li><span class="g-num" aria-hidden="true">3</span><div><h3>Respirare prima del click</h3><p>Prima di aprire la posta o un social, fermati tre secondi. Entra con un'intenzione chiara, fai quello che devi fare ed esci, senza farti trascinare dal flusso: in quei tre secondi smetti di essere un automa e torni a essere una persona che sceglie.</p></div></li>
-</ol>
+<div class="g-regole g-wide">
+  <div class="g-regola"><span class="g-num" aria-hidden="true">1</span><h3>Chiudere le porte</h3><p>Nessuna macchina ha il diritto di interromperti. Disattiva tutte le notifiche non umane, social, news, shopping, e lascia attive solo le chiamate e i messaggi di persone vere. Se un'informazione ti serve, vai tu a cercarla, quando decidi tu.</p></div>
+  <div class="g-regola"><span class="g-num" aria-hidden="true">2</span><h3>Lasciare spazio vuoto</h3><p>Sulla prima schermata del telefono tieni solo gli strumenti essenziali, calendario, note, mappe, e un'immagine che ti dia pace. Per aprire i social o la posta devi scorrere o cercare l'app: quel secondo di attrito è lo spazio in cui la volontà si riprende il comando.</p></div>
+  <div class="g-regola"><span class="g-num" aria-hidden="true">3</span><h3>Respirare prima del click</h3><p>Prima di aprire la posta o un social, fermati tre secondi. Entra con un'intenzione chiara, fai quello che devi fare ed esci, senza farti trascinare dal flusso: in quei tre secondi smetti di essere un automa e torni a essere una persona che sceglie.</p></div>
+</div>
 
 <p class="g-link"><a href="{{ '/blog/oltre-il-digital-detox-cose-il-digital/' | relative_url }}">Le tre regole spiegate per intero, con gli studi {{ freccia }}</a></p>
 
@@ -34,13 +34,13 @@ Il Digital Feng Shui è l'arte di armonizzare i propri dispositivi digitali perc
 
 <p class="g-intro">Una stanza alla volta: ogni articolo ne rimette in ordine una.</p>
 
-<ul class="g-stanze">
+<ul class="g-stanze g-wide">
 {% for s in site.data.stanze_dfs %}{% if s.url %}  <li><a href="{{ s.url | relative_url }}"><span class="g-stanza">{{ s.nome }}</span><span class="g-frase">{{ s.frase }}</span><span class="g-articolo">{{ s.articolo }}</span>{{ freccia }}</a></li>
 {% endif %}{% endfor %}</ul>
 
 <p class="g-prossime">Prossime stanze: {% assign prossime = site.data.stanze_dfs | where_exp: "s", "s.url == nil" %}{% for s in prossime %}{{ s.nome | downcase }}{% unless forloop.last %} · {% endunless %}{% endfor %}</p>
 
-<div class="g-inizio">
+<div class="g-inizio g-wide">
 <h2>Da dove comincio?</h2>
 <p>Da una sera e una tazza di tè. Stasera spegni tutte le notifiche che non vengono da una persona: bastano pochi minuti, ed è la prima regola. Poi, quando vuoi, scegli una stanza e rimettila in ordine.</p>
 </div>

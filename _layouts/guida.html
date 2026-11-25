@@ -1,21 +1,21 @@
 ---
 layout: default
 ---
-<article class="page">
-  <header class="page-head wrap-text">
-    <p class="post-meta"><a href="{{ '/blog/' | relative_url }}">Blog</a> · {{ page.etichetta | default: "Tema" }}</p>
-    <h1 class="page-title">{{ page.title }}</h1>
-    {% if page.description %}<p class="post-dek">{{ page.description }}</p>{% endif %}
-  </header>
+<article class="guida">
   {% if page.cover %}
-  <figure class="post-cover wrap-text">
+  <figure class="g-hero">
     <picture>
-      <source type="image/webp" srcset="{{ page.cover | append: '-900.webp' | relative_url }} 900w, {{ page.cover | append: '-1600.webp' | relative_url }} 1600w" sizes="(min-width: 760px) 700px, 100vw">
+      <source type="image/webp" srcset="{{ page.cover | append: '-900.webp' | relative_url }} 900w, {{ page.cover | append: '-1600.webp' | relative_url }} 1600w" sizes="100vw">
       <img src="{{ page.cover | append: '-1600.jpg' | relative_url }}" alt="{{ page.cover_alt }}">
     </picture>
   </figure>
   {% endif %}
-  <div class="prose wrap-text">
+  <header class="g-head wrap">
+    <p class="post-meta"><a href="{{ '/blog/' | relative_url }}">Blog</a> · {{ page.etichetta | default: "Tema" }}</p>
+    <h1 class="page-title">{{ page.title }}</h1>
+    {% if page.description %}<p class="post-dek">{{ page.description }}</p>{% endif %}
+  </header>
+  <div class="prose g-body wrap">
     {{ content }}
   </div>
 </article>
