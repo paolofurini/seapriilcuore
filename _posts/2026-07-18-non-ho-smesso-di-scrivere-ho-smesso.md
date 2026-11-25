@@ -2,7 +2,6 @@
 title: "Non ho smesso di scrivere, ho smesso di pubblicare"
 description: "Perché per mesi su questo blog non è uscito niente: l’ansia della cadenza, il campo lasciato a riposo e il primo dei Romanzi dell’Invisibile."
 date: 2026-07-18T07:27:47.493Z
-tema: "Digital Feng Shui"
 substack: https://seapriilcuore.substack.com/p/non-ho-smesso-di-scrivere-ho-smesso
 cover: /assets/img/blog/non-ho-smesso-di-scrivere-ho-smesso-cover
 cover_alt: "Non ho smesso di scrivere, ho smesso di pubblicare"

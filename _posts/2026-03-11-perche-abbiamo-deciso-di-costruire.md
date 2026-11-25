@@ -2,7 +2,6 @@
 title: "Perché ho deciso di costruire un’Oasi"
 description: "Dopo più di trent’anni passati a costruire algoritmi ho aperto questo spazio: riflessioni sul digitale e I Romanzi dell’Invisibile."
 date: 2026-03-11T14:36:57.406Z
-tema: "Digital Feng Shui"
 substack: https://seapriilcuore.substack.com/p/perche-abbiamo-deciso-di-costruire
 ---
 
