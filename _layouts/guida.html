@@ -2,14 +2,7 @@
 layout: default
 ---
 <article class="guida">
-  {% if page.cover %}
-  <figure class="g-hero">
-    <picture>
-      <source type="image/webp" srcset="{{ page.cover | append: '-900.webp' | relative_url }} 900w, {{ page.cover | append: '-1600.webp' | relative_url }} 1600w" sizes="100vw">
-      <img src="{{ page.cover | append: '-1600.jpg' | relative_url }}" alt="{{ page.cover_alt }}">
-    </picture>
-  </figure>
-  {% endif %}
+  {% include copertina.html classe='g-hero' %}
   <header class="g-head wrap">
     <p class="post-meta"><a href="{{ '/blog/' | relative_url }}">Blog</a> · {{ page.etichetta | default: "Tema" }}</p>
     <h1 class="page-title">{{ page.title }}</h1>

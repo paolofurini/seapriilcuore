@@ -1,0 +1,8 @@
+{% if page.cover %}
+<figure class="copertina{% if include.classe %} {{ include.classe }}{% endif %}">
+  <picture>
+    <source type="image/webp" srcset="{{ page.cover | append: '-900.webp' | relative_url }} 900w, {{ page.cover | append: '-1600.webp' | relative_url }} 1600w" sizes="100vw">
+    <img src="{{ page.cover | append: '-1600.jpg' | relative_url }}" alt="{{ page.cover_alt }}"{% if page.cover_pos %} style="object-position: center {{ page.cover_pos }}"{% endif %}>
+  </picture>
+</figure>
+{% endif %}

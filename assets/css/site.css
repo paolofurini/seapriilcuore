@@ -76,7 +76,9 @@ a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 0.2em
 .skip:focus { left: 0.5rem; }
 
 .wrap { width: min(100% - 2.5rem, var(--wrap)); margin-inline: auto; }
-.wrap-text { width: min(100% - 2.5rem, var(--text)); margin-inline: auto; }
+/* Colonna di lettura allineata al menu: parte dallo stesso bordo sinistro, il testo resta largo 40rem */
+.wrap-text { width: min(100% - 2.5rem, var(--wrap)); margin-inline: auto; }
+.wrap-text > * { max-width: var(--text); }
 .wrap-wide { width: min(100% - 2.5rem, 65rem); margin-inline: auto; }
 
 /* Header */
@@ -210,8 +212,11 @@ a:hover .pl-thumb img { transform: scale(1.03); }
 .post-dek { font-size: var(--step-1); font-style: italic; line-height: 1.4; color: var(--ink-soft); margin: 0; text-wrap: pretty; }
 .book-head .collana { margin: 0 0 0.8rem; }
 .book-head .stato { margin-top: 0.4rem; }
-.post-cover { margin: 0 auto clamp(2.5rem, 6vw, 4rem); }
-.post-cover img { width: 100%; }
+/* Copertina a tutta larghezza, subito sotto il menu */
+.copertina { margin: 0; height: clamp(15rem, 38vw, 30rem); overflow: hidden; border-bottom: 3px solid var(--amber); }
+.copertina img { width: 100%; height: 100%; object-fit: cover; object-position: center 45%; display: block; }
+.post.con-copertina, .page.con-copertina { padding-top: 0; }
+.con-copertina > header { padding-top: clamp(2.2rem, 5vw, 3.6rem); }
 
 .prose { font-size: var(--step-0); }
 .prose > * { margin-block: 0; }
@@ -349,8 +354,7 @@ a.book-row:hover .book-row-title { color: var(--amber-deep); }
 
 /* Pagina guida Digital Feng Shui: verde salvia, allineata al menu */
 .guida { --sage: #6f8a6f; --sage-deep: #45604a; --sage-soft: #e1e7d9; padding-bottom: 2rem; }
-.g-hero { margin: 0; height: clamp(15rem, 38vw, 30rem); overflow: hidden; border-bottom: 3px solid var(--sage); }
-.g-hero img { width: 100%; height: 100%; object-fit: cover; object-position: center 45%; display: block; }
+.guida .copertina { border-bottom-color: var(--sage); }
 .g-head { padding-top: clamp(2.2rem, 5vw, 3.6rem); margin-bottom: clamp(1.6rem, 4vw, 2.6rem); }
 .g-head .page-title, .g-head .post-dek { max-width: var(--text); }
 .g-body > * { max-width: var(--text); }
