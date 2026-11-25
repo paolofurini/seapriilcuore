@@ -37,7 +37,7 @@ Per trent'anni ho lavorato dall'altra parte dello schermo, nel marketing di gran
 
 ## Da dove comincio?
 
-Da una sera e una tazza di tè. In [Il mio iPhone era una slot machine]({{ '/blog/il-mio-iphone-era-una-slot-machine/' | relative_url }}) racconto come ho riorganizzato il mio telefono passo per passo; in [Oltre il Digital Detox]({{ '/blog/oltre-il-digital-detox-cose-il-digital/' | relative_url }}) trovi le tre regole spiegate per intero. Se invece senti il bisogno di staccare del tutto, prima, c'è la pagina sul [Digital Detox]({{ '/temi/digital-detox/' | relative_url }}).
+Da una sera e una tazza di tè. In [Il mio iPhone era una slot machine]({{ '/blog/il-mio-iphone-era-una-slot-machine/' | relative_url }}) racconto come ho riorganizzato il mio telefono passo per passo; in [Oltre il Digital Detox]({{ '/blog/oltre-il-digital-detox-cose-il-digital/' | relative_url }}) trovi le tre regole spiegate per intero; in [La posta che non comanda più]({{ '/blog/la-posta-che-non-comanda-piu/' | relative_url }}) racconto come ho rimesso in ordine la casella email. Se invece senti il bisogno di staccare del tutto, prima, c'è la pagina sul [Digital Detox]({{ '/temi/digital-detox/' | relative_url }}).
 
 ## Domande e risposte sul Digital Feng Shui
 
