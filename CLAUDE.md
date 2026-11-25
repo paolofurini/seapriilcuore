@@ -51,4 +51,5 @@ Prima di pubblicare: `jekyll build` deve passare senza errori.
 - Nelle lettere e nelle email ai lettori il saluto è "Caro/a," (mai "Ciao").
 
 ## Design
+Colori, caratteri, immagini e formati: skill **housestyle-seapriilcuore** (niente nero, testi in blu inchiostro #1E3A5F; sul sito Newsreader + Instrument Sans; Book Antiqua solo per documenti e post, mai sul sito). Titolo e testo allineati al menu, copertina a tutta larghezza sotto il menu (`cover_pos` per spostare il taglio).
 Le regole di design vengono dalla skill Impeccable (`.claude/skills/impeccable`, Apache 2.0, di Paul Bakaus). Prima di modificare l'aspetto del sito leggere `reference/craft-floor.md`. Niente eyebrow sopra i titoli, niente card tutte uguali, niente gradienti nel testo, movimento minimo.
