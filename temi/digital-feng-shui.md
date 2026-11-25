@@ -16,7 +16,7 @@ image: /assets/img/blog/digital-feng-shui-guida-cover-1600.jpg
 
 Il Digital Feng Shui è l'arte di armonizzare i propri dispositivi digitali perché siano strumenti al nostro servizio e non padroni della nostra attenzione. Prende il principio del Feng Shui, l'antica arte orientale di disporre gli spazi perché l'energia scorra senza ostacoli, e lo applica agli spazi in cui oggi passiamo più tempo: lo smartphone e il computer.
 
-<p class="g-autore">Per trent'anni ho lavorato nel marketing di grandi aziende della tecnologia, costruendo sistemi pensati per catturare l'attenzione delle persone. Qui racconto le regole che uso su di me per non farmene stritolare. <a href="{{ '/autore/' | relative_url }}">Chi sono</a></p>
+<p class="g-autore">Per più di trent'anni ho lavorato nel marketing di grandi aziende della tecnologia, costruendo sistemi pensati per catturare l'attenzione delle persone. Qui racconto le regole che uso su di me per non farmene stritolare. <a href="{{ '/autore/' | relative_url }}">Chi sono</a></p>
 
 ## Quali sono le 3 Regole d'Oro del Digital Feng Shui?
 
