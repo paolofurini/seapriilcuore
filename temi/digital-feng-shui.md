@@ -7,7 +7,7 @@ description: "Cos'è il Digital Feng Shui, che differenza c'è con il Digital De
 schema: schema-dfs.html
 etichetta: Guida
 cover: /assets/img/blog/digital-feng-shui-guida-cover
-cover_alt: "Una stanza in ordine al tramonto, con una lampada accesa, una teiera e il telefono sul tavolino; fuori dalla finestra la città blu, e una persona di spalle sulla soglia"
+cover_alt: "Una pila di sassi di fiume in equilibrio su una roccia in mezzo a un torrente, all'alba nella nebbia; tra i sassi, in equilibrio come gli altri, c'è uno smartphone spento"
 image: /assets/img/blog/digital-feng-shui-guida-cover-1600.jpg
 ---
 {% capture freccia %}<svg class="g-freccia" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>{% endcapture %}
