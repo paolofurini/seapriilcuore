@@ -34,8 +34,8 @@
   --amber-deep: #8f520f;    /* ambra leggibile su carta */
   --paper: #f5f0e7;
   --paper-2: #ece5d8;
-  --ink: #1b2433;
-  --ink-soft: #545c6a;
+  --ink: #1e3a5f;          /* blu inchiostro: mai il nero */
+  --ink-soft: #4a5f80;
   --rule: #d8cfbf;
 
   --serif: "Newsreader", "Iowan Old Style", Georgia, serif;
@@ -102,7 +102,7 @@ a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 0.2em
 .hero-quote { font-size: var(--step-1); color: var(--amber); margin: 0 0 1.2rem; font-weight: 340; }
 .hero-cover { margin: 0; max-width: 24rem; width: 72%; justify-self: center; }
 @media (min-width: 900px) { .hero-cover { width: 100%; } }
-.hero-cover img { width: 100%; outline: 1px solid rgba(233, 227, 214, 0.14); outline-offset: -1px; box-shadow: 0 40px 70px -25px rgba(0,0,0,0.75), 0 10px 20px -10px rgba(0,0,0,0.5); transition: transform 0.6s var(--ease); }
+.hero-cover img { width: 100%; outline: 1px solid rgba(233, 227, 214, 0.14); outline-offset: -1px; box-shadow: 0 40px 70px -25px rgba(20,35,70,0.6), 0 10px 20px -10px rgba(20,35,70,0.4); transition: transform 0.6s var(--ease); }
 .hero-cover a:hover img { transform: translateY(-4px); }
 @media (prefers-reduced-motion: no-preference) {
   .hero-cover { animation: accende 1.4s var(--ease) both; }
@@ -125,7 +125,7 @@ a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 0.2em
 .hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1.2rem 1.8rem; margin: 0; }
 
 /* La finestra: il quadro incorniciato, come una copertina Sellerio */
-.finestra { margin: 0; padding: clamp(0.6rem, 1.4vw, 1rem); background: #0a121f; box-shadow: 0 30px 60px -20px rgba(0, 0, 0, 0.6), 0 2px 0 0 #24344d inset; position: relative; }
+.finestra { margin: 0; padding: clamp(0.6rem, 1.4vw, 1rem); background: #24375c; box-shadow: 0 30px 60px -20px rgba(20, 35, 70, 0.5), 0 2px 0 0 #24344d inset; position: relative; }
 .finestra::after { content: ""; position: absolute; inset: clamp(0.6rem, 1.4vw, 1rem); box-shadow: inset 0 0 0 1px rgba(224, 162, 78, 0.35); pointer-events: none; }
 .finestra img { width: 100%; filter: saturate(0.92); }
 @media (prefers-reduced-motion: no-preference) {
