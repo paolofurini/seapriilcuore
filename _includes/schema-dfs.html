@@ -17,7 +17,7 @@
       "inLanguage": "it",
       "author": { "@id": "{{ site.url }}/#paolo" },
       "about": { "@id": "{{ site.url }}/digital-feng-shui/#termine" },
-      "image": "{{ site.url }}/assets/img/blog/il-mio-iphone-era-una-slot-machine-cover-1600.jpg"
+      "image": "{{ site.url }}/assets/img/blog/digital-feng-shui-guida-cover-1600.jpg"
     },
     {
       "@type": "HowTo",
@@ -32,11 +32,8 @@
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Cos'è il Digital Feng Shui?", "acceptedAnswer": { "@type": "Answer", "text": "È l'arte di armonizzare i propri dispositivi digitali perché siano strumenti al nostro servizio e non padroni della nostra attenzione: il principio del Feng Shui applicato a smartphone e computer." } },
-        { "@type": "Question", "name": "Che differenza c'è tra Digital Feng Shui e Digital Detox?", "acceptedAnswer": { "@type": "Answer", "text": "Il Digital Detox è la pausa, spegnere tutto per un po'. Il Digital Feng Shui è l'ordine quotidiano che permette di stare dentro la tecnologia senza farsi prosciugare: se il Detox è la cura, il Digital Feng Shui è la prevenzione." } },
-        { "@type": "Question", "name": "Devo rinunciare ai social?", "acceptedAnswer": { "@type": "Answer", "text": "No. Il Digital Feng Shui non chiede di eliminare nulla per principio: chiede di decidere tu quando entrare e quando uscire." } },
-        { "@type": "Question", "name": "Funziona anche sul computer di lavoro?", "acceptedAnswer": { "@type": "Answer", "text": "Sì, le stesse tre regole valgono per posta, chat aziendali e browser: meno porte aperte, meno rumore visivo, un'intenzione prima di ogni apertura." } },
-        { "@type": "Question", "name": "Quanto tempo ci vuole?", "acceptedAnswer": { "@type": "Answer", "text": "Per la prima sistemazione basta una sera. Poi è una manutenzione leggera, come tenere in ordine una stanza che si abita ogni giorno." } }
+        {% for q in site.data.faq_dfs %}{ "@type": "Question", "name": {{ q.domanda | jsonify }}, "acceptedAnswer": { "@type": "Answer", "text": {{ q.risposta | jsonify }} } }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
       ]
     }
   ]

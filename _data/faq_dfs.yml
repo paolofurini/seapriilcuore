@@ -1,0 +1,44 @@
+# Domande e risposte sul Digital Feng Shui (pagina /digital-feng-shui/ e schema FAQPage).
+# solo_schema: true = la risposta è già nel corpo della pagina come titolo H2, quindi non si ripete nella sezione visibile.
+# Le risposte sono testo semplice (niente link): finiscono anche nei dati strutturati.
+
+- domanda: "Cos'è il Digital Feng Shui?"
+  risposta: "È l'arte di armonizzare i propri dispositivi digitali perché siano strumenti al nostro servizio e non padroni della nostra attenzione: il principio del Feng Shui applicato a smartphone e computer."
+  solo_schema: true
+
+- domanda: "Che differenza c'è tra Digital Feng Shui e Digital Detox?"
+  risposta: "Il Digital Detox è la pausa, spegnere tutto per un po'. Il Digital Feng Shui è l'ordine quotidiano che permette di stare dentro la tecnologia senza farsi prosciugare: se il Detox è la cura, il Digital Feng Shui è la prevenzione."
+  solo_schema: true
+
+- domanda: "Che cosa vuol dire Feng Shui?"
+  risposta: "In cinese vuol dire «vento e acqua». È l'antica arte di disporre case e spazi perché chi ci vive stia bene; il Digital Feng Shui ne prende il principio e lo porta negli spazi in cui oggi passiamo tante ore, il telefono e il computer."
+
+- domanda: "Serve conoscere il Feng Shui tradizionale?"
+  risposta: "No. Del Feng Shui prendo l'idea che lo spazio in cui vivi lavora su di te, nel bene e nel male; le regole del Digital Feng Shui sono pratiche e si applicano con le impostazioni che il telefono e il computer hanno già."
+
+- domanda: "Da dove comincio?"
+  risposta: "Dalle notifiche. Stasera disattiva tutte quelle che non vengono da una persona, cioè social, news e shopping, e lascia solo le chiamate e i messaggi di gente vera: è la prima delle tre regole e si fa in pochi minuti. Poi, se vuoi, puoi riordinare il telefono intero in una sera."
+
+- domanda: "Perché proprio le notifiche?"
+  risposta: "Perché ogni notifica è una porta che qualcun altro apre al posto tuo. In uno studio del 2016, Kushlev, Proulx e Dunn hanno chiesto a 221 persone di tenere per una settimana le notifiche accese e il telefono vicino, e per un'altra settimana le notifiche spente e il telefono lontano: con le notifiche accese le persone si sentivano più distratte e più irrequiete. Sono sensazioni riferite dai partecipanti, non una diagnosi."
+
+- domanda: "Quanto dura la nostra attenzione su uno schermo?"
+  risposta: "Secondo le misure di Gloria Mark, dell'Università della California a Irvine, nel 2004 chi lavorava al computer restava su uno schermo in media due minuti e mezzo prima di passare ad altro; dal 2016 circa la media è di quarantasette secondi. Sono persone osservate al lavoro, e il dato è stato ritrovato anche da altri ricercatori."
+
+- domanda: "Un Digital Detox non basta?"
+  risposta: "Aiuta, ma da solo dura poco. In uno studio dell'Università della Ruhr di Bochum su 619 persone, sia chi aveva smesso di usare lo smartphone per una settimana sia chi ne aveva ridotto l'uso di un'ora al giorno è stato meglio, ma nel secondo gruppo gli effetti sono durati di più e, quattro mesi dopo, erano più stabili. È la ragione per cui il Digital Feng Shui punta sulle abitudini di tutti i giorni."
+
+- domanda: "Devo rinunciare ai social?"
+  risposta: "No. Il Digital Feng Shui non chiede di eliminare nulla per principio: chiede di decidere tu quando entrare e quando uscire."
+
+- domanda: "Funziona anche sul computer di lavoro?"
+  risposta: "Sì, le stesse tre regole valgono per la posta, le chat aziendali e il browser: meno porte aperte, meno rumore visivo, un'intenzione prima di ogni apertura."
+
+- domanda: "Quanto tempo ci vuole?"
+  risposta: "Per la prima sistemazione basta una sera. Poi è una manutenzione leggera, come tenere in ordine una stanza che si abita ogni giorno."
+
+- domanda: "Serve un'app o un telefono nuovo?"
+  risposta: "No. Tutto quello che propongo si fa con le impostazioni del telefono e del computer che hai già, senza comprare niente."
+
+- domanda: "Chi scrive questa guida?"
+  risposta: "Io, Paolo Furini. Per trent'anni ho lavorato nel marketing di grandi aziende della tecnologia e ho costruito sistemi pensati per catturare l'attenzione delle persone; oggi racconto le regole che uso su di me per non farmi stritolare da quella macchina. Non vendo corsi né soluzioni definitive."

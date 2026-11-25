@@ -6,6 +6,9 @@ permalink: /digital-feng-shui/
 description: "Cos'è il Digital Feng Shui, che differenza c'è con il Digital Detox e le 3 Regole d'Oro per armonizzare telefono e computer, ogni giorno."
 schema: schema-dfs.html
 etichetta: Guida
+cover: /assets/img/blog/digital-feng-shui-guida-cover
+cover_alt: "Una stanza in ordine al tramonto, con una lampada accesa, una teiera e il telefono sul tavolino; fuori dalla finestra la città blu, e una persona di spalle sulla soglia"
+image: /assets/img/blog/digital-feng-shui-guida-cover-1600.jpg
 ---
 
 ## Cos'è il Digital Feng Shui?
@@ -36,12 +39,14 @@ Per trent'anni ho lavorato dall'altra parte dello schermo, nel marketing di gran
 
 Da una sera e una tazza di tè. In [Il mio iPhone era una slot machine]({{ '/blog/il-mio-iphone-era-una-slot-machine/' | relative_url }}) racconto come ho riorganizzato il mio telefono passo per passo; in [Oltre il Digital Detox]({{ '/blog/oltre-il-digital-detox-cose-il-digital/' | relative_url }}) trovi le tre regole spiegate per intero. Se invece senti il bisogno di staccare del tutto, prima, c'è la pagina sul [Digital Detox]({{ '/temi/digital-detox/' | relative_url }}).
 
-## Domande frequenti
+## Domande e risposte sul Digital Feng Shui
 
-**Devo rinunciare ai social?** No. Il Digital Feng Shui non chiede di eliminare nulla per principio: chiede di decidere tu quando entrare e quando uscire.
+{% for q in site.data.faq_dfs %}{% unless q.solo_schema %}
+### {{ q.domanda }}
 
-**Funziona anche sul computer di lavoro?** Sì, le stesse tre regole valgono per la posta, le chat aziendali e il browser: meno porte aperte, meno rumore visivo, un'intenzione prima di ogni apertura.
+{{ q.risposta }}
+{% endunless %}{% endfor %}
 
-**Quanto tempo ci vuole?** Per la prima sistemazione basta una sera. Poi è una manutenzione leggera, come tenere in ordine una stanza che si abita ogni giorno.
+Gli studi citati, con i link, sono nell'articolo [Cos'è il Digital Feng Shui e perché il Digital Detox non basta]({{ '/blog/oltre-il-digital-detox-cose-il-digital/' | relative_url }}).
 
 ## Gli articoli sul Digital Feng Shui
