@@ -1,7 +1,7 @@
 ---
 title: "432 Hz o 440 Hz: cosa c'è di vero"
 description: "432 Hz o 440 Hz: da dove viene il La, cosa c'entrano Verdi e Goebbels e cosa dice la scienza. Sono andato a vedere, per il mio romanzo."
-tema: "Suono e ascolto"
+tema: "I Romanzi dell'Invisibile"
 cover: /assets/img/blog/432-hz-laboratorio
 cover_alt: "Un accordatore di spalle lavora a un pianoforte verticale aperto in un laboratorio di pietra; sul banco un diapason e dei feltri rossi, dalla finestra il blu della sera sui monti"
 image: /assets/img/blog/432-hz-laboratorio-1600.jpg

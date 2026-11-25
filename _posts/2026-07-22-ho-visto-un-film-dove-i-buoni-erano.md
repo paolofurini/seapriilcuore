@@ -2,7 +2,7 @@
 title: "Ho visto un film dove i buoni erano i robot della IA"
 description: "The Creator e la macchina che ci fa tenerezza: oggi l’intelligenza artificiale non ha un’anima, ma proveranno a farci credere il contrario."
 date: 2026-07-22T07:57:38.449Z
-tema: "Matrix"
+tema: "Digital Feng Shui"
 thumb: /assets/img/blog/ho-visto-un-film-dove-i-buoni-erano-1
 image: /assets/img/blog/ho-visto-un-film-dove-i-buoni-erano-1-1600.jpg
 substack: https://seapriilcuore.substack.com/p/ho-visto-un-film-dove-i-buoni-erano

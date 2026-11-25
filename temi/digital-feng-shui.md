@@ -55,7 +55,7 @@ Il Digital Feng Shui è l'arte di armonizzare i propri dispositivi digitali perc
 
 Il Digital Detox è la pausa: spegni tutto per un fine settimana, cammini in un bosco, respiri. Funziona, e ne abbiamo bisogno. Ma il lunedì mattina lo schermo si riaccende, e in pochi minuti l'ansia smaltita nel bosco torna addosso.
 
-Il Digital Feng Shui è quello che fai il lunedì. Se il Detox è la cura, il Feng Shui digitale è la prevenzione: un ordine quotidiano che ti permette di stare dentro la tecnologia, perché lì lavoriamo e viviamo, senza farti prosciugare. Il Detox è l'Oasi nel deserto; il Digital Feng Shui è l'armatura che indossi quando dall'Oasi devi uscire. Se senti il bisogno di staccare del tutto, prima, c'è la pagina sul [Digital Detox]({{ '/temi/digital-detox/' | relative_url }}).
+Il Digital Feng Shui è quello che fai il lunedì. Se il Detox è la cura, il Feng Shui digitale è la prevenzione: un ordine quotidiano che ti permette di stare dentro la tecnologia, perché lì lavoriamo e viviamo, senza farti prosciugare. Il Detox è l'Oasi nel deserto; il Digital Feng Shui è l'armatura che indossi quando dall'Oasi devi uscire. Se vuoi capire perché staccare è così difficile, leggi [Dall'altra parte dello schermo non c'è un amico]({{ '/blog/dallaltra-parte-dello-schermo-non/' | relative_url }}).
 
 ## Tutti gli articoli sul Digital Feng Shui
 

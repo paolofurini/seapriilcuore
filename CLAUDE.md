@@ -16,7 +16,7 @@ Front matter:
 ---
 title: "Titolo"
 description: "Sottotitolo in una riga"
-tema: "Digital Feng Shui" | "Digital Detox" | "I Romanzi dell'Invisibile" | "Matrix"
+tema: "Digital Feng Shui" | "I Romanzi dell'Invisibile"
 cover: /assets/img/nome      # facoltativa: servono nome-900.jpg/.webp e nome-1600.jpg/.webp
 cover_alt: "Descrizione dell'immagine"
 image: /assets/img/nome-1600.jpg   # anteprima social; se manca usa og-default.jpg
@@ -25,8 +25,8 @@ image: /assets/img/nome-1600.jpg   # anteprima social; se manca usa og-default.j
 Prima di pubblicare: `jekyll build` deve passare senza errori.
 
 **Copia sul Drive (sempre, subito dopo la pubblicazione):** ogni articolo pubblicato va salvato anche sul Google Drive di Paolo, come file .md con il testo definitivo del sito, in `03 I Romanzi dell'Invisibile / 02 Blog & Comunicazione / 01 Articoli per il blog /`:
-- tema "I Romanzi dell'Invisibile" o "Suono e ascolto" → `01 Articoli - I Romanzi dell'Invisibile / 01 Pubblicati` (id `1j1xH6YRI5xhBXenPURg-zvdBRNck9yYB`);
-- tutti gli altri temi (Digital Feng Shui, Matrix, Digital Detox, Diario) → `02 Articoli - Digital Feng Shui, Matrix, Digital Detox / 01 Pubblicati` (id `1YDSC73yo2d5MIErpoyQNXZM9tAEyQ9t9`).
+- tema "I Romanzi dell'Invisibile" → `01 Articoli - I Romanzi dell'Invisibile / 01 Pubblicati` (id `1j1xH6YRI5xhBXenPURg-zvdBRNck9yYB`);
+- tema "Digital Feng Shui" → `02 Articoli - Digital Feng Shui, Matrix, Digital Detox / 01 Pubblicati` (id `1YDSC73yo2d5MIErpoyQNXZM9tAEyQ9t9`).
 Nome del file: `AAAA-MM-GG Titolo.md`. Se l'articolo viene corretto dopo la pubblicazione, si aggiorna lo stesso file, senza crearne un altro. La bozza che stava in `02 In lavorazione` non si duplica: va tolta o archiviata.
 
 **Tutto sul Drive (regola fissa di Paolo, 25 nov 2026):** ogni documento di lavoro (piani, copioni, bozze, ricerche, testi dei post) deve stare sul Google Drive di Paolo, nella sua cartella sotto `03 I Romanzi dell'Invisibile`. Nessun file resta soltanto nel Progetto Claude o in questo repository. Niente copie: si aggiorna sempre lo stesso file.
@@ -41,7 +41,7 @@ Nome del file: `AAAA-MM-GG Titolo.md`. Se l'articolo viene corretto dopo la pubb
 
 ## SEO e ricerca con IA (da rispettare in ogni articolo)
 - `title` chiaro, con la parola chiave principale, max 60 caratteri circa. `description` max 155 caratteri: dice di cosa parla l'articolo, non è uno slogan.
-- `tema` sempre uno dei temi in `_data/temi.yml` (ogni tema ha la sua pagina in `temi/`).
+- `tema` sempre uno dei due pilastri in `_data/temi.yml` (decisione di Paolo, 25 nov 2026): "Digital Feng Shui" per tutto ciò che riguarda telefono, attenzione, social, Matrix, Digital Detox e il diario del blog; "I Romanzi dell'Invisibile" per i romanzi e i temi legati (anche suono e ascolto). Niente sottocategorie. Le vecchie pagine `temi/digital-detox`, `matrix`, `diario`, `suono-e-ascolto` sono solo rimandi: non linkarle.
 - Il primo paragrafo risponde subito alla domanda dell'articolo. Quando è naturale, i titoli H2 sono domande vere ("Cos'è…", "Come…").
 - **Digital Feng Shui è il tema di punta del sito**: obiettivo essere il riferimento in Italia. La pagina pilastro è `/digital-feng-shui/` (`temi/digital-feng-shui.md`, schema in `_includes/schema-dfs.html`). Ogni articolo che tocca telefono, notifiche, attenzione o schermi linka la pagina pilastro con il testo "Digital Feng Shui"; quando nasce un articolo DFS nuovo, aggiungerlo anche nella sezione "Da dove comincio?" della pagina pilastro se è una buona porta d'ingresso.
 - Almeno un link interno a un altro articolo, a una pagina tema o alla pagina del libro.
