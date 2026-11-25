@@ -18,6 +18,8 @@ url: "https://paolofurini.it"
 baseurl: ""
 
 substack: "https://seapriilcuore.substack.com"
+# Modulo Brevo della lista "Sfida 7 giorni": da incollare quando Paolo crea il modulo in Brevo
+brevo_form_sfida: ""
 brevo_form: "https://885f4b4f.sibforms.com/serve/MUIFAGjRUClGH0z2L-dvp1gH1vVeHZBpBHWRV0nr9spw92M04A3ZOFXqtAQuF1q5eEzYEF4LiF-4jVRZrLnqF5zGFhE7vEGWxp5ZJicR_MlSyJHD6rqFp0I6bKA9izZeamNAnEsVA-X-gHyNAmnXkPrCHsGlIKqmgdVtVGxWiB-3uWeDeNA-CEE_vlQROTGwtbnXUhTShMKGNevd7A=="
 instagram: "https://www.instagram.com/seapriilcuore/"
 linkedin: "https://www.linkedin.com/in/paolofurini/"

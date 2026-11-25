@@ -1,0 +1,45 @@
+<div class="sib-form nl">
+  <div id="sib-form-container" class="sib-form-container">
+    <div id="error-message" class="sib-form-message-panel nl-msg nl-msg-err"><span class="sib-form-message-panel__inner-text">Non è stato possibile completare l'iscrizione. Controlla l'indirizzo e riprova.</span></div>
+    <div id="success-message" class="sib-form-message-panel nl-msg nl-msg-ok"><span class="sib-form-message-panel__inner-text">Grazie. Ti ho appena scritto: apri l'email e conferma l'iscrizione, e la sfida comincia.</span></div>
+    <div id="sib-container">
+      <form id="sib-form" method="POST" action="{{ site.brevo_form_sfida }}" data-type="subscription">
+        <div class="sib-input sib-form-block">
+          <div class="form__entry entry_block">
+            <label class="nl-label" for="EMAIL">La tua email</label>
+            <div class="nl-row">
+              <input class="input nl-input" type="email" id="EMAIL" name="EMAIL" autocomplete="email" placeholder="nome@esempio.it" data-required="true" required>
+              <button class="sib-form-block__button sib-form-block__button-with-loader button nl-btn" form="sib-form" type="submit"><svg class="nl-spin sib-hide-loader-icon" viewBox="0 0 512 512" aria-hidden="true"><path fill="currentColor" d="M460.116 373.846l-20.823-12.022c-5.541-3.199-7.54-10.159-4.663-15.874 30.137-59.886 28.343-131.652-5.386-189.946-33.641-58.394-94.896-95.833-161.827-99.676C261.028 55.961 256 50.751 256 44.352V20.309c0-6.904 5.808-12.337 12.703-11.982 83.556 4.306 160.163 50.864 202.11 123.677 42.063 72.696 44.079 162.316 6.031 236.832-3.14 6.148-10.75 8.461-16.728 5.01z"/></svg>Comincio la sfida</button>
+            </div>
+            <label class="entry__error entry__error--primary nl-err"></label>
+          </div>
+        </div>
+        <div class="sib-optin sib-form-block">
+          <div class="form__entry entry_mcq">
+            <label class="nl-optin">
+              <input type="checkbox" class="input_replaced" value="1" id="OPT_IN" name="OPT_IN" required>
+              <span>Accetto di ricevere le email della sfida dei 7 giorni. Posso cancellarmi quando voglio con il link in ogni email.</span>
+            </label>
+            <label class="entry__error entry__error--primary nl-err"></label>
+          </div>
+        </div>
+        <p class="nl-note">Le iscrizioni sono gestite con Brevo (<a href="https://www.brevo.com/it/legal/privacypolicy/" rel="nofollow noopener" target="_blank">informativa</a>). Riceverai solo le email della sfida, non la newsletter.</p>
+        <input type="text" name="email_address_check" value="" class="input--hidden" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <input type="hidden" name="locale" value="it">
+      </form>
+    </div>
+  </div>
+</div>
+<script>
+  window.REQUIRED_CODE_ERROR_MESSAGE = 'Scegli un prefisso paese';
+  window.LOCALE = 'it';
+  window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE = "L'indirizzo email non sembra valido.";
+  window.REQUIRED_ERROR_MESSAGE = "Questo campo è necessario.";
+  window.GENERIC_INVALID_MESSAGE = "Le informazioni non sono valide. Riprova.";
+  window.INVALID_NUMBER = window.GENERIC_INVALID_MESSAGE;
+  window.INVALID_DATE = "Inserisci una data valida";
+  window.REQUIRED_MULTISELECT_MESSAGE = 'Seleziona almeno 1 opzione';
+  window.translation = { common: { selectedList: '{quantity} lista selezionata', selectedLists: '{quantity} liste selezionate', selectedOption: '{quantity} selezionato', selectedOptions: '{quantity} selezionati' } };
+  var AUTOHIDE = Boolean(0);
+</script>
+<script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>
