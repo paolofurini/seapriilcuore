@@ -1,0 +1,14 @@
+# Le stanze della casa digitale (pagina /digital-feng-shui/).
+# Con "url" la stanza compare nella mappa con il suo articolo; senza, va tra le "prossime stanze".
+- nome: "Il telefono"
+  frase: "La prima schermata, le notifiche, le app che chiamano."
+  url: /blog/il-mio-iphone-era-una-slot-machine/
+  articolo: "Il mio iPhone era una slot machine"
+- nome: "La posta"
+  frase: "La casella a zero e gli orari in cui leggerla."
+  url: /blog/la-posta-che-non-comanda-piu/
+  articolo: "La posta che non comanda più"
+- nome: "La camera da letto"
+- nome: "Il computer"
+- nome: "I social"
+- nome: "Foto e file"

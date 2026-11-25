@@ -346,3 +346,41 @@ a.book-row:hover .book-row-title { color: var(--amber-deep); }
 .dfs-regole li:first-child { border-top: 0; padding-top: 0.2rem; }
 .dfs-regole li::before { content: counter(r); position: absolute; left: 0; top: 0.75rem; font-size: var(--step-1); font-style: italic; color: var(--amber-deep); }
 .dfs-regole li:first-child::before { top: 0.05rem; }
+
+/* Pagina guida Digital Feng Shui: regole, stanze, domande */
+.g-autore { font-family: var(--sans); font-size: var(--step--1); line-height: 1.6; color: var(--ink-soft); border-top: 1px solid var(--rule); padding-top: 1rem; margin-top: 1.6rem; }
+.g-regole { list-style: none; margin: 1.4rem 0 0; padding: 0; border-top: 1px solid var(--rule); }
+.g-regole li { display: grid; grid-template-columns: 2.2rem 1fr; gap: 0.4rem 1rem; padding: 1.3rem 0; border-bottom: 1px solid var(--rule); }
+.g-num { font-size: var(--step-3); font-weight: 340; line-height: 0.9; color: var(--amber-deep); }
+.g-regole h3 { font-size: var(--step-1); font-weight: 450; letter-spacing: -0.01em; margin: 0 0 0.35rem; }
+.g-regole p { margin: 0; }
+.g-link { margin-top: 1rem; font-family: var(--sans); font-size: var(--step--1); }
+.prose .g-link a, .prose .g-stanze a { text-decoration: none; }
+.g-freccia { width: 1.1em; height: 1.1em; vertical-align: -0.2em; margin-left: 0.3em; transition: transform 0.4s var(--ease); }
+.g-link a:hover .g-freccia { transform: translateX(3px); }
+.g-intro { color: var(--ink-soft); margin-top: -0.2em; }
+.g-stanze { list-style: none; margin: 1.2rem 0 0; padding: 0; border-top: 1px solid var(--rule); }
+.g-stanze li { border-bottom: 1px solid var(--rule); }
+.g-stanze a { display: grid; grid-template-columns: 1fr auto; grid-template-areas: "stanza freccia" "frase freccia" "articolo freccia"; align-items: center; column-gap: 1rem; padding: 1.2rem 0; color: var(--ink); transition: padding-left 0.4s var(--ease); }
+.g-stanze a:hover { padding-left: 0.5rem; }
+.g-stanza { grid-area: stanza; font-size: var(--step-1); font-weight: 450; letter-spacing: -0.01em; }
+.g-frase { grid-area: frase; color: var(--ink-soft); }
+.g-articolo { grid-area: articolo; font-family: var(--sans); font-size: var(--step--1); color: var(--amber-deep); margin-top: 0.3rem; }
+.g-stanze .g-freccia { grid-area: freccia; width: 1.4em; height: 1.4em; color: var(--amber-deep); }
+.g-stanze a:hover .g-freccia { transform: translateX(4px); }
+.g-prossime { font-family: var(--sans); font-size: var(--step--1); color: var(--ink-soft); margin-top: 0.9rem; }
+.g-inizio { background: var(--paper-2); border-radius: 6px; padding: 1.4rem 1.6rem; margin: 3rem 0 0; }
+.prose .g-inizio h2 { margin: 0 0 0.4em; font-size: var(--step-1); }
+.g-inizio p { margin: 0; }
+.g-faq { margin-top: 1rem; border-top: 1px solid var(--rule); }
+.g-faq details { border-bottom: 1px solid var(--rule); }
+.g-faq summary { list-style: none; cursor: pointer; display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; padding: 1rem 0; }
+.g-faq summary::-webkit-details-marker { display: none; }
+.g-faq summary::after { content: ""; flex: none; width: 0.55rem; height: 0.55rem; border-right: 1.5px solid var(--amber-deep); border-bottom: 1.5px solid var(--amber-deep); transform: translateY(-0.2rem) rotate(45deg); transition: transform 0.3s var(--ease); }
+.g-faq details[open] summary::after { transform: translateY(0.1rem) rotate(-135deg); }
+.g-faq summary h3 { font-size: var(--step-0); font-weight: 450; margin: 0; }
+.g-faq summary:hover h3 { color: var(--amber-deep); }
+.g-faq details p { margin: 0 0 1.2rem; color: var(--ink-soft); }
+.g-nota { font-family: var(--sans); font-size: var(--step--1); color: var(--ink-soft); }
+.g-newsletter { border-top: 1px solid var(--rule); margin-top: 3rem; padding-top: 2rem; }
+.prose .g-newsletter h2 { margin-top: 0; font-size: var(--step-1); }

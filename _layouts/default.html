@@ -7,6 +7,7 @@
   <link rel="preload" href="{{ '/assets/fonts/newsreader.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}?v={{ site.time | date: '%s' }}">
   <link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" type="image/svg+xml">
+  {% if page.noindex %}<meta name="robots" content="noindex, nofollow">{% endif %}
   {% seo %}
   {% include schema-person.html %}{% if page.schema %}{% include {{ page.schema }} %}{% endif %}
   {% feed_meta %}
