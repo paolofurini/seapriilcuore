@@ -14,14 +14,24 @@ description: "Storie nate per essere lette con il Cuore prima che con la testa."
   </div>
 
   <div class="wrap-text">
-    <a class="book-row" href="{{ '/romanzi/laccordatore-del-silenzio/' | relative_url }}">
-      <span class="book-row-stato"><span class="dot" aria-hidden="true"></span>In uscita</span>
-      <span class="book-row-title">L'Accordatore del Silenzio</span>
-      <span class="book-row-dek">Un accordatore di pianoforti, uno Steinway del 1910 e una nota che nessuna macchina sa spiegare.</span>
+    <a class="book-row book-row-img" href="{{ '/romanzi/laccordatore-del-silenzio/' | relative_url }}">
+      <picture class="book-row-cover">
+        <source type="image/webp" srcset="{{ '/assets/img/copertina-lads-480.webp' | relative_url }} 480w, {{ '/assets/img/copertina-lads-960.webp' | relative_url }} 960w" sizes="(min-width: 700px) 11rem, 8rem">
+        <img src="{{ '/assets/img/copertina-lads-480.jpg' | relative_url }}" alt="Copertina di L'Accordatore del Silenzio di Paolo Furini: una donna seduta sotto un pianoforte a coda, accanto a una presenza di luce, su fondo blu notte." width="480" height="720">
+      </picture>
+      <span class="book-row-testo">
+        <span class="book-row-stato"><span class="dot" aria-hidden="true"></span>In uscita</span>
+        <span class="book-row-title">L'Accordatore del Silenzio</span>
+        <span class="book-row-dek">Un accordatore di pianoforti, uno Steinway del 1910 e una nota che nessuna macchina sa spiegare.</span>
+      </span>
     </a>
-    <div class="book-row book-row-next" aria-label="Prossimo romanzo">
-      <span class="book-row-stato">In scrittura</span>
-      <span class="book-row-title">La Voce Rubata</span>
+    <div class="book-row book-row-img book-row-next" aria-label="Prossimo romanzo">
+      <span class="book-row-cover book-row-cover-vuota" aria-hidden="true">La Voce Rubata</span>
+      <span class="book-row-testo">
+        <span class="book-row-stato">In scrittura</span>
+        <span class="book-row-title">La Voce Rubata</span>
+        <span class="book-row-dek">Il secondo dei Romanzi dell'Invisibile.</span>
+      </span>
     </div>
   </div>
 </article>

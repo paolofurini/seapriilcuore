@@ -252,6 +252,12 @@ a.book-row:hover .book-row-title { color: var(--amber-deep); }
 .book-row-dek { color: var(--ink-soft); }
 .book-row-next .book-row-stato { color: var(--ink-soft); }
 .book-row-next .book-row-title { color: var(--ink-soft); font-style: italic; }
+.book-row-img { grid-template-columns: 8rem 1fr; gap: 1.6rem; align-items: center; }
+@media (min-width: 700px) { .book-row-img { grid-template-columns: 11rem 1fr; gap: 2.4rem; } }
+.book-row-testo { display: grid; gap: 0.35rem; align-content: center; }
+.book-row-cover img { width: 100%; height: auto; box-shadow: 0 24px 40px -22px rgba(20,35,70,0.55); transition: transform 0.6s var(--ease); }
+a.book-row-img:hover .book-row-cover img { transform: translateY(-3px); }
+.book-row-cover-vuota { aspect-ratio: 2 / 3; display: flex; align-items: flex-end; padding: 0.9rem; background: var(--night); color: var(--amber); font-style: italic; font-size: 1.05rem; line-height: 1.2; box-shadow: inset 0 0 0 1px rgba(224,162,78,0.25); }
 .page .wrap-text + .wrap-text { margin-top: 2.5rem; }
 
 /* Scuola: un invito caldo e leggero, nella voce di Paolo */
