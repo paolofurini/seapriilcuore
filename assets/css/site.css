@@ -385,3 +385,4 @@ a.book-row:hover .book-row-title { color: var(--amber-deep); }
 .g-newsletter { border-top: 1px solid var(--rule); margin-top: 3rem; padding-top: 2rem; }
 .prose .g-newsletter h2 { margin-top: 0; font-size: var(--step-1); }
 .prose .post-list { padding-left: 0; } .prose .post-list li { margin: 0; }
+.prose .post-list a { color: var(--ink); text-decoration: none; }
