@@ -18,6 +18,7 @@
 
 - domanda: "Da dove comincio?"
   risposta: "Dalle notifiche. Stasera disattiva tutte quelle che non vengono da una persona, cioè social, news e shopping, e lascia solo le chiamate e i messaggi di gente vera: è la prima delle tre regole e si fa in pochi minuti. Poi, se vuoi, puoi riordinare il telefono intero in una sera."
+  solo_schema: true
 
 - domanda: "Perché proprio le notifiche?"
   risposta: "Perché ogni notifica è una porta che qualcun altro apre al posto tuo. In uno studio del 2016, Kushlev, Proulx e Dunn hanno chiesto a 221 persone di tenere per una settimana le notifiche accese e il telefono vicino, e per un'altra settimana le notifiche spente e il telefono lontano: con le notifiche accese le persone si sentivano più distratte e più irrequiete. Sono sensazioni riferite dai partecipanti, non una diagnosi."
