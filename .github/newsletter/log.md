@@ -37,3 +37,8 @@
 - Mittente: paolo@seapriilcuore.it
 - Prova di '432 Hz o 440 Hz: cosa c'è di vero' inviata a furo66@gmail.com: 204 ok
 - Lista iscritti: trovata, id 3
+
+## 2026-11-25 08:47 UTC · send
+- Mittente: paolo@seapriilcuore.it
+- Interruttore spento (live: false): invio solo di prova a Paolo, nessuna email agli iscritti.
+- Salto _posts/2026-11-25-la-posta-che-non-comanda-piu.md: newsletter disattivata o articolo vecchio
