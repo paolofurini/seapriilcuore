@@ -89,8 +89,8 @@ a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 0.2em
 .brand-name { font-size: 1.25rem; font-weight: 500; letter-spacing: -0.01em; }
 .brand-sub { font-family: var(--sans); font-size: 0.74rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-soft); margin-top: 0.2rem; }
 .night .brand-sub { color: var(--moon-soft); }
-.nav { list-style: none; margin: 0; padding: 0; display: flex; gap: clamp(1rem, 3vw, 2.2rem); font-family: var(--sans); font-size: 0.95rem; }
-.nav a { text-decoration: none; padding-block: 0.4rem; border-bottom: 1px solid transparent; transition: border-color 0.3s var(--ease), color 0.3s var(--ease); }
+.nav { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.2rem clamp(1rem, 3vw, 2.2rem); font-family: var(--sans); font-size: 0.95rem; }
+.nav a { text-decoration: none; padding-block: 0.4rem; white-space: nowrap; border-bottom: 1px solid transparent; transition: border-color 0.3s var(--ease), color 0.3s var(--ease); }
 .nav a:hover { border-color: currentColor; }
 .nav a[aria-current="page"] { border-color: var(--amber-deep); }
 .night .nav a[aria-current="page"] { border-color: var(--amber); }
