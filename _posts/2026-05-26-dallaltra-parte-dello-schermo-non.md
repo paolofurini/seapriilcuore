@@ -2,7 +2,7 @@
 title: "Dall’altra parte dello schermo non c’è un amico"
 description: "Come i social usano il nostro bisogno di essere visti per guadagnare, cosa hanno stabilito Europa e tribunali nel 2026 e un primo gesto per smettere di pagare."
 date: 2026-05-26T14:39:04.189Z
-aggiornato: 2026-11-25
+aggiornato: 2026-11-26
 tema: "Digital Feng Shui"
 substack: https://seapriilcuore.substack.com/p/dallaltra-parte-dello-schermo-non
 cover: /assets/img/blog/dallaltra-parte-dello-schermo-non-cover
@@ -66,7 +66,7 @@ Poi vengono i gesti pratici, quelli che racconto nella guida al [Digital Feng Sh
 
 Stasera, se vuoi, fai una cosa sola: apri le impostazioni del telefono e guarda il tuo tempo di utilizzo della settimana scorsa (su iPhone in Impostazioni, Tempo di utilizzo; su Android in Impostazioni, Benessere digitale), senza fare niente e senza giudicarti, solo guardandolo. Vedrai un numero, probabilmente più alto di quanto pensi, e se lo moltiplichi per cinquantadue avrai le ore che passi in un anno in un posto dove il tuo bisogno di connessione viene usato per venderti pubblicità. Accorgersene è già un primo gesto di libertà.
 
-Poi, se ti va, fai la seconda cosa, quella che conta di più: pensa a una persona che non senti da tempo, con una voce, delle mani e una storia, e scrivile due righe, o meglio ancora chiamala.
+Poi, se ti va, fai la seconda cosa, quella che conta di più: pensa a una persona che non senti da tempo, con una voce, delle mani e una storia, e scrivile due righe, o meglio ancora chiamala. Te lo dico perché lo provo ogni volta: quando scrivo su WhatsApp, spesso lo faccio per non disturbare, e la connessione resta lontana, educata, a distanza di sicurezza; quando invece chiamo, e sento la voce dall’altra parte, arriva un calore al Cuore che nessun messaggio mi ha mai dato, come se tra due persone che si vogliono bene passasse qualcosa che lo schermo non sa trasportare. Credo che sia proprio quella la cosa che cerchiamo quando apriamo un’app per la terza volta in dieci minuti, e che lo scorrimento non potrà mai darci, perché quel calore non si può imitare: si può solo accendere, tra una voce e l’altra.
 
 Non credo che siamo soli perché siamo disconnessi; credo che siamo soli perché abbiamo scambiato la connessione vera con la sua imitazione digitale, e ogni volta che lo facciamo l’imitazione diventa più convincente e la cosa vera più difficile da raggiungere. La prossima volta che senti quel piccolo tepore, un like, un commento, qualcuno che ha guardato la tua storia, fermati un secondo prima di rispondere con un altro like, e chiediti se c’è una persona vera che ti manca; poi metti giù il telefono e scrivile.
 
