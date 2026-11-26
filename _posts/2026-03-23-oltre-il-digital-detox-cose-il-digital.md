@@ -2,6 +2,7 @@
 title: "Cos’è il Digital Feng Shui e perché il Digital Detox non basta"
 description: "Il Digital Feng Shui è l’arte di ordinare telefono e computer perché l’attenzione resti nostra: cos’è e le tre regole che uso ogni giorno."
 date: 2026-03-23T19:48:07.581Z
+aggiornato: 2026-11-26
 tema: "Digital Feng Shui"
 cover: /assets/img/blog/oltre-il-digital-detox-cover
 cover_alt: "Una persona di spalle a una scrivania di legno il lunedì mattina apre il portatile; accanto, scarponi infangati, foglie secche, una tazza di caffè e il telefono"
@@ -45,9 +46,9 @@ Guarda la prima schermata del tuo telefono e conta quante icone colorate ti fiss
 
 Io ho fatto così: ho spostato tutto e sulla prima pagina ho lasciato solo gli strumenti che mi servono davvero (calendario, note, mappe) con un’immagine di sfondo che mi dà pace, e per aprire i social o la posta devo scorrere o cercare l’app a mano. Quell’attrito, quel secondo di ritardo, è lo spazio in cui la volontà si riprende il comando; sembra poco, ma per me ha cambiato molto. Come ho rifatto tutto il mio iPhone in una sera, mossa per mossa, l’ho raccontato in [Il mio iPhone era una slot machine]({{ '/blog/il-mio-iphone-era-una-slot-machine/' | relative_url }}).
 
-### 3. Respirare prima del click (la Serena Aspettazione)
+### 3. Respirare prima del click (raccogliersi, poi scegliere)
 
-È la regola più sottile, e per me la più potente: prima di aprire la casella email o un social mi fermo per tre secondi, faccio un respiro ed entro in quello spazio con un’intenzione chiara (“devo rispondere a Marco”, “cerco quell’indirizzo”), faccio quello che devo fare ed esco, senza farmi trascinare dalla corrente del *feed*. Tre secondi sembrano niente, ma in quei tre secondi smetto di essere un automa e torno a essere una persona che sceglie.
+È la regola più sottile, e per me la più potente: prima di aprire la casella email o un social mi fermo per tre secondi, faccio un respiro ed entro in quello spazio con un’intenzione chiara (“devo rispondere a Marco”, “cerco quell’indirizzo”), faccio quello che devo fare ed esco, senza farmi trascinare dalla corrente del *feed*. Tre secondi sembrano niente, ma in quei tre secondi smetto di essere un automa e torno a essere una persona che sceglie. Per me è un piccolo momento di raccolta: mi riporto dentro, metto volontà in quello che sto per fare e mi concentro solo su quello, ed è il contrario di lasciarmi trascinare dal pallino rosso o di farmi guidare dal social di turno, perché sono io che scelgo quella cosa, mi raccolgo e la faccio. Negli *Yoga Sutra* di Patanjali questo passaggio ha un nome, *pratyahara*, il raccogliere i sensi verso dentro invece di lasciarli correre fuori, e subito dopo viene *dharana*, la concentrazione su una cosa sola; io non lo pratico davanti allo schermo come farebbe uno yogi, ma quei tre secondi me lo ricordano ogni volta.
 
 Nel buddismo si parla di karma, che vuol dire semplicemente azione: ogni gesto lascia un segno, e quel segno prepara il gesto successivo. Il click fatto per riflesso prepara il prossimo click fatto per riflesso, mentre il respiro di tre secondi, ripetuto ogni giorno, prepara una persona un po’ più libera; è il modo più concreto che ho trovato per lavorare sul mio karma davanti a uno schermo.
 
