@@ -416,8 +416,8 @@ a.book-row-img:hover .book-row-cover img { transform: translateY(-3px); }
 .home-regole .g-regola h3 { font-size: var(--step-1); font-weight: 450; letter-spacing: -0.01em; margin: 0 0 0.5rem; color: var(--sage-deep); }
 .home-regole-link { margin-top: 1.6rem; }
 .home-regole .link-arrow { color: var(--sage-deep); }
-.porta-romanzi { padding-block: clamp(2.5rem, 6vw, 4.5rem); }
-.porta-grid { display: grid; grid-template-columns: 7rem 1fr; gap: 1.6rem; align-items: center; border-top: 1px solid var(--rule); padding-top: clamp(2.5rem, 6vw, 4rem); }
+.porta-romanzi { padding-block: clamp(1rem, 3vw, 2rem) clamp(2.5rem, 6vw, 4.5rem); }
+.porta-grid { display: grid; grid-template-columns: 7rem 1fr; gap: 1.6rem; align-items: center; }
 @media (min-width: 800px) { .porta-grid { grid-template-columns: 10rem 1fr; gap: 3rem; } }
 .porta-cover img { width: 100%; height: auto; box-shadow: 0 24px 40px -22px rgba(20,35,70,0.55); }
 .porta-grid .section-title a { text-decoration: none; }
