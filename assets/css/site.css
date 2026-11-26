@@ -408,3 +408,18 @@ a.book-row-img:hover .book-row-cover img { transform: translateY(-3px); }
 .guida .prose a { color: var(--sage-deep); text-decoration-color: color-mix(in srgb, var(--sage-deep) 45%, transparent); }
 .prose .post-list { padding-left: 0; } .prose .post-list li { margin: 0; }
 .prose .post-list a { color: var(--ink); text-decoration: none; }
+
+/* Prova home: il Digital Feng Shui in apertura, i romanzi come seconda porta */
+@media (min-width: 900px) { .hero-grid-dfs { grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr); } }
+.hero-finestra { margin: 0; }
+.home-regole { --sage: #6f8a6f; --sage-deep: #45604a; --sage-soft: #e1e7d9; padding-block: clamp(3rem, 7vw, 5rem) clamp(1rem, 3vw, 2rem); }
+.home-regole .g-regola h3 { font-size: var(--step-1); font-weight: 450; letter-spacing: -0.01em; margin: 0 0 0.5rem; color: var(--sage-deep); }
+.home-regole-link { margin-top: 1.6rem; }
+.home-regole .link-arrow { color: var(--sage-deep); }
+.porta-romanzi { padding-block: clamp(2.5rem, 6vw, 4.5rem); }
+.porta-grid { display: grid; grid-template-columns: 7rem 1fr; gap: 1.6rem; align-items: center; border-top: 1px solid var(--rule); padding-top: clamp(2.5rem, 6vw, 4rem); }
+@media (min-width: 800px) { .porta-grid { grid-template-columns: 10rem 1fr; gap: 3rem; } }
+.porta-cover img { width: 100%; height: auto; box-shadow: 0 24px 40px -22px rgba(20,35,70,0.55); }
+.porta-grid .section-title a { text-decoration: none; }
+.porta-text { max-width: 44ch; margin: 0 0 0.8rem; }
+.porta-quote { color: var(--amber-deep); margin: 0 0 1rem; }
