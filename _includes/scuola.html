@@ -1,8 +1,10 @@
+{%- if page.url == "/" -%}{%- assign luogo = "home" -%}{%- else -%}{%- assign luogo = page.url | remove_first: "/" | split: "/" | last | default: "pagina" -%}{%- endif -%}
+{%- capture utm -%}utm_source=seapriilcuore&amp;utm_medium=referral&amp;utm_content={{ luogo }}{%- endcapture -%}
 <aside class="scuola" aria-labelledby="scuola-titolo">
   <h2 id="scuola-titolo" class="scuola-title">Dove ho imparato ad ascoltare</h2>
   <p class="scuola-text">Per anni mi sono sentito un pesce fuor d'acqua, anche tra chi mi voleva bene. Quella nota antica ho imparato ad ascoltarla nella Scuola Lo Spettacolo della Coscienza, con Eugenio ed Eulalia e un Gruppo di compagni di viaggio.</p>
   <p class="scuola-links">
-    <a class="link-arrow" href="{{ site.scuola }}/il-pesce-fuor-dacqua/">Scarica la guida gratuita “Il Pesce fuor d'acqua”</a>
-    <a class="link-quiet-ink" href="{{ site.scuola }}/">Scopri la Scuola</a>
+    <a class="link-arrow" href="{{ site.scuola }}/il-pesce-fuor-dacqua/?{{ utm }}&amp;utm_campaign=pesce-fuor-dacqua">Scarica la guida gratuita “Il Pesce fuor d'acqua”</a>
+    <a class="link-quiet-ink" href="{{ site.scuola }}/?{{ utm }}&amp;utm_campaign=scuola">Scopri la Scuola</a>
   </p>
 </aside>
