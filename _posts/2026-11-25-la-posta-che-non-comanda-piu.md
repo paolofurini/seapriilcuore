@@ -1,6 +1,7 @@
 ---
 title: "La posta che non comanda più: il Digital Feng Shui della email"
 description: "Come tengo la casella a zero, perché ho tolto le notifiche della posta e perché la leggo solo due o tre volte al giorno, con gli studi che lo spiegano."
+aggiornato: 2026-11-26
 tema: "Digital Feng Shui"
 newsletter: false
 cover: /assets/img/blog/la-posta-che-non-comanda-piu-cover
@@ -42,7 +43,7 @@ Qui ci vuole un po' di disciplina. Se una email si può chiudere subito, rispond
 
 Per me questa è anche una pratica di distacco, nel senso buono della parola: le persone e le loro richieste mi importano, ma non lascio che si prendano tutto lo spazio della mente. Il Buddha insegna che soffriamo per ciò a cui restiamo attaccati, e una casella piena di cose in sospeso, per me, era proprio questo, un attaccamento che mi portavo a letto.
 
-Anche questo, ho scoperto, ha i suoi studi. Nel 2011 due psicologi americani, E. J. Masicampo e Roy Baumeister, hanno visto che un compito non finito continua a occupare la mente, ma che basta fare un piano preciso, quando e come lo farai, perché smetta di disturbare. E nel 2018 un gruppo dell'Università di Baylor ha chiesto a 57 studenti di scrivere, prima di dormire, la lista delle cose da fare nei giorni seguenti oppure quella delle cose già fatte: chi aveva scritto la lista delle cose da fare si è addormentato prima, e più la lista era precisa, più in fretta prendeva sonno.
+Anche questo, ho scoperto, ha i suoi studi. Nel 2011 due psicologi americani, E. J. Masicampo e Roy Baumeister, hanno visto che un compito non finito continua a occupare la mente, ma che basta fare un piano preciso, quando e come lo farai, perché smetta di disturbare. E nel 2018 un gruppo dell'Università di Baylor ha chiesto a 57 studenti di scrivere, prima di dormire, la lista delle cose da fare nei giorni seguenti oppure quella delle cose già fatte: chi aveva scritto la lista delle cose da fare si è addormentato prima, e più la lista era precisa, più in fretta prendeva sonno. Poi c'è quello che sento io, la sera, quando chiudo la posta e la casella è vuota: un sospiro di sollievo, perché non c'è più niente che mi possa mettere ansia o tirarmi via da quello che sto facendo, ho chiuso un ciclo, e per oggi ho finito. Credo che chiudere i cicli conti più di quanto pensiamo, perché ogni cosa lasciata appesa ci riporta lì a pensarci; e lo stesso succede quando decido che una cosa può aspettare: esce dal radar delle cose da fare, la mente si rilassa, le emozioni si quietano e il Cuore sorride.
 
 ## Quali altre idee ho trovato?
 
