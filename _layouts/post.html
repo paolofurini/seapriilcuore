@@ -15,6 +15,7 @@ layout: default
   </div>
 
   <footer class="post-end wrap-text">
+    {% if page.citazione %}<figure class="citazione-maestro"><blockquote><p>«{{ page.citazione }}»</p></blockquote><figcaption>{{ page.citazione_fonte }}</figcaption></figure>{% endif %}
     {% if page.tema == "Digital Feng Shui" %}<p class="riga-dfs">Prima si libera lo spazio, poi si torna ad ascoltare.</p>{% endif %}
     <p class="post-sign">Paolo</p>
     {% assign altri = site.posts | where_exp: "x", "x.url != page.url" %}

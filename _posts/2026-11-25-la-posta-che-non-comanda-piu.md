@@ -7,6 +7,8 @@ newsletter: false
 cover: /assets/img/blog/la-posta-che-non-comanda-piu-cover
 cover_alt: "Un ingresso di casa al crepuscolo: una consolle di legno con una ciotola per le chiavi, una busta e il telefono capovolto, la porta socchiusa sulla sera blu"
 image: /assets/img/blog/la-posta-che-non-comanda-piu-cover-1600.jpg
+citazione: "Imparate dunque a coordinare il cuore con il silenzio."
+citazione_fonte: "Maestro Morya, <cite>Cuore</cite>, 68"
 ---
 
 Il Digital Feng Shui della posta, per come lo pratico io, è tenere la casella come l'ingresso di casa: un posto in cui si entra a orari che scegli tu, dove trovi solo quello che chiede una tua decisione e da cui esci senza portarti dietro niente, perché ogni cosa ha già il suo posto e il suo momento. L'ingresso serve per passare, non per viverci, e la posta è uguale.

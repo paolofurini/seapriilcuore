@@ -7,6 +7,8 @@ cover: /assets/img/blog/oltre-il-digital-detox-cover
 cover_alt: "Una persona di spalle a una scrivania di legno il lunedì mattina apre il portatile; accanto, scarponi infangati, foglie secche, una tazza di caffè e il telefono"
 image: /assets/img/blog/oltre-il-digital-detox-cover-1600.jpg
 substack: https://seapriilcuore.substack.com/p/oltre-il-digital-detox-cose-il-digital
+citazione: "Ritengo che si possa lasciare che la vita quotidiana contemporanea imbocchi le vie del cuore, purché se ne conoscano le leggi fondamentali."
+citazione_fonte: "Maestro Morya, <cite>Cuore</cite>, 392"
 ---
 
 Il Digital Feng Shui, come lo chiamo io, è l’arte di armonizzare i propri dispositivi digitali, il telefono e il computer, perché siano strumenti al nostro servizio e non padroni della nostra attenzione: se il Digital Detox è la cura, il Digital Feng Shui è la prevenzione, quella che ci serve il lunedì mattina, quando lo schermo va riacceso per forza.

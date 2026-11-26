@@ -7,6 +7,8 @@ substack: https://seapriilcuore.substack.com/p/il-mio-iphone-era-una-slot-machin
 cover: /assets/img/blog/il-mio-iphone-era-una-slot-machine-cover
 cover_alt: "Il mio iPhone era una slot machine"
 image: /assets/img/blog/il-mio-iphone-era-una-slot-machine-cover-1600.jpg
+citazione: "In verità, la chiave più sicura per i grandi conseguimenti è proprio l’attenzione rivolta alle piccole cose."
+citazione_fonte: "Maestro Morya, <cite>Cuore</cite>, 223"
 ---
 
 In una sera, in venti minuti e con quattro mosse, ho trasformato il mio iPhone da slot machine in uno strumento che lavora per me: è il [Digital Feng Shui]({{ '/digital-feng-shui/' | relative_url }}) messo in pratica, e qui racconto come l’ho fatto, passo per passo.
