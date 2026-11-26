@@ -47,4 +47,4 @@ Sante al 432 ci arriva con le mani e con l'orecchio: si ferma, ascolta e sente q
 
 Cerca un brano che ami nelle due versioni, a 432 e a 440 (in rete si trovano facilmente), e chiedi a qualcuno di fartele ascoltare senza dirti quale sia l'una e quale l'altra, a occhi chiusi, senza nient'altro da fare, per cinque minuti.
 
-Magari sentirai una differenza, magari no, ma in ogni caso avrai fatto la cosa che conta, avrai ascoltato davvero, senza uno schermo davanti, ed è da lì che Sante comincia ogni volta.
+Magari sentirai una differenza, magari no, ma in ogni caso avrai fatto la cosa che conta, avrai ascoltato davvero, senza uno schermo davanti, ed è da lì che Sante comincia ogni volta. Ed è da lì che comincio anch'io, quando mi siedo a meditare: prima ancora di cercare qualcosa, ascolto il silenzio della stanza, e poi quello dentro.

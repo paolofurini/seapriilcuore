@@ -40,6 +40,8 @@ Due o tre volte al giorno, in momenti che riservo solo a quello. Non tengo la po
 
 Qui ci vuole un po' di disciplina. Se una email si può chiudere subito, rispondo e non la lascio lì, perché le cose in sospeso lavorano nel retrocranio e disturbano. Se invece va lasciata in sospeso, le do un tempo preciso: domani dalle otto alle nove, o dalle nove alle dieci, farò questa cosa. Da quel momento la mente si acquieta, perché sa che quel problema ha il suo spazio e non deve tenerlo acceso adesso.
 
+Per me questa è anche una pratica di distacco, nel senso buono della parola: le persone e le loro richieste mi importano, ma non lascio che si prendano tutto lo spazio della mente. Il Buddha insegna che soffriamo per ciò a cui restiamo attaccati, e una casella piena di cose in sospeso, per me, era proprio questo, un attaccamento che mi portavo a letto.
+
 Anche questo, ho scoperto, ha i suoi studi. Nel 2011 due psicologi americani, E. J. Masicampo e Roy Baumeister, hanno visto che un compito non finito continua a occupare la mente, ma che basta fare un piano preciso, quando e come lo farai, perché smetta di disturbare. E nel 2018 un gruppo dell'Università di Baylor ha chiesto a 57 studenti di scrivere, prima di dormire, la lista delle cose da fare nei giorni seguenti oppure quella delle cose già fatte: chi aveva scritto la lista delle cose da fare si è addormentato prima, e più la lista era precisa, più in fretta prendeva sonno.
 
 ## Quali altre idee ho trovato?
@@ -63,3 +65,11 @@ Da un gesto solo: stasera togli le notifiche della posta dal telefono, e domani 
 - Michael Scullin e altri, [“The effects of bedtime writing on difficulty falling asleep”](https://pubmed.ncbi.nlm.nih.gov/29058942/), *Journal of Experimental Psychology: General*, 2018.
 - [Inbox zero](https://www.techtarget.com/whatis/definition/inbox-zero), TechTarget, sull'idea originale di Merlin Mann.
 - Senato della Repubblica, [dossier sul diritto alla disconnessione](https://www.senato.it/leg/18/BGT/Schede/FascicoloSchedeDDL/ebook/53042.pdf), con il riferimento alla legge 81 del 2017, articolo 19.
+
+---
+
+**Dal mondo dei Romanzi dell’Invisibile**
+
+*All’alba Beppe passa con il gregge, beve il caffè della moka in piedi sulla soglia del laboratorio e riparte senza una parola, lasciando sul banco mezza forma di pecorino avvolta nella carta. Solo allora Sante apre lo Specchio Cieco, dove trova un messaggio di tre parole, «Qualcuno ti aspetta»; lo legge due volte, prende un foglietto, ci scrive con la Pelikan, in inchiostro blu, «giovedì, dopo il tè», lo infila sotto il diapason e chiude lo schermo. Clara, dalla porta, alza un sopracciglio. «Non rispondi?» «Ho già risposto» dice Sante, e torna all’abete che sul banco lo aspetta da ieri, mentre il foglietto resta lì, sotto il bronzo, con il suo giovedì.*
+
+*Se volete scoprire il mondo di Sante, di Clara e dell’invisibile Albi, lo trovate nella sezione [I Romanzi dell’Invisibile]({{ "/romanzi/" | relative_url }}).*

@@ -55,6 +55,8 @@ Se vuoi provare, stasera fanne una sola, la prima, l’esorcismo dei pallini ros
 
 Il mio iPhone adesso ha due pagine e tanto spazio vuoto: quando lo sblocco vedo una montagna, e quando lo appoggio non mi manca niente. Non ho buttato via nulla e non ho rinunciato a nulla, ho solo rimesso ogni cosa al suo posto, come si fa con una casa quando si decide che è ora di viverci davvero, invece di attraversarla di corsa.
 
+Davanti a quella schermata vuota ho capito in un modo nuovo una frase del Vangelo: «Perché, dov’è il tuo tesoro, là sarà anche il tuo cuore» (Matteo 6,21, traduzione CEI). Per anni il mio tesoro, senza che me ne accorgessi, stava in quei pallini rossi, e il mio Cuore ci andava dietro sedici volte in due ore; adesso provo a rimetterlo dove deve stare.
+
 *Non siamo rotti, siamo solo scordati, e riaccordarsi è più semplice di quanto pensi.*
 
 > **Dal mondo dei Romanzi dell’Invisibile**

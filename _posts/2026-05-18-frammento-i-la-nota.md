@@ -11,7 +11,7 @@ image: /assets/img/blog/frammento-i-la-nota-cover-1600.jpg
 
 C’è un momento in cui smetti di combattere qualcosa, e non per resa, ma per una specie di stanchezza saggia, quella del corpo che sa prima della mente che certe battaglie non si vincono con più risorse, più dati e più controllo. Elsa Morrow lo impara alle tre del mattino, nel salone del suo attico a Ginevra, seduta sul pavimento davanti a uno Steinway del 1910, lei che ha costruito intelligenze artificiali, che governa il quaranta per cento delle smart-city europee e che finora ha comprato una risposta a qualsiasi domanda; per la prima volta nella sua vita adulta, il denaro torna indietro con le mani vuote.
 
-Questo è il primo frammento di *[L’Accordatore del Silenzio]({{ '/romanzi/laccordatore-del-silenzio/' | relative_url }})*, il romanzo a cui ho lavorato nell’ultimo anno e mezzo: non voglio presentartelo, preferisco lasciartelo incontrare.
+Questo è il primo frammento di *[L’Accordatore del Silenzio]({{ '/romanzi/laccordatore-del-silenzio/' | relative_url }})*, il romanzo a cui ho lavorato nell’ultimo anno e mezzo: non voglio presentartelo, preferisco lasciartelo incontrare. Scrivendolo mi sono accorto che la resa di Elsa somiglia a una cosa che sto imparando anch’io nel mio cammino spirituale: certe porte non si aprono spingendo, si aprono quando smetti di spingere e ti metti in ascolto.
 
 ---
 

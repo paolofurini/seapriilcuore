@@ -11,7 +11,7 @@ Ho premuto “Conferma” sul sito di YouCanPrint e ho chiesto la copia di prova
 
 Per anni ho lavorato con i dati, e di tasti “Conferma” ne ho premuti migliaia, ma questo era diverso, e me ne sono accorto perché sono rimasto parecchio a guardare lo schermo prima di cliccare.
 
-Scriverlo non è stato semplice: ho riscritto capitoli interi, cancellato pagine e rifatto l’inizio perché era lento, e spesso i personaggi hanno fatto di testa loro e io li ho seguiti. Quando ho finito non ho festeggiato, ho respirato e ho detto grazie, senza sapere bene a chi.
+Scriverlo non è stato semplice: ho riscritto capitoli interi, cancellato pagine e rifatto l’inizio perché era lento, e spesso i personaggi hanno fatto di testa loro e io li ho seguiti. Quando ho finito non ho festeggiato, ho respirato e ho detto grazie, senza sapere bene a chi; o forse lo sapevo, perché scrivere questo libro è stato anche un pezzo del mio cammino spirituale, un modo di mettere al Servizio di qualcosa di più grande di me quello che ho ricevuto.
 
 Mentre aspettiamo la copia, vi regalo una pagina del libro.
 

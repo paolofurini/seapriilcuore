@@ -24,6 +24,8 @@ I contadini lo sanno: un campo che produce ogni anno senza sosta si esaurisce, e
 
 Ho passato mesi dentro quella casa a Castel di Luce, ho ascoltato Clara dire cose che non avevo previsto e ho scoperto che Sante mi stava insegnando proprio quello che stavo vivendo, che il silenzio è il posto dove le cose maturano, anche quando sembra un buco nella produzione. Quella storia non avrei potuto scriverla rincorrendo una scadenza: mi servivano la noia e il fatto che nessuno mi guardasse, perché i semi germogliano sottoterra, dove nessuno li vede.
 
+Oggi, quando ci ripenso, mi torna in mente un versetto di Qoèlet, uno dei libri della Bibbia, quello che molti conoscono come Ecclesiaste: «Tutto ha il suo momento, e ogni evento ha il suo tempo sotto il cielo» (Qoèlet 3,1, traduzione CEI 2008). Credo che imparare il giusto ritmo sia una delle cose più difficili per chi, come me, ha passato la vita a correre, ed è una di quelle su cui il mio cammino mi chiede di lavorare di più.
+
 ## E tu, cosa hai lasciato a riposo?
 
 Stasera, se vuoi, pensa a una cosa che hai smesso di fare e per cui ti sei sentito in colpa, un progetto a metà, una telefonata rimandata, un’abitudine persa, e poi fatti una domanda diversa: *quel silenzio era una fuga, o stava lavorando per me sottoterra?* Non tutte le pause sono fughe, alcune sono radici, e imparare a distinguerle ti toglie di dosso metà del peso che l’algoritmo ti mette addosso ogni giorno. Io ci ho messo qualche mese a capirlo, e spero di averti risparmiato un po’ di strada: il campo lasciato a riposo non ha smesso di dare, si sta preparando a dare di più.

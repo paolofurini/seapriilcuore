@@ -9,7 +9,7 @@ Ho passato più di trent’anni dentro la Macchina: ho costruito algoritmi, otti
 
 L’Intelligenza Artificiale cresce a una velocità che la mente fatica a seguire, e tra dieci anni, credo, il mondo sarà irriconoscibile; davanti a questa accelerazione è naturale sentire una vertigine, la paura di essere sopraffatti, di diventare inutili, di perdere il contatto con qualcosa che non sappiamo più nemmeno nominare. La Matrix, però, non ci attacca: ci culla, e ci addormenta dolcemente, una scelta dopo l’altra, finché non ci accorgiamo più di cosa abbiamo smesso di sentire.
 
-Io la vedo così: non siamo algoritmi ma strumenti musicali, e per non spezzarci abbiamo bisogno, ogni tanto, di riaccordarci. Per questo ho aperto questo spazio, dove troverete due cose.
+Io la vedo così: non siamo algoritmi ma strumenti musicali, e per non spezzarci abbiamo bisogno, ogni tanto, di riaccordarci. Per me questo spazio fa parte del mio cammino spirituale, che mi sta insegnando una cosa semplice: l’attenzione è la forma più concreta di Amore che abbiamo, perché dove la mettiamo, lì mettiamo anche noi stessi. Gli antichi insegnamenti dello yoga lo dicono in tre parole, *l’energia segue il pensiero* (è l’aforisma che Alice A. Bailey riporta nel suo commento agli Yoga Sutra di Patanjali, *La Luce dell’Anima*, libro III, p. 294 dell’edizione inglese), e io lo vedo ogni giorno: dove va il mio pensiero, lì va anche la mia vita. Per questo ho aperto questo spazio, dove troverete due cose.
 
 La prima è concreta: riflessioni su come vivere nel mondo digitale senza farsi digitalizzare l’anima, il Digital Detox, il [Digital Feng Shui]({{ '/digital-feng-shui/' | relative_url }}) e tutto quello che serve per riprendere in mano la propria attenzione.
 

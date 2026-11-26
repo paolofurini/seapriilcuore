@@ -58,6 +58,8 @@ Quello che è stato costruito si può anche smontare, e io non parlo di cancella
 
 Per me il primo gesto di libertà è stato un cambio di sguardo, prima ancora che un’impostazione del telefono. Prima di aprire un’app provo a farmi una domanda sola, *sto cercando una persona o sto cercando una sensazione?* Se cerco una persona, la chiamo, le mando un vocale o le scrivo due righe vere; se cerco una sensazione mi fermo un secondo, perché dentro lo scorrimento quella sensazione non la trovo, lo scorrimento la imita per un attimo e poi sparisce, e mi lascia con più fame di prima, come lo zucchero mangiato quando hai fame vera.
 
+Nel buddismo c’è una parola per questa fame che non si sazia mai, *tanha*, la sete: più la nutri, più cresce. Io la riconosco quando apro un’app per la terza volta in dieci minuti, e ho scoperto che riempirla non serve; si calma un poco quando mi fermo e la guardo, quando la sento nel petto senza seguirla.
+
 Poi vengono i gesti pratici, quelli che racconto nella guida al [Digital Feng Shui]({{ '/digital-feng-shui/' | relative_url }}): spegnere i pallini rossi e le notifiche che non vengono da una persona, togliere i social dalla prima schermata, come ho fatto io con il mio telefono in [Il mio iPhone era una slot machine]({{ '/blog/il-mio-iphone-era-una-slot-machine/' | relative_url }}), e darsi tre secondi prima di ogni click. Non fanno sparire il bisogno di essere visti, ma tolgono a qualcun altro la possibilità di usarlo quando gli fa comodo.
 
 ## Da dove comincio stasera?

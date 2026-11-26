@@ -51,7 +51,7 @@ Nome del file: `AAAA-MM-GG Titolo.md`. Se l'articolo viene corretto dopo la pubb
 ## Voce di Paolo (prima persona)
 - Asciutta e diretta, poco poetica, con il Cuore aperto ma senza sdolcinature. Frasi concrete, esperienze vere, niente prediche.
 - Mantenere le maiuscole della terminologia spirituale: Cuore, Coscienza, Noi, Funzione, Innocuità, Raggio, Anima, Servizio.
-- Mostrare, non dire. Niente termini esoterici usati in modo didascalico.
+- Linea spirituale (Manifesto del blog e del sito, 26 nov 2026, Drive "00 Metodo e piani"): il blog testimonia anche il cammino spirituale di Paolo. In ogni articolo c'è almeno una "pillola del cammino" (da qualche riga a un paragrafo), vissuta e mai insegnata. Le parole del cammino seguono il lessico del Manifesto: libere (karma, Dharma, Anima, meditazione, impermanenza, il Buddha, il Cristo...), da spiegare la prima volta (prana, chakra, maya, Sangha, Innocuità, tanha...), da lasciare fuori (Raggi, piani, iniziazione, Deva, sigle del Gruppo, gergo New Age). Citazioni sempre con fonte (libro e pagina; Vangelo e Bibbia nella traduzione CEI). Paolo non commenta gli Insegnamenti. Niente linguaggio di guerra (armi, armatura, combattere). Ogni articolo si chiude con il riquadro "Dal mondo dei Romanzi dell'Invisibile". La Regola Zero vale per i Romanzi, non per il blog.
 - Niente fatti inventati su Paolo, sul libro (data d'uscita, prezzo, editore) o sulla Scuola. Se un dato non è certo, non scriverlo.
 - Niente lineette lunghe come intercalare, niente elenchi di tre aggettivi, niente formule da IA ("in un mondo in cui", "scopriamo insieme").
 - Chiusura: l'articolo termina con il testo; la firma "Paolo" la aggiunge il layout.
