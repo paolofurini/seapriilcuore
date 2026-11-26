@@ -54,6 +54,14 @@ Nel buddismo si parla di karma, che vuol dire semplicemente azione: ogni gesto l
 
 Gloria Mark ha notato una cosa che mi ha colpito: quando le interruzioni che arrivano da fuori diminuiscono, crescono quelle che ci diamo da soli, la mano che va al telefono senza che nessuno ci abbia chiamato. Lei stessa racconta di aver imparato a riconoscere quell’impulso quando arriva, e i miei tre secondi servono proprio a questo.
 
+## E domani, quando lo schermo sarà sugli occhiali?
+
+Le tre regole sono nate per il telefono, ma le scrivo pensando anche a quello che sta arrivando, perché prevenire è meglio che curare. Gli occhiali con un piccolo schermo dentro la lente esistono già: Meta li ha presentati nel settembre 2025, e mostrano messaggi, avvisi e indicazioni stradali davanti agli occhi, senza tirare fuori il telefono. Quando le notifiche non staranno più in tasca ma sopra il mondo che guardiamo, chiudere le porte e lasciare spazio vuoto diventeranno gesti dello sguardo, oltre che della schermata Home: decidere quali voci possono entrare nel nostro campo visivo, e tenere ogni giorno dei momenti in cui guardiamo la realtà senza niente in mezzo.
+
+La terza regola, i tre secondi, diventerà forse la più importante. Oggi ci servono per non farci trascinare da un feed; domani ci serviranno anche davanti alle voci, perché l’intelligenza artificiale sa già imitare la voce di una persona cara partendo da un breve audio, e la Federal Trade Commission americana, l’ente che tutela i consumatori, avverte dal 2023 che le truffe dell’emergenza in famiglia usano proprio voci clonate. Il suo consiglio somiglia ai miei tre secondi: rallentare, non fidarsi della voce e richiamare la persona su un numero che conosciamo. E quando gli assistenti di intelligenza artificiale cominceranno a scegliere al posto nostro che cosa leggere, che cosa comprare e a chi rispondere, quel respiro prima del click diventerà il momento in cui decidiamo che cosa lasciare alla macchina e che cosa tenere per noi.
+
+Nessuno sa con certezza quando arriverà tutto questo: chi costruisce questi sistemi tende a dire presto, chi li studia da fuori dice più tardi. Le abitudini che prendiamo oggi sul telefono, però, sono quelle che ci porteremo dentro gli occhiali e davanti agli assistenti di domani, e per questo mi sembra il momento giusto per prenderle bene.
+
 ## Come cambia il lunedì mattina?
 
 La soluzione definitiva non ce l’ho, e non provo a vendertela; quello che ho visto su di me è che il lunedì mattina può essere diverso, che si può riaccendere lo schermo senza farsi travolgere, e che esiste un modo di stare dentro la Matrix, dove comunque dobbiamo stare perché lì lavoriamo e viviamo, senza farsi digitalizzare l’anima. Il Digital Detox è l’Oasi nel deserto, e il Digital Feng Shui è la casa in ordine che ritrovi quando dall’Oasi devi tornare. Le regole e gli articoli che scrivo su questo tema li raccolgo, man mano, nella guida al [Digital Feng Shui]({{ '/digital-feng-shui/' | relative_url }}).
@@ -65,6 +73,8 @@ La soluzione definitiva non ce l’ho, e non provo a vendertela; quello che ho v
 - Gloria Mark intervistata da Chris Congdon, [“Our 47-Second Attention Span”](https://www.steelcase.com/research/articles/our-47-second-attention-span-with-gloria-mark-s5-ep3-transcript/), *Work Better*, Steelcase.
 - Kostadin Kushlev, Jason Proulx, Elizabeth Dunn, [“Silence Your Phones”](https://www.interruptions.net/literature/Kushlev-CHI16.pdf), CHI 2016, pp. 1011-1020.
 - Università della Virginia, [“Study: Smartphone Alerts Increase Inattention – and Hyperactivity”](https://news.virginia.edu/node/213646), maggio 2016.
+- Federal Trade Commission, [“Scammers use AI to enhance their family emergency schemes”](https://consumer.ftc.gov/consumer-alerts/2023/03/scammers-use-ai-enhance-their-family-emergency-schemes), marzo 2023.
+- TechCrunch, [“Meta unveils new smart glasses with a display and wristband controller”](https://techcrunch.com/2025/09/17/meta-unveils-new-smart-glasses-with-a-display-and-wristband-controller), 17 settembre 2025.
 
 ---
 
