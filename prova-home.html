@@ -1,30 +1,41 @@
 ---
 layout: default
 body_class: night home
-title: "Digital Feng Shui e I Romanzi dell'Invisibile"
+title: "Paolo Furini: Digital Feng Shui e I Romanzi dell'Invisibile"
 description: "Paolo Furini: il Digital Feng Shui per rimettere ordine nel telefono e nel computer, e I Romanzi dell'Invisibile."
 permalink: /prova-home/
 image: /assets/img/blog/digital-feng-shui-guida-cover-1600.jpg
 noindex: true
 sitemap: false
 ---
-<section class="hero">
-  <div class="wrap hero-grid hero-grid-dfs">
-    <div class="hero-text">
-      <h1 class="hero-title">Digital Feng Shui</h1>
-      <p class="hero-quote"><em>Portare luce negli spazi digitali.</em></p>
-      <p class="hero-lede">Arrediamo le case con cura e lasciamo il telefono come una stanza in disordine, con tutte le porte aperte. Il Digital Feng Shui rimette ordine nel telefono e nel computer, perché tornino a essere strumenti e non padroni, e nello spazio che si libera torni un po' di silenzio.</p>
-      <p class="hero-actions">
-        <a class="button button-amber" href="{{ '/digital-feng-shui/' | relative_url }}">Leggi la guida</a>
-        <a class="link-quiet" href="#regole">Le 3 Regole d'Oro</a>
-      </p>
+<section class="hero hero-porte">
+  <div class="wrap">
+    <h1 class="porte-title">Due strade per tornare ad ascoltare</h1>
+    <p class="porte-lede">Una pratica per gli spazi digitali e un mondo di romanzi: le ho trovate lungo lo stesso cammino.</p>
+    <div class="porte">
+      <a class="porta" href="{{ '/digital-feng-shui/' | relative_url }}">
+        <span class="porta-img">
+          <picture>
+            <source type="image/webp" srcset="{{ '/assets/img/blog/digital-feng-shui-guida-cover-900.webp' | relative_url }} 900w, {{ '/assets/img/blog/digital-feng-shui-guida-cover-1600.webp' | relative_url }} 1600w" sizes="(min-width: 860px) 560px, 100vw">
+            <img src="{{ '/assets/img/blog/digital-feng-shui-guida-cover-900.jpg' | relative_url }}" alt="Una pila di sassi di fiume in equilibrio su una roccia in mezzo a un torrente, all'alba nella nebbia; tra i sassi, in equilibrio come gli altri, c'è uno smartphone spento" fetchpriority="high">
+          </picture>
+        </span>
+        <span class="porta-nome">Digital Feng Shui</span>
+        <span class="porta-testo">Rimettere ordine nel telefono e nel computer, perché tornino a essere strumenti e non padroni, e nello spazio che si libera torni un po' di silenzio.</span>
+        <span class="porta-azione">Leggi la guida</span>
+      </a>
+      <a class="porta" href="{{ '/romanzi/laccordatore-del-silenzio/' | relative_url }}">
+        <span class="porta-img porta-img-libro">
+          <picture>
+            <source type="image/webp" srcset="{{ '/assets/img/copertina-lads-480.webp' | relative_url }} 480w, {{ '/assets/img/copertina-lads-960.webp' | relative_url }} 960w" sizes="(min-width: 860px) 260px, 50vw">
+            <img src="{{ '/assets/img/copertina-lads-480.jpg' | relative_url }}" alt="Copertina di L'Accordatore del Silenzio di Paolo Furini: una donna seduta sotto un pianoforte a coda, accanto a una presenza di luce, su fondo blu notte." width="480" height="720">
+          </picture>
+        </span>
+        <span class="porta-nome">I Romanzi dell'Invisibile</span>
+        <span class="porta-testo">Appennino, 2042: un accordatore di pianoforti, uno Steinway del 1910 e una nota che nessuna macchina sa spiegare. <em>L'Accordatore del Silenzio</em> è in uscita, in cartaceo ed ebook.</span>
+        <span class="porta-azione">Scopri il libro</span>
+      </a>
     </div>
-    <figure class="finestra hero-finestra">
-      <picture>
-        <source type="image/webp" srcset="{{ '/assets/img/blog/digital-feng-shui-guida-cover-900.webp' | relative_url }} 900w, {{ '/assets/img/blog/digital-feng-shui-guida-cover-1600.webp' | relative_url }} 1600w" sizes="(min-width: 900px) 640px, 100vw">
-        <img src="{{ '/assets/img/blog/digital-feng-shui-guida-cover-1600.jpg' | relative_url }}" alt="Una pila di sassi di fiume in equilibrio su una roccia in mezzo a un torrente, all'alba nella nebbia; tra i sassi, in equilibrio come gli altri, c'è uno smartphone spento" fetchpriority="high">
-      </picture>
-    </figure>
   </div>
 </section>
 
@@ -42,13 +53,13 @@ sitemap: false
 
 <section class="dal-blog band-paper">
   <div class="wrap">
-    <h2 class="section-title">Gli ultimi articoli sul Digital Feng Shui</h2>
-    {% assign dfs = site.posts | where: "tema", "Digital Feng Shui" %}
+    <h2 class="section-title">Dal blog</h2>
+    {% assign dfs = site.posts %}
     {% assign primo = dfs.first %}
     <a class="in-evidenza" href="{{ primo.url | relative_url }}">
       {% include post-thumb.html post=primo %}
       <span class="ie-testo">
-        <span class="pl-date">{% include data-it.html date=primo.date %}</span>
+        <span class="pl-date">{% include data-it.html date=primo.date %}{% if primo.tema %} · {{ primo.tema }}{% endif %}</span>
         <span class="ie-title">{{ primo.title }}</span>
         {% if primo.description %}<span class="pl-dek">{{ primo.description }}</span>{% endif %}
       </span>
@@ -59,7 +70,7 @@ sitemap: false
         <a href="{{ x.url | relative_url }}" class="pl-con-img">
           <span class="pl-testo">
             <span class="pl-title">{{ x.title }}</span>
-            <span class="pl-date">{% include data-it.html date=x.date %}</span>
+            <span class="pl-date">{% include data-it.html date=x.date %}{% if x.tema %} · {{ x.tema }}{% endif %}</span>
           </span>
           {% include post-thumb.html post=x %}
         </a>
@@ -80,23 +91,6 @@ sitemap: false
   </div>
 </section>
 
-<section class="porta-romanzi band-paper">
-  <div class="wrap porta-grid">
-    <a class="porta-cover" href="{{ '/romanzi/laccordatore-del-silenzio/' | relative_url }}" aria-label="L'Accordatore del Silenzio">
-      <picture>
-        <source type="image/webp" srcset="{{ '/assets/img/copertina-lads-480.webp' | relative_url }}">
-        <img src="{{ '/assets/img/copertina-lads-480.jpg' | relative_url }}" alt="Copertina di L'Accordatore del Silenzio di Paolo Furini" width="480" height="720" loading="lazy">
-      </picture>
-    </a>
-    <div>
-      <h2 class="section-title"><a href="{{ '/romanzi/' | relative_url }}">I Romanzi dell'Invisibile</a></h2>
-      <p class="porta-text">Lo stesso ascolto, raccontato. Appennino, 2042: un accordatore di pianoforti, uno Steinway del 1910 e una nota che nessuna macchina sa spiegare.</p>
-      <p class="porta-quote"><em>Non siamo rotti, siamo solo scordati.</em></p>
-      <p><a class="link-arrow" href="{{ '/romanzi/laccordatore-del-silenzio/' | relative_url }}">L'Accordatore del Silenzio</a></p>
-    </div>
-  </div>
-</section>
-
 <section class="scuola-band band-paper">
   <div class="wrap">
     {% include scuola.html %}
@@ -110,7 +104,7 @@ sitemap: false
       <img src="{{ '/assets/img/paolo-480.jpg' | relative_url }}" alt="Paolo Furini, all'aperto tra gli alberi" width="480" height="480" loading="lazy">
     </picture>
     <div>
-      <p class="chi-text">Per più di trent'anni ho fatto il manager nella tecnologia, tra dati, marketing e numeri da raggiungere. Poi ho smesso di correre abbastanza a lungo da sentire una nota più antica. Oggi scrivo.</p>
+      <p class="chi-text">Per più di trent'anni ho fatto il manager nella tecnologia, tra dati, marketing e numeri da raggiungere. Poi ho smesso di correre abbastanza a lungo da sentire una nota più antica. Oggi dedico il mio tempo alla ricerca interiore, al Servizio e alla scrittura.</p>
       <p><a class="link-arrow" href="{{ '/autore/' | relative_url }}">Chi sono</a></p>
     </div>
   </div>
