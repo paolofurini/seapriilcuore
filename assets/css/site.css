@@ -432,8 +432,8 @@ a.book-row-img:hover .book-row-cover img { transform: translateY(-3px); }
 .porta { display: grid; align-content: start; gap: 0.6rem; text-decoration: none; color: var(--moon); }
 .porta-img { display: block; aspect-ratio: 4 / 3; overflow: hidden; background: #24375c; box-shadow: inset 0 0 0 1px rgba(224,162,78,0.25); margin-bottom: 0.9rem; }
 .porta-img img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.8s var(--ease); }
-.porta-img-libro { display: grid; place-items: center; padding: 6% 0; }
-.porta-img-libro picture { height: 100%; }
+.porta-img-libro { position: relative; }
+.porta-img-libro picture { position: absolute; inset: 7% 0; display: flex; justify-content: center; }
 .porta-img-libro img { width: auto; height: 100%; object-fit: contain; box-shadow: 0 24px 40px -18px rgba(10,20,45,0.7); }
 .porta:hover .porta-img img { transform: scale(1.02); }
 .porta-nome { font-size: var(--step-2); font-weight: 400; letter-spacing: -0.015em; line-height: 1.1; }
