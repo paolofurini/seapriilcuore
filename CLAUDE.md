@@ -1,6 +1,6 @@
 # Se Apri il Cuore · sito di Paolo Furini
 
-Sito Jekyll pubblicato da GitHub Pages (branch `main`, cartella root). Ogni push su `main` va online in un paio di minuti. Indirizzo: https://paolofurini.it (dominio su Aruba, DNS verso GitHub Pages). seapriilcuore.it e romanzidellinvisibile.it reindirizzano qui (paolofurini.com non è nostro: registrato da terzi, scade il 4/12/2026).
+Sito Jekyll pubblicato da GitHub Pages (branch `main`, cartella root). Ogni push su `main` va online in un paio di minuti. Indirizzo: https://paolofurini.it (dominio su Aruba, DNS verso GitHub Pages). seapriilcuore.it, romanzidellinvisibile.it e digitalfengshui.it sono di Paolo e reindirizzano qui: si possono usare nei post secondo il tema (paolofurini.com non è nostro: registrato da terzi, scade il 4/12/2026).
 
 ## Struttura
 - `index.html` home · `romanzi/` collana e pagina di ogni libro · `blog/index.html` elenco articoli · `autore.md`
