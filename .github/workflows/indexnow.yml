@@ -1,0 +1,18 @@
+name: IndexNow
+# Dopo ogni push su main avvisa Bing (e gli altri motori IndexNow) delle pagine del sito.
+on:
+  push:
+    branches: [main]
+    paths: ['_posts/**', 'temi/**', 'romanzi/**', '*.md', '*.html']
+  workflow_dispatch:
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Aspetta che GitHub Pages pubblichi
+        run: sleep 180
+      - name: Invia la sitemap a IndexNow
+        run: |
+          urls=$(curl -s https://paolofurini.it/sitemap.xml | grep -o '<loc>[^<]*' | sed 's/<loc>//' | python3 -c 'import sys,json;print(json.dumps([l.strip() for l in sys.stdin if l.strip()]))')
+          body=$(printf '{"host":"paolofurini.it","key":"a2a568a74e644b6281d6f52208afeae6","keyLocation":"https://paolofurini.it/a2a568a74e644b6281d6f52208afeae6.txt","urlList":%s}' "$urls")
+          curl -s -o /dev/null -w "IndexNow: %{http_code}\n" -X POST https://api.indexnow.org/indexnow -H 'Content-Type: application/json; charset=utf-8' -d "$body"
