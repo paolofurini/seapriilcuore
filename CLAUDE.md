@@ -41,6 +41,12 @@ Nome del file: `AAAA-MM-GG Titolo.md`. Se l'articolo viene corretto dopo la pubb
 - Prova: modificare `.github/newsletter/test-request`; l'esito si legge in `.github/newsletter/log.md`.
 - Il modulo d'iscrizione è `_includes/newsletter.html` (doppia conferma).
 
+## Social (Buffer)
+- Paolo pubblica con Buffer (account furo66@gmail.com, piano gratuito: massimo 10 post in coda per canale). Canali: Instagram @seapriilcuore, Pagina Facebook «Se Apri il Cuore» (facebook.com/seapriilcuore), LinkedIn (profilo personale).
+- Le immagini dei caroselli stanno in `assets/social/<codice>/`: pagine `01.jpg`, `02.jpg`… (1080×1350), il PDF `<codice>.pdf` per LinkedIn e `storia.jpg` (1080×1920) per le storie. Ogni nuovo carosello deve avere anche `storia.jpg`, fatta come le altre: copertina su fondo carta, «Nuovo post sul profilo», numero di pagine.
+- Un'attività programmata ogni mattina alle 6:41 mette in Buffer, per le 7:00, la storia dell'ultimo post uscito su Instagram e su Facebook.
+- IndexNow: la chiave è il file `a2a568a74e644b6281d6f52208afeae6.txt` nella radice; `.github/workflows/indexnow.yml` avvisa Bing a ogni push di articoli o pagine. Non cancellare il file della chiave.
+
 ## SEO e ricerca con IA (da rispettare in ogni articolo)
 - `title` chiaro, con la parola chiave principale, max 60 caratteri circa. `description` max 155 caratteri: dice di cosa parla l'articolo, non è uno slogan.
 - `tema`: uno dei due pilastri in `_data/temi.yml` (decisione di Paolo, 25 nov 2026), oppure nessuno. "Digital Feng Shui" solo per gli articoli che parlano davvero di telefono, attenzione, social e schermi; "I Romanzi dell'Invisibile" per i romanzi e i temi legati (anche suono e ascolto). Gli articoli che non stanno in nessuno dei due (diario del blog, riflessioni su IA e Matrix) non hanno `tema`: compaiono solo nel Blog. Niente sottocategorie. Le vecchie pagine `temi/digital-detox`, `matrix`, `diario`, `suono-e-ascolto` sono solo rimandi: non linkarle.
